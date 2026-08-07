@@ -2348,5 +2348,766 @@
       }
     ],
     "logical_connection": "פעולת A היא הפעולה הפיזית (הנעשית בעזרת איבר/כלי ייעודי) המניעה ישירות את כלי התחבורה B בכוח האדם. (למשוט מקדם את הסירה, לדווש מקדם את האופניים. 'לנהוג' ו'לרכוב' הן פעולות כיוון והכוונה, אך לא מקור הכוח הפיזי)."
+  },
+  {
+    "id": 71,
+    "word1": "רקח",
+    "word2": "תרופות",
+    "hard_words": [
+      {
+        "word": "רקח",
+        "definition": "רוקח; מי שמכין ומרקח תרופות"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "צורף : תכשיטים",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "נגר : עץ",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "חקלאי : טרקטור",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "מלצר : מגש",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא בעל המקצוע שמייצר את B. (רקח מייצר תרופות, צורף מייצר תכשיטים. נגר עובד עם עץ כחומר גלם, ואינו יוצר אותו)."
+  },
+  {
+    "id": 72,
+    "word1": "מגרפה",
+    "word2": "לגרוף",
+    "hard_words": [
+      {
+        "word": "מגרפה",
+        "definition": "כלי בעל שיניים לגריפת עלים או אדמה"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "מחבט : לחבוט",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "מספריים : חדות",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "פטיש : מסמר",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "אדמה : לגרוף",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא הכלי שבאמצעותו מבצעים את פעולת B. (במגרפה גורפים, במחבט חובטים. \"אדמה : לגרוף\" הפוך - זה החומר ולא הכלי)."
+  },
+  {
+    "id": 73,
+    "word1": "חימר",
+    "word2": "קנקן",
+    "hard_words": [
+      {
+        "word": "חימר",
+        "definition": "טיט; חומר גלם רך שממנו יוצרים כלי חרס"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "צמר : אריג",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "קמח : חיטה",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "יער : עץ",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "ברזל : חלוד",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא חומר הגלם שממנו מייצרים את B. (מחימר מייצרים קנקן, מצמר מייצרים אריג. קמח מופק מחיטה - כיוון הפוך)."
+  },
+  {
+    "id": 74,
+    "word1": "בצורת",
+    "word2": "רעב",
+    "hard_words": [
+      {
+        "word": "בצורת",
+        "definition": "מחסור ממושך בגשם ובמים"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "מגפה : תמותה",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "רעם : ברק",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "צמא : מים",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "מנוחה : עייפות",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא הגורם שמוביל לתוצאה B. (בצורת גורמת לרעב, מגפה גורמת לתמותה)."
+  },
+  {
+    "id": 75,
+    "word1": "תבואה",
+    "word2": "אסם",
+    "hard_words": [
+      {
+        "word": "אסם",
+        "definition": "מבנה לאחסון תבואה ותוצרת חקלאית"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "יין : מרתף",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "לחם : תנור",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "מכונית : כביש",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "פרי : עץ",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "B הוא המקום שבו מאחסנים את A. (תבואה מאחסנים באסם, יין מאחסנים במרתף. לחם נאפה בתנור אך אינו מאוחסן בו)."
+  },
+  {
+    "id": 76,
+    "word1": "רהיט",
+    "word2": "כורסה",
+    "hard_words": [
+      {
+        "word": "רהיט",
+        "definition": "פריט ריהוט (כמו כיסא, שולחן או מיטה)"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "עוף : דרור",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "יער : עץ",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "דג : סנפיר",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "פרח : אגרטל",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא קטגוריה כללית ו-B הוא פרט מסוים מתוכה. (כורסה היא סוג של רהיט, דרור הוא סוג של עוף. סנפיר הוא חלק מהדג, לא סוג שלו)."
+  },
+  {
+    "id": 77,
+    "word1": "רוח",
+    "word2": "סופה",
+    "hard_words": [],
+    "options": [
+      {
+        "id": 1,
+        "text": "גשם : מבול",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "חום : קור",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "שלג : לבן",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "ניצוץ : אפר",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "B הוא A בעוצמה רבה בהרבה. (סופה היא רוח עזה מאוד, מבול הוא גשם עז מאוד)."
+  },
+  {
+    "id": 78,
+    "word1": "עוינות",
+    "word2": "איבה",
+    "hard_words": [
+      {
+        "word": "עוינות",
+        "definition": "יחס של איבה, טינה ורצון להזיק"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "פחד : אימה",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "אהבה : שנאה",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "כעס : ריב",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "שמחה : צחוק",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A ו-B הן מילים נרדפות. (עוינות ואיבה נרדפות, כשם שפחד ואימה. שמחה מובעת בצחוק - אלה אינן מילים נרדפות)."
+  },
+  {
+    "id": 79,
+    "word1": "דהוי",
+    "word2": "עז",
+    "hard_words": [
+      {
+        "word": "דהוי",
+        "definition": "חיוור, שצבעו נחלש ודהה"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "עמום : בוהק",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "כהה : שחור",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "צבעוני : מגוון",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "בהיר : חיוור",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A ו-B הם הפכים. (דהוי הוא ההפך מעז בצבעו, עמום הוא ההפך מבוהק)."
+  },
+  {
+    "id": 80,
+    "word1": "פרקליט",
+    "word2": "לייצג",
+    "hard_words": [
+      {
+        "word": "פרקליט",
+        "definition": "עורך דין; מי שמייצג צד בבית משפט"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "מתורגמן : לתרגם",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "שופט : אולם",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "מנתח : אזמל",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "עיתונאי : עיתון",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא בעל המקצוע שפעולתו האופיינית היא B. (הפרקליט מייצג, המתורגמן מתרגם. אזמל הוא כלי של המנתח, לא הפעולה)."
+  },
+  {
+    "id": 81,
+    "word1": "לבנה",
+    "word2": "קיר",
+    "hard_words": [],
+    "options": [
+      {
+        "id": 1,
+        "text": "חוליה : שרשרת",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "גג : בית",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "צבע : קיר",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "חדר : דירה",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A היא יחידה זהה וחוזרת שממנה בונים את השלם B. (לבנים בונות קיר, חוליות בונות שרשרת. גג וחדר הם חלקים ייחודיים, לא יחידה חוזרת)."
+  },
+  {
+    "id": 82,
+    "word1": "עלבון",
+    "word2": "כעס",
+    "hard_words": [],
+    "options": [
+      {
+        "id": 1,
+        "text": "בשורה : שמחה",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "צחוק : בדיחה",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "עייפות : שינה",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "פחד : אומץ",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא הגורם שמעורר את התגובה הרגשית B. (עלבון מעורר כעס, בשורה טובה מעוררת שמחה. צחוק נגרם מבדיחה - כיוון הפוך)."
+  },
+  {
+    "id": 83,
+    "word1": "אפר",
+    "word2": "מאפרה",
+    "hard_words": [],
+    "options": [
+      {
+        "id": 1,
+        "text": "כסף : כספת",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "מים : ברז",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "לחם : סכין",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "פרח : ריח",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "B הוא הכלי שנועד להכיל ולאגור את A. (מאפרה נועדה לאפר, כספת נועדה לכסף. ברז הוא מקור למים, לא כלי אחסון)."
+  },
+  {
+    "id": 84,
+    "word1": "מתכת",
+    "word2": "נחושת",
+    "hard_words": [],
+    "options": [
+      {
+        "id": 1,
+        "text": "גז : חמצן",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "עץ : ריהוט",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "מים : אגם",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "ברזל : חלוד",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא הקטגוריה הכללית ו-B הוא סוג מסוים ממנה. (נחושת היא סוג של מתכת, חמצן הוא סוג של גז)."
+  },
+  {
+    "id": 85,
+    "word1": "עורות",
+    "word2": "נעליים",
+    "hard_words": [],
+    "options": [
+      {
+        "id": 1,
+        "text": "אבן : פסל",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "בד : חוט",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "קמח : מאפייה",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "עץ : יער",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא חומר הגלם שמעובד ליצירת המוצר B. (מעורות מייצרים נעליים, מאבן מפסלים פסל. חוט הוא חומר הגלם של הבד - כיוון הפוך)."
+  },
+  {
+    "id": 86,
+    "word1": "בזבזן",
+    "word2": "חסכן",
+    "hard_words": [],
+    "options": [
+      {
+        "id": 1,
+        "text": "אמיץ : פחדן",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "קמצן : כילי",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "עשיר : אמיד",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "נדיב : ותרן",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A ו-B הן תכונות אופי מנוגדות. (בזבזן מנוגד לחסכן, אמיץ מנוגד לפחדן. קמצן וכילי הן מילים נרדפות)."
+  },
+  {
+    "id": 87,
+    "word1": "משור",
+    "word2": "לנסר",
+    "hard_words": [
+      {
+        "word": "משור",
+        "definition": "מסור; כלי בעל שיניים לחיתוך עץ"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "מברג : להבריג",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "מסמר : לתקוע",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "עץ : לנסר",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "סכין : חד",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא הכלי שבעזרתו מבצעים את פעולת B. (במשור מנסרים, במברג מבריגים. מסמר הוא מה שתוקעים, לא הכלי)."
+  },
+  {
+    "id": 88,
+    "word1": "בקשה",
+    "word2": "תחינה",
+    "hard_words": [
+      {
+        "word": "תחינה",
+        "definition": "בקשה נואשת ועזה, הפצרה"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "הצעה : דרישה",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "שאלה : תשובה",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "מילה : משפט",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "בקשה : סירוב",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "B הוא A בעוצמה ובתקיפות רבה יותר. (תחינה היא בקשה נואשת, דרישה היא הצעה תקיפה)."
+  },
+  {
+    "id": 89,
+    "word1": "חיכוך",
+    "word2": "חום",
+    "hard_words": [],
+    "options": [
+      {
+        "id": 1,
+        "text": "מאמץ : הזעה",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "גשם : מטרייה",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "רעב : אוכל",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "כיסא : שולחן",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא התהליך שגורם להיווצרות B. (חיכוך מייצר חום, מאמץ גופני מייצר הזעה)."
+  },
+  {
+    "id": 90,
+    "word1": "איתן",
+    "word2": "חזק",
+    "hard_words": [
+      {
+        "word": "איתן",
+        "definition": "חזק, יציב, בעל עוצמה"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "רפה : חלש",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "גדול : ענק",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "כבד : קל",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "חכם : ידע",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A ו-B הן מילים נרדפות. (איתן פירושו חזק, רפה פירושו חלש. גדול וענק נבדלים בדרגה, ואינם זהים במשמעות)."
+  },
+  {
+    "id": 91,
+    "word1": "בית",
+    "word2": "שיר",
+    "hard_words": [
+      {
+        "word": "בית",
+        "definition": "חלק בשיר; מקבץ שורות (סטרופה)"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "פרק : ספר",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "כריכה : ספר",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "מסגרת : תמונה",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "עמוד : גשר",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא יחידת המבנה הרצופה שממנה מורכב השלם B. (בית הוא חלק בשיר, פרק הוא חלק בספר. כריכה עוטפת את הספר אך אינה חלק מתוכנו)."
+  },
+  {
+    "id": 92,
+    "word1": "רגש",
+    "word2": "קנאה",
+    "hard_words": [],
+    "options": [
+      {
+        "id": 1,
+        "text": "צבע : ארגמן",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "שמחה : צחוק",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "מים : קרח",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "גוף : לב",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא סוג כללי ו-B הוא פרט מסוים מתוכו. (קנאה היא סוג של רגש, ארגמן הוא סוג של צבע)."
+  },
+  {
+    "id": 93,
+    "word1": "טעות",
+    "word2": "אסון",
+    "hard_words": [],
+    "options": [
+      {
+        "id": 1,
+        "text": "מריבה : מלחמה",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "הצלחה : כישלון",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "גשם : שלולית",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "שאלה : בעיה",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "B הוא A בדרגה חמורה וקיצונית. (אסון הוא טעות עם תוצאות הרסניות, מלחמה היא מריבה שהחריפה מאוד)."
+  },
+  {
+    "id": 94,
+    "word1": "להחמיר",
+    "word2": "להקל",
+    "hard_words": [],
+    "options": [
+      {
+        "id": 1,
+        "text": "להאיץ : להאט",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "לגדול : להתפתח",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "לבנות : לתקן",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "לרוץ : למהר",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A ו-B הן פעולות מנוגדות. (להחמיר מנוגד להקל, להאיץ מנוגד להאט. לרוץ ולמהר קרובות במשמעות)."
   }
 ]
