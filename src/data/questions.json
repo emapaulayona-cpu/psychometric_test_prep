@@ -3109,5 +3109,1091 @@
       }
     ],
     "logical_connection": "A ו-B הן פעולות מנוגדות. (להחמיר מנוגד להקל, להאיץ מנוגד להאט. לרוץ ולמהר קרובות במשמעות)."
+  },
+  {
+    "id": 95,
+    "word1": "ריח",
+    "word2": "להריח",
+    "hard_words": [],
+    "options": [
+      {
+        "id": 1,
+        "text": "טעם : לטעום",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "אור : לראות",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "קול : לשמוע",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "צבע : לצבוע",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא דבר שניתן לחוש באמצעות הפעולה B. (ריח ניתן להריח, כפי שטעם ניתן לטעום)."
+  },
+  {
+    "id": 96,
+    "word1": "לכרסם",
+    "word2": "אגוז",
+    "hard_words": [
+      {
+        "word": "לכרסם",
+        "definition": "לאכול דבר קשה בנגיסות קטנות וחוזרות"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "לנסר : קרש",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "לחתוך : לחם",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "לבלוע : תרופה",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "ללוש : בצק",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A היא פעולה המתבצעת בהדרגה ובנגיסות או חיתוכים קטנים כדי לעבד את B. (מכרסמים אגוז, כפי שמנסרים קרש בהדרגה)."
+  },
+  {
+    "id": 97,
+    "word1": "שקדן",
+    "word2": "לימודים",
+    "hard_words": [
+      {
+        "word": "שקדן",
+        "definition": "מי שמתמיד ומשקיע מאמץ רב בעבודתו או בלימודיו"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "קפדן : פרטים",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "נדיב : כסף",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "חשדן : אנשים",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "סקרן : תשובות",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא אדם המרבה להשקיע או להקפיד בתחום B. (שקדן משקיע בלימודים, כפי שקפדן מקפיד על פרטים)."
+  },
+  {
+    "id": 98,
+    "word1": "לגמול",
+    "word2": "טובה",
+    "hard_words": [
+      {
+        "word": "לגמול",
+        "definition": "להשיב טובה או מעשה שנעשה לאדם"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "להשיב : הלוואה",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "לקבל : מתנה",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "לדרוש : חוב",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "להעניק : פרס",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A היא פעולה של החזרת דבר שניתן לאדם קודם לכן, B. (גומלים טובה על טובה שנעשתה, כפי שמשיבים הלוואה)."
+  },
+  {
+    "id": 99,
+    "word1": "ניב",
+    "word2": "שפה",
+    "hard_words": [
+      {
+        "word": "ניב",
+        "definition": "צורת דיבור מקומית או ייחודית בתוך שפה"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "זן : כלב",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "מילה : משפט",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "אות : מילה",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "קול : אדם",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא סוג או צורה מסוימת של B. (ניב הוא צורה מסוימת של שפה, כפי שזן הוא סוג מסוים של כלב)."
+  },
+  {
+    "id": 100,
+    "word1": "להפריך",
+    "word2": "טענה",
+    "hard_words": [
+      {
+        "word": "להפריך",
+        "definition": "להוכיח שטענה או דבר מה אינם נכונים"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "לאשש : השערה",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "להכחיש : אמת",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "לנסח : שאלה",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "לתרץ : מעשה",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A היא פעולה שמטרתה להראות ש-B אינה נכונה או נכונה. (מפריכים טענה, כפי שמאששים השערה)."
+  },
+  {
+    "id": 101,
+    "word1": "מחסה",
+    "word2": "גשם",
+    "hard_words": [],
+    "options": [
+      {
+        "id": 1,
+        "text": "מקלט : הפצצה",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "מטרייה : אדם",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "מעיל : קור",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "בית : משפחה",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא מקום או אמצעי שנועד להגן מפני B. (מחסה מגן מפני גשם, כפי שמקלט מגן מפני הפצצה)."
+  },
+  {
+    "id": 102,
+    "word1": "להשחיז",
+    "word2": "סכין",
+    "hard_words": [
+      {
+        "word": "להשחיז",
+        "definition": "לחדד כלי חיתוך כדי לשפר את יכולת החיתוך שלו"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "ללטש : משטח",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "לנקות : חלון",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "לשבור : זכוכית",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "לכבס : בגד",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A היא פעולה שנועדה לשפר תכונה מסוימת של B באמצעות עיבודו. (משחיזים סכין כדי לשפר את חדותה, כפי שמלטשים משטח כדי לשפר את חלקותו)."
+  },
+  {
+    "id": 103,
+    "word1": "לשדל",
+    "word2": "הסכמה",
+    "hard_words": [
+      {
+        "word": "לשדל",
+        "definition": "לנסות לגרום למישהו לעשות דבר מה באמצעות שכנוע או פיתוי"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "להניא : פעולה",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "להרתיע : פחד",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "להאשים : אשמה",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "להסתיר : סוד",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A היא פעולה שמטרתה לגרום לאדם להגיע ל-B או להשיג אותה. (משדלים כדי להשיג הסכמה, כפי שמניאים כדי לגרום לאדם להימנע מפעולה)."
+  },
+  {
+    "id": 104,
+    "word1": "אבן נגף",
+    "word2": "התקדמות",
+    "hard_words": [
+      {
+        "word": "אבן נגף",
+        "definition": "מכשול המפריע להתקדמות"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "מחסום : מעבר",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "גשר : נהר",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "מפה : דרך",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "מנוף : משא",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא דבר שמונע או מקשה על B. (אבן נגף מקשה על התקדמות, כפי שמחסום מקשה על מעבר)."
+  },
+  {
+    "id": 105,
+    "word1": "לנשל",
+    "word2": "רכוש",
+    "hard_words": [
+      {
+        "word": "לנשל",
+        "definition": "לשלול מאדם את רכושו או את זכותו לדבר שהיה ברשותו"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "להפקיע : קרקע",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "לרכוש : נכס",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "להשכיר : דירה",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "לשמר : רכוש",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A היא פעולה שבה שוללים מאדם את הבעלות או החזקה ב-B. (מנשלים אדם מרכושו, כפי שמפקיעים קרקע מבעליה)."
+  },
+  {
+    "id": 106,
+    "word1": "לכנס",
+    "word2": "קהל",
+    "hard_words": [
+      {
+        "word": "לכנס",
+        "definition": "לאסוף או לזמן אנשים למקום אחד"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "לגבש : צוות",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "לפרק : מכונה",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "להפיץ : מידע",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "לשחרר : אסיר",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A היא פעולה שמטרתה לאסוף או ליצור יחידה מאורגנת מתוך B. (מכנסים קהל, כפי שמגבשים צוות)."
+  },
+  {
+    "id": 107,
+    "word1": "עירוי",
+    "word2": "דם",
+    "hard_words": [
+      {
+        "word": "עירוי",
+        "definition": "החדרת נוזל או חומר לגוף, בדרך כלל דרך כלי דם"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "השקיה : מים",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "שאיבה : נוזל",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "בליעה : מזון",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "נשימה : אוויר",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A היא פעולה של החדרת B למערכת או למקום הזקוק לו. (עירוי מחדיר דם לגוף, כפי שהשקיה מחדירה מים לאדמה)."
+  },
+  {
+    "id": 108,
+    "word1": "דייקן",
+    "word2": "זמן",
+    "hard_words": [],
+    "options": [
+      {
+        "id": 1,
+        "text": "יסודי : פרטים",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "מהיר : תנועה",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "נדיב : כסף",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "סקרן : מידע",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא אדם המקפיד במיוחד על B. (דייקן מקפיד על הזמן, כפי שאדם יסודי מקפיד על הפרטים)."
+  },
+  {
+    "id": 109,
+    "word1": "לבלום",
+    "word2": "תנועה",
+    "hard_words": [],
+    "options": [
+      {
+        "id": 1,
+        "text": "לרסן : התנהגות",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "להאיץ : מהירות",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "לכוון : מכונית",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "להסיט : מסלול",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A היא פעולה שמטרתה להגביל או לעצור את B. (בולמים תנועה, כפי שמרסנים התנהגות)."
+  },
+  {
+    "id": 110,
+    "word1": "קליפה",
+    "word2": "פרי",
+    "hard_words": [],
+    "options": [
+      {
+        "id": 1,
+        "text": "כריכה : ספר",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "דף : ספר",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "מכסה : קופסה",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "עטיפה : מתנה",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא החלק החיצוני העוטף את B באופן קבוע או טבעי. (קליפה עוטפת פרי, כפי שכריכה עוטפת ספר)."
+  },
+  {
+    "id": 111,
+    "word1": "להבליג",
+    "word2": "עלבון",
+    "hard_words": [
+      {
+        "word": "להבליג",
+        "definition": "להימנע מתגובה או נקמה למרות פגיעה או עלבון"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "לסלוח : פגיעה",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "להתלונן : שירות",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "להתגונן : סכנה",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "להתנצל : טעות",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A היא פעולה של הימנעות מתגובה שלילית בעקבות B. (מבליגים על עלבון, כפי שסולחים על פגיעה)."
+  },
+  {
+    "id": 112,
+    "word1": "להרוות",
+    "word2": "צמא",
+    "hard_words": [],
+    "options": [
+      {
+        "id": 1,
+        "text": "להשביע : רעב",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "להרדים : עייפות",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "לחמם : קור",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "להרגיע : פחד",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A היא פעולה שמספקת מענה לצורך או תחושה B ומביאה להפחתתה. (מרווים צמא, כפי שמשביעים רעב)."
+  },
+  {
+    "id": 113,
+    "word1": "מפרץ",
+    "word2": "ים",
+    "hard_words": [
+      {
+        "word": "מפרץ",
+        "definition": "חלק של ים החודר לתוך היבשה ומוקף בה בחלקו"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "עמק : הרים",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "אי : אוקיינוס",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "חוף : ים",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "מערה : סלע",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא אזור הנמצא בתוך או בין B וחודר לתוכו מן הצד. (מפרץ הוא חלק מן הים החודר ליבשה, כפי שעמק מצוי בין הרים וחודר לתוכם)."
+  },
+  {
+    "id": 114,
+    "word1": "מחט",
+    "word2": "מצפן",
+    "hard_words": [
+      {
+        "word": "מחט מצפן",
+        "definition": "המחט המגנטית המצביעה על כיוון הצפון במצפן"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "מחוג : שעון",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "מפתח : מנעול",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "סמן : מפה",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "נורה : פנס",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא החלק ב-B שמצביע על נתון מסוים. (מחט המצפן מצביעה על כיוון, כפי שמחוג השעון מצביע על השעה)."
+  },
+  {
+    "id": 115,
+    "word1": "לנבא",
+    "word2": "עתיד",
+    "hard_words": [
+      {
+        "word": "לנבא",
+        "definition": "לנסות לחזות מראש דבר שיקרה בעתיד"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "לשחזר : עבר",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "לזכור : אירוע",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "לחקור : שאלה",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "לשנות : מצב",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A היא פעולה שמטרתה לקבוע או לתאר דבר ביחס ל-B שאינו נגיש ישירות בהווה. (מנבאים את העתיד, כפי שמשחזרים את העבר)."
+  },
+  {
+    "id": 116,
+    "word1": "תירוץ",
+    "word2": "הצדקה",
+    "hard_words": [],
+    "options": [
+      {
+        "id": 1,
+        "text": "ראיה : הוכחה",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "שאלה : תשובה",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "בעיה : פתרון",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "בקשה : סירוב",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A משמשת כדי לספק B לדבר מה. (תירוץ משמש כהצדקה למעשה או למחדל, כפי שראיה משמשת כהוכחה לטענה)."
+  },
+  {
+    "id": 117,
+    "word1": "לצמצם",
+    "word2": "הוצאה",
+    "hard_words": [],
+    "options": [
+      {
+        "id": 1,
+        "text": "להפחית : סיכון",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "להגדיל : הכנסה",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "לשנות : החלטה",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "להכפיל : מספר",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A היא פעולה שמטרתה להקטין את B. (מצמצמים הוצאה כדי להקטינה, כפי שמפחיתים סיכון כדי להקטינו)."
+  },
+  {
+    "id": 118,
+    "word1": "לסרסר",
+    "word2": "עסקה",
+    "hard_words": [
+      {
+        "word": "לסרסר",
+        "definition": "לתווך בין צדדים כדי להביא אותם לעסקה, בדרך כלל תמורת עמלה"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "לתווך : מכירה",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "למכור : סחורה",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "לקנות : מחיר",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "לחתום : חוזה",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A היא פעולה שבה גורם שלישי מקשר בין צדדים כדי לאפשר B. (סרסור נועד לתווך בעסקה, כפי שתיווך נועד לאפשר מכירה)."
+  },
+  {
+    "id": 119,
+    "word1": "שכיר",
+    "word2": "מעביד",
+    "hard_words": [],
+    "options": [
+      {
+        "id": 1,
+        "text": "לקוח : ספק",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "תלמיד : מורה",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "חולה : רופא",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "נאשם : שופט",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא אדם שמקבל שירות או עבודה מ-B במסגרת קשר מקצועי. (שכיר עובד עבור מעביד, כפי שלקוח מקבל שירות מספק)."
+  },
+  {
+    "id": 120,
+    "word1": "לרקום",
+    "word2": "בד",
+    "hard_words": [
+      {
+        "word": "לרקום",
+        "definition": "ליצור דוגמה או ציור באמצעות חוטים על גבי בד"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "לפסל : אבן",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "לכתוב : נייר",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "לצבוע : קיר",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "לתפור : מחט",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A היא פעולה שבאמצעותה יוצרים יצירה או דוגמה על גבי B. (רוקמים על בד, כפי שמפסלים באבן)."
+  },
+  {
+    "id": 121,
+    "word1": "לרכך",
+    "word2": "נוקשה",
+    "hard_words": [],
+    "options": [
+      {
+        "id": 1,
+        "text": "להבהיר : מעורפל",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "להגדיל : קטן",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "לסגור : פתוח",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "להסתיר : גלוי",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A היא פעולה שמפחיתה תכונה המקשה על הבנה או שימוש ב-B. (מרככים דבר נוקשה, כפי שמבהירים דבר מעורפל)."
+  },
+  {
+    "id": 122,
+    "word1": "להתחמק",
+    "word2": "מפגש",
+    "hard_words": [],
+    "options": [
+      {
+        "id": 1,
+        "text": "להימנע : סיכון",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "להתנגד : שינוי",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "להסכים : ויכוח",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "להזמין : אורח",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A היא פעולה שמטרתה לא להגיע ל-B או לא להיחשף אליו. (מתחמקים ממפגש כפי שנמנעים מסיכון)."
+  },
+  {
+    "id": 123,
+    "word1": "להתריס",
+    "word2": "סמכות",
+    "hard_words": [
+      {
+        "word": "להתריס",
+        "definition": "להתנגד בגלוי ובמתכוון, לעיתים באופן פרובוקטיבי"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "למרוד : שלטון",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "לכבד : חוק",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "לציית : פקודה",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "להתנצל : סמכות",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A היא פעולה של התנגדות מכוונת ל-B הנתפס כבעל כוח או סמכות. (מתריסים נגד סמכות, כפי שמורדים בשלטון)."
+  },
+  {
+    "id": 124,
+    "word1": "אוצר",
+    "word2": "מוזיאון",
+    "hard_words": [
+      {
+        "word": "אוצר",
+        "definition": "אדם האחראי על אוסף, תערוכות ותוכן במוזיאון"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "עורך : עיתון",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "קורא : ספר",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "צייר : גלריה",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "מבקר : תערוכה",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא בעל תפקיד האחראי על התוכן והבחירה של פריטים ב-B. (אוצר אחראי על תערוכות במוזיאון, כפי שעורך אחראי על תוכן בעיתון)."
+  },
+  {
+    "id": 125,
+    "word1": "לכמוש",
+    "word2": "צמח",
+    "hard_words": [
+      {
+        "word": "לכמוש",
+        "definition": "להתייבש ולאבד את רעננותו, בדרך כלל על צמח או עלה"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "להחליד : מתכת",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "להיסדק : קיר",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "להירטב : בגד",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "להתלכלך : רצפה",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A היא פעולה או תהליך של פגיעה הדרגתית במצבו התקין של B. (צמח יכול לכמוש, כפי שמתכת יכולה להחליד)."
+  },
+  {
+    "id": 126,
+    "word1": "להשקיט",
+    "word2": "רעש",
+    "hard_words": [],
+    "options": [
+      {
+        "id": 1,
+        "text": "להרגיע : סערה",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "להגביר : קול",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "להפסיק : מנוחה",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "להחליש : אור",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A היא פעולה שמטרתה להפחית את עוצמתו של B. (משקיטים רעש, כפי שמרגיעים סערה)."
+  },
+  {
+    "id": 127,
+    "word1": "משענת",
+    "word2": "גב",
+    "hard_words": [],
+    "options": [
+      {
+        "id": 1,
+        "text": "דוושה : רגל",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "ידית : דלת",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "כרית : מיטה",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "מושב : כיסא",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא אביזר שעליו נשען או באמצעותו מופעל B. (משענת תומכת בגב, כפי שדוושה מופעלת באמצעות הרגל)."
+  },
+  {
+    "id": 128,
+    "word1": "לחלוק",
+    "word2": "דעה",
+    "hard_words": [],
+    "options": [
+      {
+        "id": 1,
+        "text": "להביע : עמדה",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "להפריך : טענה",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "להסתיר : מחשבה",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "להוכיח : עובדה",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A היא פעולה של הצגת B או שיתופה עם אחרים. (חולקים דעה, כפי שמביעים עמדה)."
   }
 ]

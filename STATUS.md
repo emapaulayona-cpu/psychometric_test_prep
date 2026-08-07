@@ -9,7 +9,7 @@ Entrance Test (פסיכומטרי). MVP scope = the **Analogies (אנלוגיו�
 
 - **Deployed:** yes — pushed to GitHub `main`, auto-deployed on Vercel.
 - **Repo:** https://github.com/emapaulayona-cpu/psychometric_test_prep
-- **Bank size:** 94 analogy questions.
+- **Bank size:** 128 analogy questions.
 - **Verified:** production build passes; question bank validated (each item has 4
   options, exactly one correct, and no vocab hint that leaks the answer).
 
