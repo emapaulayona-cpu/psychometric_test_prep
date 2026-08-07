@@ -1,0 +1,2404 @@
+[
+  {
+    "id": 1,
+    "word1": "עילג",
+    "word2": "לדבר",
+    "hard_words": [
+      {
+        "word": "עילג",
+        "definition": "מי שמתבטא בקושי, כבד פה, מגמגם"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "חרש : לשמוע",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "צולע : ללכת",
+        "is_correct": true
+      },
+      {
+        "id": 3,
+        "text": "שקרן : לשקר",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "טיפש : להבין",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא אדם שמתקשה לבצע את פעולת B. (עילג מתקשה לדבר, כפי שצולע מתקשה ללכת. חרש אינו מתקשה לשמוע, אלא לא מסוגל כלל)."
+  },
+  {
+    "id": 2,
+    "word1": "להקציע",
+    "word2": "חלק",
+    "hard_words": [
+      {
+        "word": "להקציע",
+        "definition": "להחליק, לשייף (לרוב עץ באמצעות מקצועה)"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "לטהר : נקי",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "להרטיב : לח",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "לעקם : שבור",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "לקמט : ישר",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "המטרה של פעולת A היא להפוך משהו ל-B. (פעולת ההקצעה נועדה להפוך משהו לחלק, כפי שפעולת הטיהור נועדה להפוך משהו לנקי)."
+  },
+  {
+    "id": 3,
+    "word1": "מסיק",
+    "word2": "זיתים",
+    "hard_words": [
+      {
+        "word": "מסיק",
+        "definition": "קטיף זיתים"
+      },
+      {
+        "word": "בציר",
+        "definition": "קטיף ענבים"
+      },
+      {
+        "word": "גדיד",
+        "definition": "קטיף תמרים"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "נטיעה : עצים",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "חליבה : פרות",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "בציר : ענבים",
+        "is_correct": true
+      },
+      {
+        "id": 4,
+        "text": "זריעה : חיטה",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A היא הפעולה הספציפית של איסוף וקציר של B. (מסיק הוא קטיף זיתים, כפי שבציר הוא קטיף ענבים)."
+  },
+  {
+    "id": 4,
+    "word1": "מגדלור",
+    "word2": "ספינה",
+    "hard_words": [],
+    "options": [
+      {
+        "id": 1,
+        "text": "רמזור : מכונית",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "מצפן : צפון",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "משואה : הלך",
+        "is_correct": true
+      },
+      {
+        "id": 4,
+        "text": "תמרור : כביש",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא אמצעי ניווט והכוונה שנועד להדריך את B. (המגדלור מראה את הדרך לספינה, כפי שמשואה מראה את הדרך להלך)."
+  },
+  {
+    "id": 5,
+    "word1": "חולץ פקקים",
+    "word2": "בקבוק",
+    "hard_words": [],
+    "options": [
+      {
+        "id": 1,
+        "text": "פותחן : קופסת שימורים",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "מפתח : מנעול",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "מברג : בורג",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "פטיש : מסמר",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא כלי ייעודי שתפקידו לפתוח את B על ידי הסרת החסימה שלו."
+  },
+  {
+    "id": 6,
+    "word1": "מהסס",
+    "word2": "החלטה",
+    "hard_words": [],
+    "options": [
+      {
+        "id": 1,
+        "text": "מתמהמה : פעולה",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "מתחמק : אחריות",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "מתפשר : עקרון",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "מתלונן : בעיה",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא מי שמתעכב ומעכב את קבלת ה-B. (מי שמהסס מתעכב בלקבל החלטה, כפי שמי שמתמהמה מתעכב בלנקוט פעולה)."
+  },
+  {
+    "id": 7,
+    "word1": "מכחיש",
+    "word2": "אמת",
+    "hard_words": [
+      {
+        "word": "מכחיש",
+        "definition": "טוען שמשהו אינו נכון, כופר באמיתות הדבר"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "מסרב : בקשה",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "מסתיר : סוד",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "כופר : אשמה",
+        "is_correct": true
+      },
+      {
+        "id": 4,
+        "text": "משקר : סיפור",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא מי שטוען ש-B אינו נכון או אינו קיים. (מי שמכחיש טוען שזו לא האמת, כפי שמי שכופר באשמה טוען שאין אשמה)."
+  },
+  {
+    "id": 8,
+    "word1": "לאשש",
+    "word2": "הוכחה",
+    "hard_words": [
+      {
+        "word": "לאשש",
+        "definition": "לחזק, לאשר, לתת תוקף למשהו"
+      },
+      {
+        "word": "להפריך",
+        "definition": "להוכיח שמשהו אינו נכון, לסתור"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "להפריך : סתירה",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "לשער : השערה",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "לתרץ : תירוץ",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "לשקר : כזב",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "פעולת A נעשית באמצעות הצגת B. (כדי לאשש טענה יש להציג הוכחה, כפי שכדי להפריך טענה יש להציג סתירה)."
+  },
+  {
+    "id": 9,
+    "word1": "גדה",
+    "word2": "נהר",
+    "hard_words": [],
+    "options": [
+      {
+        "id": 1,
+        "text": "חוף : ים",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "שוליים : כביש",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "קצה : חוט",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "גבול : מדינה",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא שפת היבשה התוחמת את מקווה המים B."
+  },
+  {
+    "id": 10,
+    "word1": "לרפות את ידיו",
+    "word2": "להתייאש",
+    "hard_words": [
+      {
+        "word": "לרפות את ידיו",
+        "definition": "לייאש מישהו, לגרום לו לאבד תקווה"
+      },
+      {
+        "word": "להפיח רוח חיים",
+        "definition": "לעורר, להחיות, להחזיר מרץ"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "להניא : להשתכנע",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "להדיר שינה מעיניו : לדאוג",
+        "is_correct": true
+      },
+      {
+        "id": 3,
+        "text": "להפיח רוח חיים : למות",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "לעמוד מנגד : לעזור",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "הפעולה ש-A עושה לאדם אחר, גורמת לאותו אדם B (לרפות את ידיו של מישהו זה לגרום לו להתייאש, כפי שלהדיר שינה מעיניו של מישהו זה לגרום לו לדאוג)."
+  },
+  {
+    "id": 11,
+    "word1": "לאלתר",
+    "word2": "תכנון",
+    "hard_words": [
+      {
+        "word": "לאלתר",
+        "definition": "לעשות משהו באופן ספונטני, ללא הכנה מראש"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "לנחש : ודאות",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "להסס : החלטה",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "להעתיק : מקור",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "לזייף : כוונה",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "פעולת A נעשית בהיעדר B. (לאלתר זה לפעול ללא תכנון, כפי שלנחש זה לפעול ללא ודאות)."
+  },
+  {
+    "id": 12,
+    "word1": "נחתום",
+    "word2": "לחם",
+    "hard_words": [
+      {
+        "word": "נחתום",
+        "definition": "אופה"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "פחח : מתכת",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "סנדלר : נעל",
+        "is_correct": true
+      },
+      {
+        "id": 3,
+        "text": "בוקר : בקר",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "כורם : ענבים",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא בעל המקצוע שמייצר את B. (נחתום מייצר לחם, כפי שסנדלר מייצר נעל. כורם מגדל ענבים אך אינו 'מייצר' אותם מן היסוד, פחח מתקן מתכת ולא בהכרח מייצר אותה)."
+  },
+  {
+    "id": 13,
+    "word1": "טמיר",
+    "word2": "נסתר",
+    "hard_words": [
+      {
+        "word": "טמיר",
+        "definition": "סמוי, חבוי, נסתר מהעין"
+      },
+      {
+        "word": "אביון",
+        "definition": "עני, דלפון, חסר כל"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "זעיר : קטן",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "ענק : גדול",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "אביון : עני",
+        "is_correct": true
+      },
+      {
+        "id": 4,
+        "text": "שקוף : רואה",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A ו-B הן מילים נרדפות. (טמיר הוא נסתר, כשם שאביון הוא עני. זעיר קטן יותר מקטן, זה לא בדיוק אותו הדבר)."
+  },
+  {
+    "id": 14,
+    "word1": "משלח יד",
+    "word2": "מקצוע",
+    "hard_words": [
+      {
+        "word": "משלח יד",
+        "definition": "מקצוע, עיסוק, עבודה שאדם מתפרנס ממנה"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "אורח חיים : הרגל",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "חבל ארץ : אזור",
+        "is_correct": true
+      },
+      {
+        "id": 3,
+        "text": "קורת רוח : אכזבה",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "כור מחצבת : עתיד",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא ביטוי נרדף ל-B. (משלח יד משמעותו מקצוע, כפי שחבל ארץ משמעותו אזור)."
+  },
+  {
+    "id": 15,
+    "word1": "סורר",
+    "word2": "ציית",
+    "hard_words": [
+      {
+        "word": "סורר",
+        "definition": "מרדן, עקשן, מסרב לציית"
+      },
+      {
+        "word": "כופר",
+        "definition": "מי שמסרב להאמין"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "שקרן : דיבר",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "טיפש : הבין",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "כופר : האמין",
+        "is_correct": true
+      },
+      {
+        "id": 4,
+        "text": "עצלן : נח",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא מי שמסרב או בוחר שלא לעשות את פעולת B. (סורר בוחר שלא לציית, כשם שכופר בוחר שלא להאמין. שקרן מדבר, אבל לא בהכרח מסרב לדבר)."
+  },
+  {
+    "id": 16,
+    "word1": "בושש",
+    "word2": "להגיע",
+    "hard_words": [
+      {
+        "word": "בושש",
+        "definition": "איחר, התעכב"
+      },
+      {
+        "word": "התמהמה",
+        "definition": "התעכב, לא מיהר לפעול"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "התמהמה : לצאת",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "מיהר : להאט",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "הקדים : לאחר",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "שכח : לזכור",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "לעשות A זה לבצע את פעולת B באיחור או בעיכוב. (בושש זה להגיע באיחור, התמהמה זה לצאת באיחור)."
+  },
+  {
+    "id": 17,
+    "word1": "התפיל",
+    "word2": "מלח",
+    "hard_words": [
+      {
+        "word": "התפיל",
+        "definition": "סילק מליחות (בעיקר ממים), הפך משהו לתפל"
+      },
+      {
+        "word": "ניכש",
+        "definition": "עקר עשבים שוטים"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "שתל : אדמה",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "ניכש : עשבים",
+        "is_correct": true
+      },
+      {
+        "id": 3,
+        "text": "קילף : סכין",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "שאב : מים",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "פעולת A היא הוצאה/סילוק של B מתוך משהו. (התפיל זה סילק את המלח, כשם שניכש זה סילק את העשבים)."
+  },
+  {
+    "id": 18,
+    "word1": "איוושה",
+    "word2": "רעש",
+    "hard_words": [
+      {
+        "word": "איוושה",
+        "definition": "רחש קל, צליל חלש"
+      },
+      {
+        "word": "זרזיף",
+        "definition": "זרם דק וחלש של נוזל"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "צעקה : קול",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "סופה : רוח",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "זרזיף : זרם",
+        "is_correct": true
+      },
+      {
+        "id": 4,
+        "text": "הבזק : אור",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא B חלש מאוד ועדין. (איוושה היא רעש חלש, כשם שזרזיף הוא זרם חלש. צעקה וסופה הם דווקא דברים חזקים)."
+  },
+  {
+    "id": 19,
+    "word1": "מכמורת",
+    "word2": "דגים",
+    "hard_words": [
+      {
+        "word": "מכמורת",
+        "definition": "רשת דייגים גדולה"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "חכה : פיתיון",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "רשת : עכביש",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "מלכודת : עכברים",
+        "is_correct": true
+      },
+      {
+        "id": 4,
+        "text": "כלוב : ציפור",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא כלי שתפקידו לצוד או ללכוד B. (מכמורת לוכדת דגים, מלכודת לוכדת עכברים. כלוב נועד לכליאה ולא לציד עצמו)."
+  },
+  {
+    "id": 20,
+    "word1": "למשש",
+    "word2": "עיוור",
+    "hard_words": [],
+    "options": [
+      {
+        "id": 1,
+        "text": "שפת סימנים : חירש",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "קביים : צולע",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "משקפיים : רואה",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "מיקרופון : אילם",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A היא הדרך של B לפצות על המגבלה החושית שלו כדי לקלוט או להעביר מידע. (העיוור משתמש במישוש במקום בראייה, החירש משתמש בשפת סימנים במקום בשמיעה/דיבור)."
+  },
+  {
+    "id": 21,
+    "word1": "ארכאי",
+    "word2": "חדש",
+    "hard_words": [
+      {
+        "word": "ארכאי",
+        "definition": "מיושן מאוד, שייך לעבר הרחוק"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "שמרני : ישן",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "מודרני : עתיק",
+        "is_correct": true
+      },
+      {
+        "id": 3,
+        "text": "זמני : קבוע",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "מקורי : מיוחד",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא בדיוק ההפך מ-B (מילות ניגוד). (ארכאי הוא ההפך מחדש, כשם שמודרני הוא ההפך מעתיק)."
+  },
+  {
+    "id": 22,
+    "word1": "הגיה",
+    "word2": "טקסט",
+    "hard_words": [
+      {
+        "word": "הגיה",
+        "definition": "בדק טקסט כדי לתקן בו שגיאות (עשה הגהה)"
+      },
+      {
+        "word": "כייל",
+        "definition": "כיוון מכשיר מדידה כדי שידייק"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "ערך : סרט",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "צבע : קיר",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "כייל : מכשיר",
+        "is_correct": true
+      },
+      {
+        "id": 4,
+        "text": "תפר : בגד",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "פעולת A נועדה לתקן שגיאות או חוסר דיוק ב-B. (הגיה מתקן שגיאות בטקסט, כיול מתקן אי-דיוקים במכשיר)."
+  },
+  {
+    "id": 23,
+    "word1": "כיסופים",
+    "word2": "כמיהה",
+    "hard_words": [
+      {
+        "word": "כיסופים",
+        "definition": "געגועים עזים, רצון עז"
+      },
+      {
+        "word": "כמיהה",
+        "definition": "השתוקקות, געגוע"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "כעס : שמחה",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "עצב : בכי",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "תקווה : ייאוש",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "חרדה : פחד",
+        "is_correct": true
+      }
+    ],
+    "logical_connection": "A ו-B הן מילים נרדפות המתארות את אותו הרגש. (כיסופים וכמיהה הן מילים נרדפות לגעגוע עז, כשם שחרדה ופחד מתארות תחושת איום)."
+  },
+  {
+    "id": 24,
+    "word1": "קולמוס",
+    "word2": "לכתוב",
+    "hard_words": [
+      {
+        "word": "קולמוס",
+        "definition": "מכשיר כתיבה, עט (לרוב עשוי מנוצה)"
+      },
+      {
+        "word": "אזמל",
+        "definition": "סכין מנתחים או כלי סיתות"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "מכחול : צייר",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "אזמל : לנתח",
+        "is_correct": true
+      },
+      {
+        "id": 3,
+        "text": "פטיש : מסמר",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "מגל : תבואה",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא הכלי שבאמצעותו מבצעים את פעולת B. (בעזרת קולמוס אפשר לכתוב, בעזרת אזמל אפשר לנתח. שימי לב: מכחול הוא כלי, אבל צייר אינו הפעולה עצמה)."
+  },
+  {
+    "id": 25,
+    "word1": "בוש",
+    "word2": "להתבייש",
+    "hard_words": [
+      {
+        "word": "בוש",
+        "definition": "התבייש (בזמן עבר)"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "זעם : לכעוס",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "שמח : לחייך",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "בכה : לעצוב",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "פחד : לברוח",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא פועל המתאר אדם שנמצא במצב של B. (בוש הוא אדם שמרגיש בושה, זעם הוא אדם שמרגיש כעס)."
+  },
+  {
+    "id": 26,
+    "word1": "יקיצה",
+    "word2": "שינה",
+    "hard_words": [
+      {
+        "word": "יקיצה",
+        "definition": "התעוררות, סיום השינה"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "לידה : חיים",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "פרידה : פגישה",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "נחיתה : טיסה",
+        "is_correct": true
+      },
+      {
+        "id": 4,
+        "text": "שקיעה : יום",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A מציין את סיום התהליך של B. (יקיצה היא סוף השינה, כשם שנחיתה היא סוף הטיסה)."
+  },
+  {
+    "id": 27,
+    "word1": "חרטום",
+    "word2": "ספינה",
+    "hard_words": [
+      {
+        "word": "חרטום",
+        "definition": "החלק הקדמי של כלי שיט או טיס"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "זנב : כלב",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "ירכתיים : סירה",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "אגזוז : מכונית",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "חזית : בניין",
+        "is_correct": true
+      }
+    ],
+    "logical_connection": "A הוא החלק הקדמי ביותר של B. (חרטום הוא קדמת הספינה, חזית היא קדמת הבניין. ירכתיים הם דווקא החלק האחורי)."
+  },
+  {
+    "id": 28,
+    "word1": "אמתלה",
+    "word2": "תירוץ",
+    "hard_words": [
+      {
+        "word": "אמתלה",
+        "definition": "תירוץ, טענה שמטרתה להסתיר את הסיבה האמיתית"
+      },
+      {
+        "word": "פולמוס",
+        "definition": "ויכוח חריף, מחלוקת"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "סיפור : מעשייה",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "פולמוס : ויכוח",
+        "is_correct": true
+      },
+      {
+        "id": 3,
+        "text": "שקר : כזב",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "בדיחה : מהתלה",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא מילה גבוהה (במשלב לשוני גבוה) ל-B. (אמתלה היא תירוץ, כשם שפולמוס הוא ויכוח)."
+  },
+  {
+    "id": 29,
+    "word1": "איטר",
+    "word2": "ימין",
+    "hard_words": [
+      {
+        "word": "איטר (או איטר יד ימינו)",
+        "definition": "שמאלי, מי שאינו משתמש ביד ימין כפעילה ביותר"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "חירש : אוזן",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "צולע : רגל",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "קירח : שיער",
+        "is_correct": true
+      },
+      {
+        "id": 4,
+        "text": "אילם : פה",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא מי שאין לו או שאינו משתמש ב-B. (לאיטר אין שימוש ביד ימין, לקירח אין שיער)."
+  },
+  {
+    "id": 30,
+    "word1": "אבוקה",
+    "word2": "אור",
+    "hard_words": [
+      {
+        "word": "אבוקה",
+        "definition": "לפיד, אמצעי תאורה עתיק המפיץ אור אש"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "חלון : אוויר",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "תנור : חום",
+        "is_correct": true
+      },
+      {
+        "id": 3,
+        "text": "מראה : בבואה",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "פעמון : צורה",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא מכשיר שתפקידו המרכזי הוא להפיץ B. (האבוקה נועדה להפיץ אור, התנור נועד להפיץ חום)."
+  },
+  {
+    "id": 31,
+    "word1": "כליל",
+    "word2": "פגם",
+    "hard_words": [
+      {
+        "word": "כליל",
+        "definition": "מושלם, שלם, ללא חסרון"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "עשיר : כסף",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "תמים : אשמה",
+        "is_correct": true
+      },
+      {
+        "id": 3,
+        "text": "חכם : ידע",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "חלש : כוח",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא מי שאין בו B כלל. (כליל הוא מי שאין בו פגם, תמים - במובן של חף מפשע - הוא מי שאין בו אשמה)."
+  },
+  {
+    "id": 32,
+    "word1": "כילי",
+    "word2": "לתת",
+    "hard_words": [
+      {
+        "word": "כילי",
+        "definition": "קמצן מאוד"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "פטפטן : לשתוק",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "פחדן : לברוח",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "סקרן : לשאול",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "עקשן : לעמוד",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא אדם שמאוד קשה לו לבצע את פעולת B. (לכילי קשה לתת, לפטפטן קשה לשתוק)."
+  },
+  {
+    "id": 33,
+    "word1": "למשוח",
+    "word2": "שמן",
+    "hard_words": [
+      {
+        "word": "למשוח",
+        "definition": "למרוח בשמן או בנוזל אחר"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "לקצוץ : בצל",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "לסייד : סיד",
+        "is_correct": true
+      },
+      {
+        "id": 3,
+        "text": "לשתול : עץ",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "לצבוע : מכחול",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "פעולת A היא מריחה או ציפוי של משהו בעזרת החומר B. (למשוח זה לצפות בשמן, לסייד זה לצפות בסיד)."
+  },
+  {
+    "id": 34,
+    "word1": "להצפין",
+    "word2": "סודי",
+    "hard_words": [
+      {
+        "word": "להצפין",
+        "definition": "להסתיר, להחביא, לקודד"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "לפרסם : ידוע",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "לשקר : אמיתי",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "לגלות : נסתר",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "לאבד : מצא",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "המטרה של פעולת A היא להפוך משהו ל-B. (המטרה של להצפין היא להפוך משהו לסודי, כפי שהמטרה של לפרסם היא להפוך משהו לידוע)."
+  },
+  {
+    "id": 35,
+    "word1": "אריה",
+    "word2": "לביא",
+    "hard_words": [],
+    "options": [
+      {
+        "id": 1,
+        "text": "סוס : חמור",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "שמש : ירח",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "ירח : לבנה",
+        "is_correct": true
+      },
+      {
+        "id": 4,
+        "text": "כוכב : שמיים",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A ו-B הם שני שמות נרדפים לאותו הדבר בדיוק. (אריה ולביא הם שמות לאותה חיה, ירח ולבנה הם שמות לאותו גרם שמיים)."
+  },
+  {
+    "id": 36,
+    "word1": "לחלוץ",
+    "word2": "נעל",
+    "hard_words": [],
+    "options": [
+      {
+        "id": 1,
+        "text": "ללבוש : מעיל",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "לחגור : חגורה",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "לפשוט : חולצה",
+        "is_correct": true
+      },
+      {
+        "id": 4,
+        "text": "לענוד : שרשרת",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A היא הפעולה הספציפית של הסרת פריט הלבוש B מהגוף. (לחלוץ זה להוריד נעל, לפשוט זה להוריד חולצה)."
+  },
+  {
+    "id": 37,
+    "word1": "מטורזן",
+    "word2": "להתהדר",
+    "hard_words": [
+      {
+        "word": "מטורזן",
+        "definition": "גנדרן, לבוש בהידור רב"
+      },
+      {
+        "word": "להתהדר",
+        "definition": "להתקשט, להתגאות"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "קמצן : לתת",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "צנוע : להתרברב",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "מתרברב : להשוויץ",
+        "is_correct": true
+      },
+      {
+        "id": 4,
+        "text": "עצלן : להתאמץ",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא אדם שנוטה לבצע את פעולת B כלפי עצמו. (מטורזן נוטה להתהדר במראהו, כשם שמתרברב נוטה להשוויץ)."
+  },
+  {
+    "id": 38,
+    "word1": "פכפוך",
+    "word2": "מים",
+    "hard_words": [
+      {
+        "word": "פכפוך",
+        "definition": "קול זרימת מים, בביעבוע קל"
+      },
+      {
+        "word": "איוושה",
+        "definition": "רחש קל"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "ציוץ : כלב",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "רשרוש : עלים",
+        "is_correct": true
+      },
+      {
+        "id": 3,
+        "text": "שתיקה : אדם",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "אור : שמש",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא הקול האופייני שנוצר מהתנועה של B. (פכפוך הוא רחש המים, כפי שרשרוש הוא רחש העלים)."
+  },
+  {
+    "id": 39,
+    "word1": "לאצור",
+    "word2": "אוסף",
+    "hard_words": [
+      {
+        "word": "לאצור",
+        "definition": "לאסוף, לשמור, להכין אוסף"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "לאגור : מאגר",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "למכור : חנות",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "לקנות : מוצר",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "לפזר : רוח",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "הפעולה A נועדה ליצור או לתחזק את B. (לאצור זה לאסוף דברים לכדי אוסף, לאגור זה לאסוף דברים לכדי מאגר)."
+  },
+  {
+    "id": 40,
+    "word1": "כברה",
+    "word2": "לנפות",
+    "hard_words": [
+      {
+        "word": "כברה",
+        "definition": "מסננת, כלי המשמש לניפוי קמח או תבואה"
+      },
+      {
+        "word": "לנפות",
+        "definition": "להעביר דרך מסננת, להפריד"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "פטיש : לשבור",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "מטאטא : ללכלך",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "מזלג : לחתוך",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "מסננת : לסנן",
+        "is_correct": true
+      }
+    ],
+    "logical_connection": "A הוא כלי שהפעולה הייעודית שלו היא B. (כברה היא כלי המשמש כדי לנפות, כשם שמסננת היא כלי המשמש כדי לסנן)."
+  },
+  {
+    "id": 41,
+    "word1": "הדום",
+    "word2": "רגליים",
+    "hard_words": [
+      {
+        "word": "הדום",
+        "definition": "שרפרף נמוך המשמש להנחת הרגליים"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "משענת : גב",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "כסא : שולחן",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "שטיח : רצפה",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "כפפה : ידיים",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא פריט ריהוט או תמיכה המיועד באופן ספציפי להישענות או מנוחה של B. (הדום מיועד לרגליים, משענת מיועדת לגב)."
+  },
+  {
+    "id": 42,
+    "word1": "אצבע",
+    "word2": "טבעת",
+    "hard_words": [],
+    "options": [
+      {
+        "id": 1,
+        "text": "רגל : נעל",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "מותניים : חגורה",
+        "is_correct": true
+      },
+      {
+        "id": 3,
+        "text": "ראש : כובע",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "עין : משקפיים",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "B הוא פריט לבוש או תכשיט שעונדים מסביב (מקיף את) ל-A. (טבעת מקיפה את האצבע, חגורה מקיפה את המותניים. כובע ונעל אינם מקיפים באותה צורה של חבק)."
+  },
+  {
+    "id": 43,
+    "word1": "מקשה",
+    "word2": "אבטיחים",
+    "hard_words": [
+      {
+        "word": "מקשה",
+        "definition": "שדה גידול של אבטיחים, דלועים או מלונים"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "יער : עצים",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "כרם : ענבים",
+        "is_correct": true
+      },
+      {
+        "id": 3,
+        "text": "גינה : פרחים",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "לול : תרנגולות",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא השם המקצועי לשדה גידול ספציפי של היבול B. (מקשה היא שדה אבטיחים, כרם הוא מטע ענבים)."
+  },
+  {
+    "id": 44,
+    "word1": "עלטה",
+    "word2": "אור",
+    "hard_words": [
+      {
+        "word": "עלטה",
+        "definition": "חושך כבד, אפלה"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "דממה : רעש",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "חום : אש",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "קור : שלג",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "עיוורון : צבע",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא המצב המוחלט של היעדר B. (עלטה היא מצב שבו אין אור כלל, כשם שדממה היא מצב שבו אין רעש כלל)."
+  },
+  {
+    "id": 45,
+    "word1": "התרה",
+    "word2": "קשר",
+    "hard_words": [
+      {
+        "word": "התרה",
+        "definition": "פתיחה של קשר, ביטול איסור"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "פיענוח : תעלומה",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "חסימה : דרך",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "כתיבה : ספר",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "מחיקה : לוח",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "הפעולה A פותרת או פותחת את הבעיה/הסבך שמיוצג על ידי B. (התרה פותחת את הקשר, כפי שפיענוח פותר את התעלומה)."
+  },
+  {
+    "id": 46,
+    "word1": "חסיד",
+    "word2": "להעריץ",
+    "hard_words": [
+      {
+        "word": "חסיד",
+        "definition": "מי שדבק במישהו או ברעיון מסוים בהתלהבות"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "מורה : ללמוד",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "יריב : להתנגד",
+        "is_correct": true
+      },
+      {
+        "id": 3,
+        "text": "חבר : לריב",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "שופט : לפשוע",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא מי שבאופן טבעי ומובהק עושה את פעולת B כלפי מישהו או משהו. (חסיד נוטה להעריץ את דרכו של מישהו, יריב נוטה להתנגד)."
+  },
+  {
+    "id": 47,
+    "word1": "לביית",
+    "word2": "חיית בר",
+    "hard_words": [
+      {
+        "word": "לביית",
+        "definition": "לאלף חיה שתחיה בסביבת אדם (הפיכתה לחיית בית)"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "לרפא : מחלה",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "להפשיר : קרח",
+        "is_correct": true
+      },
+      {
+        "id": 3,
+        "text": "ללכוד : כלוב",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "לגדל : צמח",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "פעולת A משנה את טבעו המקורי של B והופכת אותו למשהו אחר. (לביית זה להפוך משהו שהוא חיית בר לחיית בית, כשם שלהפשיר זה להפוך משהו שהוא קרח לנוזל)."
+  },
+  {
+    "id": 48,
+    "word1": "דלה",
+    "word2": "מים",
+    "hard_words": [
+      {
+        "word": "דלה",
+        "definition": "שאב (מים מהבאר), הוציא משהו מתוך משהו"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "קצר : שדה",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "חצב : אבן",
+        "is_correct": true
+      },
+      {
+        "id": 3,
+        "text": "טפטף : גשם",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "שפך : כוס",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A היא הפעולה הספציפית של הוצאת החומר B ממקורו בטבע. (דלה זה שאב והוציא מים, חצב זה סיתת והוציא אבן)."
+  },
+  {
+    "id": 49,
+    "word1": "כורה אוזן",
+    "word2": "להקשיב",
+    "hard_words": [
+      {
+        "word": "כורה אוזן",
+        "definition": "מקשיב בתשומת לב רבה, מאזין בקשב"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "עוצם עין : לראות",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "משלב ידיים : לעבוד",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "פוקח עין : להשגיח",
+        "is_correct": true
+      },
+      {
+        "id": 4,
+        "text": "נוקש אצבע : לכעוס",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "הביטוי A מתאר פעולה פיזית (או מטאפורית) שנעשית במטרה לבצע בצורה טובה יותר את פעולת B. (מי שכורה אוזן מכין את עצמו להקשיב היטב, כפי שמי שפוקח עין מכין את עצמו להשגיח היטב)."
+  },
+  {
+    "id": 50,
+    "word1": "דאה",
+    "word2": "אוויר",
+    "hard_words": [
+      {
+        "word": "דאה",
+        "definition": "עף ללא תנועת כנפיים, ריחף באוויר"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "צלל : מים",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "רץ : אדמה",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "טיפס : הר",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "נפל : תהום",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A היא צורת התנועה העצמאית במרחב B. (לדאות זו דרך לנוע דרך האוויר, לצלול זו דרך לנוע דרך המים)."
+  },
+  {
+    "id": 51,
+    "word1": "בית מטבחיים",
+    "word2": "בשר",
+    "hard_words": [
+      {
+        "word": "בית מטבחיים",
+        "definition": "משחטה, המקום שבו שוחטים ומעבדים בשר"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "בית קפה : שתייה",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "מאפייה : לחם",
+        "is_correct": true
+      },
+      {
+        "id": 3,
+        "text": "מוסך : מכונית",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "אטליז : קצב",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא המקום בו מייצרים ומכינים את B לפני שיווקו. (בבית מטבחיים מכינים בשר, במאפייה מכינים לחם)."
+  },
+  {
+    "id": 52,
+    "word1": "ניצים",
+    "word2": "מריבה",
+    "hard_words": [
+      {
+        "word": "ניצים",
+        "definition": "אנשים שרבים או מסוכסכים זה עם זה"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "חברים : הסכם",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "שחקנים : תיאטרון",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "שותפים : עסקה",
+        "is_correct": true
+      },
+      {
+        "id": 4,
+        "text": "עובדים : מנוחה",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא הכינוי לצדדים שלוקחים חלק יחד ב-B. (הצדדים המעורבים במריבה נקראים ניצים, הצדדים המעורבים בעסקה משותפת נקראים שותפים)."
+  },
+  {
+    "id": 53,
+    "word1": "מחלפות",
+    "word2": "שיער",
+    "hard_words": [
+      {
+        "word": "מחלפות",
+        "definition": "קצוות שיער, צמות, שיער ראש ברבים"
+      },
+      {
+        "word": "רגבים",
+        "definition": "גושי עפר או אדמה"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "נוצות : ציפור",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "רגבים : אדמה",
+        "is_correct": true
+      },
+      {
+        "id": 3,
+        "text": "דמעות : בכי",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "שיניים : פה",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הן קבוצות או מקבצים קטנים של החומר B. (מחלפות הן קבוצות של שיער, רגבים הם קבוצות של אדמה)."
+  },
+  {
+    "id": 54,
+    "word1": "ענבל",
+    "word2": "פעמון",
+    "hard_words": [
+      {
+        "word": "ענבל",
+        "definition": "הלשון הפנימית של הפעמון שמקישה עליו ויוצרת את הצליל"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "אבקן : פרח",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "גלגל : רכב",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "להב : סכין",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "מנעול : דלת",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא החלק הפנימי במרכזו של B שחיוני לפעולתו. (ענבל במרכז הפעמון, אבקן במרכז הפרח)."
+  },
+  {
+    "id": 55,
+    "word1": "ניחם",
+    "word2": "להתחרט",
+    "hard_words": [
+      {
+        "word": "ניחם",
+        "definition": "התחרט, חזר בו מכוונתו"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "בוש : להתבייש",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "כעס : לשמוח",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "שכח : לזכור",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "רץ : לעצור",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא הפועל בזמן עבר של הפעולה B (מילים נרדפות). (ניחם משמעותו שהוא עשה את פעולת להתחרט, בוש משמעותו שהוא עשה את פעולת להתבייש)."
+  },
+  {
+    "id": 56,
+    "word1": "להאמיר",
+    "word2": "מחיר",
+    "hard_words": [
+      {
+        "word": "להאמיר",
+        "definition": "לעלות, להתייקר (נאמר בדרך כלל על מחירים)"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "להעמיק : בור",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "לתפוח : בצק",
+        "is_correct": true
+      },
+      {
+        "id": 3,
+        "text": "לרדת : גשם",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "לקטון : גודל",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "פעולת A משמעותה גדילה או עלייה של B. (מחיר שמאמיר הוא מחיר שעולה, בצק שתופח הוא בצק שגדל בנפחו)."
+  },
+  {
+    "id": 57,
+    "word1": "טף",
+    "word2": "ילד",
+    "hard_words": [
+      {
+        "word": "טף",
+        "definition": "שם קיבוצי לילדים קטנים"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "ציפור : להקה",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "צאן : כבש",
+        "is_correct": true
+      },
+      {
+        "id": 3,
+        "text": "יער : עץ",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "ספרייה : ספר",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא השם הקיבוצי (הקבוצתי) ליחידים מסוג B. (קבוצת ילדים נקראת טף, קבוצת כבשים נקראת צאן. שימו לב לכיוון: יער מורכב מעצים, אך צאן הוא שם קיבוצי לבעלי חיים ספציפיים כמו שטף זה לילדים)."
+  },
+  {
+    "id": 58,
+    "word1": "להסכין",
+    "word2": "הרגל",
+    "hard_words": [
+      {
+        "word": "להסכין",
+        "definition": "להתרגל, להסתגל למצב מסוים"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "להחלים : מחלה",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "להתמכר : תלות",
+        "is_correct": true
+      },
+      {
+        "id": 3,
+        "text": "להיכנע : ניצחון",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "לשכוח : זיכרון",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "פעולת A היא תהליך של יצירה או כניסה למצב B. (להסכין זה לפתח הרגל למשהו, להתמכר זה לפתח תלות במשהו)."
+  },
+  {
+    "id": 59,
+    "word1": "חותלת",
+    "word2": "שוק",
+    "hard_words": [
+      {
+        "word": "חותלת",
+        "definition": "סוג של גרב או בד הנכרך על השוק לחימום או הגנה"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "מגבעת : ראש",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "כפפה : כף יד",
+        "is_correct": true
+      },
+      {
+        "id": 3,
+        "text": "חגורה : מכנסיים",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "צעיף : חורף",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא פריט לבוש שנועד לעטוף באופן הדוק ולהגן על איבר הגוף B. (חותלת עוטפת את השוק, כפפה עוטפת את כף היד)."
+  },
+  {
+    "id": 60,
+    "word1": "אישון",
+    "word2": "עין",
+    "hard_words": [],
+    "options": [
+      {
+        "id": 1,
+        "text": "חלמון : ביצה",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "אצבע : יד",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "שרוך : נעל",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "מדרכה : כביש",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא החלק המרכזי העגול הנמצא בתוך B. (האישון במרכז העין, החלמון במרכז הביצה)."
+  },
+  {
+    "id": 61,
+    "word1": "מרובב",
+    "word2": "כתם",
+    "hard_words": [
+      {
+        "word": "מרובב",
+        "definition": "מלוכלך, מלא בכתמים"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "מנוקב : חור",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "מואר : חושך",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "קרוע : תפר",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "רטוב : מים",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "התואר A מתאר דבר שיש עליו או בתוכו הרבה B. (דבר מרובב הוא דבר שיש עליו כתמים, דבר מנוקב הוא דבר שיש בו חורים. רטוב מתאר מצב כללי של מים, לא ריבוי של יחידות כמו כתם או חור)."
+  },
+  {
+    "id": 62,
+    "word1": "סוור",
+    "word2": "נמל",
+    "hard_words": [
+      {
+        "word": "סוור",
+        "definition": "פועל בנמל שמעמיס ופורק סחורות"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "מורה : בית ספר",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "חוטב : יער",
+        "is_correct": true
+      },
+      {
+        "id": 3,
+        "text": "רופא : מרפאה",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "מלצר : מגש",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא בעל מקצוע שעבודתו הפיזית מתבצעת בשטח B. (הסוור עובד פיזית בנמל עם סחורות, החוטב עובד פיזית ביער עם עצים. רופא ומורה עובדים במבנים מסודרים, אך עבודתם אינה 'של השטח')."
+  },
+  {
+    "id": 63,
+    "word1": "להניא",
+    "word2": "פעולה",
+    "hard_words": [
+      {
+        "word": "להניא",
+        "definition": "למנוע ממישהו לעשות משהו, לשכנע אותו לוותר על כוונתו"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "לעודד : ניצחון",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "להניע : רכב",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "לשכנע : דעה",
+        "is_correct": true
+      },
+      {
+        "id": 4,
+        "text": "להסית : מרד",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "פעולת A משמעותה לשנות את ה-B של אדם אחר. (להניא זה לגרום למישהו לשנות או לא לבצע פעולה שתכנן, לשכנע זה לגרום למישהו לשנות דעה שהחזיק בה)."
+  },
+  {
+    "id": 64,
+    "word1": "אמיר",
+    "word2": "עץ",
+    "hard_words": [
+      {
+        "word": "אמיר",
+        "definition": "החלק העליון של העץ, צמרת"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "שורש : אדמה",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "פסגה : הר",
+        "is_correct": true
+      },
+      {
+        "id": 3,
+        "text": "קרקעית : ים",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "גג : רעפים",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A הוא החלק הגבוה ביותר של B. (אמיר הוא צמרת העץ, פסגה היא ראש ההר)."
+  },
+  {
+    "id": 65,
+    "word1": "כידון",
+    "word2": "לדקור",
+    "hard_words": [],
+    "options": [
+      {
+        "id": 1,
+        "text": "חרב : לחתוך",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "פטיש : להכות",
+        "is_correct": true
+      },
+      {
+        "id": 3,
+        "text": "מגן : לתקוף",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "אקדח : קליע",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "הפעולה האגרסיבית והספציפית שעושים בעזרת הנשק/הכלי A היא B. (בכידון דוקרים, בפטיש מכים)."
+  },
+  {
+    "id": 66,
+    "word1": "פלייה",
+    "word2": "כינים",
+    "hard_words": [
+      {
+        "word": "פלייה",
+        "definition": "חיפוש והוצאה של כינים או פשפשים"
+      },
+      {
+        "word": "ניכוש",
+        "definition": "עקירת עשבים שוטים"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "רחצה : לכלוך",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "ניכוש : עשבים",
+        "is_correct": true
+      },
+      {
+        "id": 3,
+        "text": "גיזום : עצים",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "תספורת : שיער",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A היא הפעולה הספציפית של סילוק הנגע או המטרד B ממקום צמיחתו. (פלייה מסלקת כינים, ניכוש מסלק עשבים שוטים)."
+  },
+  {
+    "id": 67,
+    "word1": "ללבות",
+    "word2": "אש",
+    "hard_words": [
+      {
+        "word": "ללבות",
+        "definition": "להגדיל את האש, להוסיף חומר בעירה (או במובן מושאל: להסית, לעורר יצרים)"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "לכבות : שריפה",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "להרגיע : ויכוח",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "להעצים : רגש",
+        "is_correct": true
+      },
+      {
+        "id": 4,
+        "text": "להאיר : חושך",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "פעולת A משמעותה להגדיל את העוצמה של B. (ללבות את האש זה להגדיל אותה, להעצים רגש זה להגדיל אותו)."
+  },
+  {
+    "id": 68,
+    "word1": "להגן",
+    "word2": "פטפטן",
+    "hard_words": [
+      {
+        "word": "להגן",
+        "definition": "פטפטן, דברן, אדם שמדבר הרבה דברי הבל"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "קמצן : כילי",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "עצוב : שמח",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "גבוה : רם",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "מהיר : איטי",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "A ו-B הם שמות תואר נרדפים לאותו טיפוס אדם. (להגן הוא פטפטן, כשם שקמצן הוא כילי)."
+  },
+  {
+    "id": 69,
+    "word1": "קפץ את ידו",
+    "word2": "לתת",
+    "hard_words": [
+      {
+        "word": "קפץ את ידו",
+        "definition": "נהג בקמצנות, סירב לתת"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "פשט את ידו : לקבל",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "מילא פיו מים : לדבר",
+        "is_correct": true
+      },
+      {
+        "id": 3,
+        "text": "האיר פנים : לחייך",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "הכה על חטא : להתחרט",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "הביטוי A מתאר אדם שנמנע במכוון מלעשות את הפעולה B. (מי שקפץ את ידו נמנע מלתת, מי שמילא פיו מים נמנע מלדבר)."
+  },
+  {
+    "id": 70,
+    "word1": "למשוט",
+    "word2": "סירה",
+    "hard_words": [
+      {
+        "word": "למשוט",
+        "definition": "לחתור במשוטים כדי להניע סירה"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "לנהוג : מכונית",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "לדווש : אופניים",
+        "is_correct": true
+      },
+      {
+        "id": 3,
+        "text": "לטוס : מטוס",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "לרכוב : סוס",
+        "is_correct": false
+      }
+    ],
+    "logical_connection": "פעולת A היא הפעולה הפיזית (הנעשית בעזרת איבר/כלי ייעודי) המניעה ישירות את כלי התחבורה B בכוח האדם. (למשוט מקדם את הסירה, לדווש מקדם את האופניים. 'לנהוג' ו'לרכוב' הן פעולות כיוון והכוונה, אך לא מקור הכוח הפיזי)."
+  }
+]

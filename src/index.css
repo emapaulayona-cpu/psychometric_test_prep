@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  color: #16422b;
+  background-color: #eaf4ec;
+  background-image:
+    radial-gradient(120% 80% at 100% 0%, #dcf3e4 0%, rgba(220, 243, 228, 0) 55%),
+    radial-gradient(110% 70% at 0% 100%, #d6efe0 0%, rgba(214, 239, 224, 0) 50%);
+  background-attachment: fixed;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* Prevent text selection flicker on rapid tapping through questions */
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
