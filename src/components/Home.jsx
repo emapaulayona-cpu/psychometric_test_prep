@@ -44,7 +44,7 @@ export default function Home({
           <Sparkles className="h-5 w-5 text-white" strokeWidth={2.5} />
         </div>
         <h1 className="font-display text-2xl font-extrabold text-brand-900">
-          אנלוגיות כיס
+          פציחומטרי
         </h1>
       </header>
 
