@@ -12,7 +12,7 @@
     "options": [
       {
         "id": 1,
-        "text": "חרש : לשמוע",
+        "text": "שקרן : לשקר",
         "is_correct": false
       },
       {
@@ -22,7 +22,7 @@
       },
       {
         "id": 3,
-        "text": "שקרן : לשקר",
+        "text": "חרש : לשמוע",
         "is_correct": false
       },
       {
@@ -46,23 +46,23 @@
     "options": [
       {
         "id": 1,
-        "text": "לטהר : נקי",
-        "is_correct": true
-      },
-      {
-        "id": 2,
         "text": "להרטיב : לח",
         "is_correct": false
       },
       {
-        "id": 3,
+        "id": 2,
         "text": "לעקם : שבור",
         "is_correct": false
       },
       {
-        "id": 4,
+        "id": 3,
         "text": "לקמט : ישר",
         "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "לטהר : נקי",
+        "is_correct": true
       }
     ],
     "logical_connection": "המטרה של פעולת A היא להפוך משהו ל-B. (פעולת ההקצעה נועדה להפוך משהו לחלק, כפי שפעולת הטיהור נועדה להפוך משהו לנקי)."
@@ -89,17 +89,17 @@
       },
       {
         "id": 2,
-        "text": "חליבה : פרות",
-        "is_correct": false
-      },
-      {
-        "id": 3,
         "text": "בציר : ענבים",
         "is_correct": true
       },
       {
-        "id": 4,
+        "id": 3,
         "text": "זריעה : חיטה",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "חליבה : פרות",
         "is_correct": false
       }
     ],
@@ -123,13 +123,13 @@
       },
       {
         "id": 3,
-        "text": "משואה : הלך",
-        "is_correct": true
+        "text": "תמרור : כביש",
+        "is_correct": false
       },
       {
         "id": 4,
-        "text": "תמרור : כביש",
-        "is_correct": false
+        "text": "משואה : הלך",
+        "is_correct": true
       }
     ],
     "logical_connection": "A הוא אמצעי ניווט והכוונה שנועד להדריך את B. (המגדלור מראה את הדרך לספינה, כפי שמשואה מראה את הדרך להלך)."
@@ -205,12 +205,12 @@
     "options": [
       {
         "id": 1,
-        "text": "מסרב : בקשה",
+        "text": "מסתיר : סוד",
         "is_correct": false
       },
       {
         "id": 2,
-        "text": "מסתיר : סוד",
+        "text": "משקר : סיפור",
         "is_correct": false
       },
       {
@@ -220,7 +220,7 @@
       },
       {
         "id": 4,
-        "text": "משקר : סיפור",
+        "text": "מסרב : בקשה",
         "is_correct": false
       }
     ],
@@ -239,23 +239,23 @@
     "options": [
       {
         "id": 1,
-        "text": "להפריך : סתירה",
-        "is_correct": true
-      },
-      {
-        "id": 2,
-        "text": "לשער : השערה",
+        "text": "לשקר : כזב",
         "is_correct": false
       },
       {
-        "id": 3,
+        "id": 2,
         "text": "לתרץ : תירוץ",
         "is_correct": false
       },
       {
-        "id": 4,
-        "text": "לשקר : כזב",
+        "id": 3,
+        "text": "לשער : השערה",
         "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "להפריך : סתירה",
+        "is_correct": true
       }
     ],
     "logical_connection": "פעולת A נעשית באמצעות הצגת B. (כדי לאשש טענה יש להציג הוכחה, כפי שכדי להפריך טענה יש להציג סתירה)."
@@ -268,8 +268,8 @@
     "options": [
       {
         "id": 1,
-        "text": "חוף : ים",
-        "is_correct": true
+        "text": "קצה : חוט",
+        "is_correct": false
       },
       {
         "id": 2,
@@ -278,8 +278,8 @@
       },
       {
         "id": 3,
-        "text": "קצה : חוט",
-        "is_correct": false
+        "text": "חוף : ים",
+        "is_correct": true
       },
       {
         "id": 4,
@@ -307,13 +307,13 @@
       },
       {
         "id": 2,
-        "text": "להדיר שינה מעיניו : לדאוג",
-        "is_correct": true
+        "text": "להפיח רוח חיים : למות",
+        "is_correct": false
       },
       {
         "id": 3,
-        "text": "להפיח רוח חיים : למות",
-        "is_correct": false
+        "text": "להדיר שינה מעיניו : לדאוג",
+        "is_correct": true
       },
       {
         "id": 4,
@@ -336,22 +336,22 @@
     "options": [
       {
         "id": 1,
-        "text": "לנחש : ודאות",
-        "is_correct": true
-      },
-      {
-        "id": 2,
-        "text": "להסס : החלטה",
-        "is_correct": false
-      },
-      {
-        "id": 3,
         "text": "להעתיק : מקור",
         "is_correct": false
       },
       {
-        "id": 4,
+        "id": 2,
+        "text": "לנחש : ודאות",
+        "is_correct": true
+      },
+      {
+        "id": 3,
         "text": "לזייף : כוונה",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "להסס : החלטה",
         "is_correct": false
       }
     ],
@@ -370,22 +370,22 @@
     "options": [
       {
         "id": 1,
-        "text": "פחח : מתכת",
+        "text": "כורם : ענבים",
         "is_correct": false
       },
       {
         "id": 2,
-        "text": "סנדלר : נעל",
-        "is_correct": true
-      },
-      {
-        "id": 3,
         "text": "בוקר : בקר",
         "is_correct": false
       },
       {
+        "id": 3,
+        "text": "סנדלר : נעל",
+        "is_correct": true
+      },
+      {
         "id": 4,
-        "text": "כורם : ענבים",
+        "text": "פחח : מתכת",
         "is_correct": false
       }
     ],
@@ -409,7 +409,7 @@
       },
       {
         "id": 2,
-        "text": "ענק : גדול",
+        "text": "שקוף : רואה",
         "is_correct": false
       },
       {
@@ -419,7 +419,7 @@
       },
       {
         "id": 4,
-        "text": "שקוף : רואה",
+        "text": "ענק : גדול",
         "is_correct": false
       }
     ],
@@ -438,23 +438,23 @@
     "options": [
       {
         "id": 1,
-        "text": "אורח חיים : הרגל",
-        "is_correct": false
-      },
-      {
-        "id": 2,
-        "text": "חבל ארץ : אזור",
-        "is_correct": true
-      },
-      {
-        "id": 3,
         "text": "קורת רוח : אכזבה",
         "is_correct": false
       },
       {
-        "id": 4,
+        "id": 2,
         "text": "כור מחצבת : עתיד",
         "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "אורח חיים : הרגל",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "חבל ארץ : אזור",
+        "is_correct": true
       }
     ],
     "logical_connection": "A הוא ביטוי נרדף ל-B. (משלח יד משמעותו מקצוע, כפי שחבל ארץ משמעותו אזור)."
@@ -477,18 +477,18 @@
       },
       {
         "id": 2,
-        "text": "טיפש : הבין",
+        "text": "עצלן : נח",
         "is_correct": false
       },
       {
         "id": 3,
-        "text": "כופר : האמין",
-        "is_correct": true
+        "text": "טיפש : הבין",
+        "is_correct": false
       },
       {
         "id": 4,
-        "text": "עצלן : נח",
-        "is_correct": false
+        "text": "כופר : האמין",
+        "is_correct": true
       }
     ],
     "logical_connection": "A הוא מי שמסרב או בוחר שלא לעשות את פעולת B. (סורר בוחר שלא לציית, כשם שכופר בוחר שלא להאמין. שקרן מדבר, אבל לא בהכרח מסרב לדבר)."
@@ -506,8 +506,8 @@
     "options": [
       {
         "id": 1,
-        "text": "התמהמה : לצאת",
-        "is_correct": true
+        "text": "שכח : לזכור",
+        "is_correct": false
       },
       {
         "id": 2,
@@ -516,12 +516,12 @@
       },
       {
         "id": 3,
-        "text": "הקדים : לאחר",
-        "is_correct": false
+        "text": "התמהמה : לצאת",
+        "is_correct": true
       },
       {
         "id": 4,
-        "text": "שכח : לזכור",
+        "text": "הקדים : לאחר",
         "is_correct": false
       }
     ],
@@ -540,22 +540,22 @@
     "options": [
       {
         "id": 1,
-        "text": "שתל : אדמה",
-        "is_correct": false
-      },
-      {
-        "id": 2,
         "text": "ניכש : עשבים",
         "is_correct": true
       },
       {
+        "id": 2,
+        "text": "שתל : אדמה",
+        "is_correct": false
+      },
+      {
         "id": 3,
-        "text": "קילף : סכין",
+        "text": "שאב : מים",
         "is_correct": false
       },
       {
         "id": 4,
-        "text": "שאב : מים",
+        "text": "קילף : סכין",
         "is_correct": false
       }
     ],
@@ -574,22 +574,22 @@
     "options": [
       {
         "id": 1,
-        "text": "צעקה : קול",
+        "text": "הבזק : אור",
         "is_correct": false
       },
       {
         "id": 2,
-        "text": "סופה : רוח",
-        "is_correct": false
-      },
-      {
-        "id": 3,
         "text": "זרזיף : זרם",
         "is_correct": true
       },
       {
+        "id": 3,
+        "text": "צעקה : קול",
+        "is_correct": false
+      },
+      {
         "id": 4,
-        "text": "הבזק : אור",
+        "text": "סופה : רוח",
         "is_correct": false
       }
     ],
@@ -608,12 +608,12 @@
     "options": [
       {
         "id": 1,
-        "text": "חכה : פיתיון",
+        "text": "כלוב : ציפור",
         "is_correct": false
       },
       {
         "id": 2,
-        "text": "רשת : עכביש",
+        "text": "חכה : פיתיון",
         "is_correct": false
       },
       {
@@ -623,7 +623,7 @@
       },
       {
         "id": 4,
-        "text": "כלוב : ציפור",
+        "text": "רשת : עכביש",
         "is_correct": false
       }
     ],
@@ -637,8 +637,8 @@
     "options": [
       {
         "id": 1,
-        "text": "שפת סימנים : חירש",
-        "is_correct": true
+        "text": "מיקרופון : אילם",
+        "is_correct": false
       },
       {
         "id": 2,
@@ -647,12 +647,12 @@
       },
       {
         "id": 3,
-        "text": "משקפיים : רואה",
-        "is_correct": false
+        "text": "שפת סימנים : חירש",
+        "is_correct": true
       },
       {
         "id": 4,
-        "text": "מיקרופון : אילם",
+        "text": "משקפיים : רואה",
         "is_correct": false
       }
     ],
@@ -671,22 +671,22 @@
     "options": [
       {
         "id": 1,
-        "text": "שמרני : ישן",
-        "is_correct": false
-      },
-      {
-        "id": 2,
         "text": "מודרני : עתיק",
         "is_correct": true
       },
       {
+        "id": 2,
+        "text": "שמרני : ישן",
+        "is_correct": false
+      },
+      {
         "id": 3,
-        "text": "זמני : קבוע",
+        "text": "מקורי : מיוחד",
         "is_correct": false
       },
       {
         "id": 4,
-        "text": "מקורי : מיוחד",
+        "text": "זמני : קבוע",
         "is_correct": false
       }
     ],
@@ -705,12 +705,12 @@
     "options": [
       {
         "id": 1,
-        "text": "ערך : סרט",
+        "text": "תפר : בגד",
         "is_correct": false
       },
       {
         "id": 2,
-        "text": "צבע : קיר",
+        "text": "ערך : סרט",
         "is_correct": false
       },
       {
@@ -720,7 +720,7 @@
       },
       {
         "id": 4,
-        "text": "תפר : בגד",
+        "text": "צבע : קיר",
         "is_correct": false
       }
     ],
@@ -743,23 +743,23 @@
     "options": [
       {
         "id": 1,
-        "text": "כעס : שמחה",
-        "is_correct": false
-      },
-      {
-        "id": 2,
         "text": "עצב : בכי",
         "is_correct": false
       },
       {
+        "id": 2,
+        "text": "חרדה : פחד",
+        "is_correct": true
+      },
+      {
         "id": 3,
-        "text": "תקווה : ייאוש",
+        "text": "כעס : שמחה",
         "is_correct": false
       },
       {
         "id": 4,
-        "text": "חרדה : פחד",
-        "is_correct": true
+        "text": "תקווה : ייאוש",
+        "is_correct": false
       }
     ],
     "logical_connection": "A ו-B הן מילים נרדפות המתארות את אותו הרגש. (כיסופים וכמיהה הן מילים נרדפות לגעגוע עז, כשם שחרדה ופחד מתארות תחושת איום)."
@@ -777,13 +777,13 @@
     "options": [
       {
         "id": 1,
-        "text": "מכחול : צייר",
-        "is_correct": false
+        "text": "אזמל : לנתח",
+        "is_correct": true
       },
       {
         "id": 2,
-        "text": "אזמל : לנתח",
-        "is_correct": true
+        "text": "מכחול : צייר",
+        "is_correct": false
       },
       {
         "id": 3,
@@ -811,22 +811,22 @@
     "options": [
       {
         "id": 1,
+        "text": "פחד : לברוח",
+        "is_correct": false
+      },
+      {
+        "id": 2,
         "text": "זעם : לכעוס",
         "is_correct": true
       },
       {
-        "id": 2,
+        "id": 3,
         "text": "שמח : לחייך",
         "is_correct": false
       },
       {
-        "id": 3,
-        "text": "בכה : לעצוב",
-        "is_correct": false
-      },
-      {
         "id": 4,
-        "text": "פחד : לברוח",
+        "text": "בכה : לעצוב",
         "is_correct": false
       }
     ],
@@ -845,22 +845,22 @@
     "options": [
       {
         "id": 1,
-        "text": "לידה : חיים",
-        "is_correct": false
-      },
-      {
-        "id": 2,
         "text": "פרידה : פגישה",
         "is_correct": false
       },
       {
-        "id": 3,
+        "id": 2,
         "text": "נחיתה : טיסה",
         "is_correct": true
       },
       {
-        "id": 4,
+        "id": 3,
         "text": "שקיעה : יום",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "לידה : חיים",
         "is_correct": false
       }
     ],
@@ -879,23 +879,23 @@
     "options": [
       {
         "id": 1,
-        "text": "זנב : כלב",
-        "is_correct": false
-      },
-      {
-        "id": 2,
-        "text": "ירכתיים : סירה",
-        "is_correct": false
-      },
-      {
-        "id": 3,
         "text": "אגזוז : מכונית",
         "is_correct": false
       },
       {
-        "id": 4,
+        "id": 2,
+        "text": "זנב : כלב",
+        "is_correct": false
+      },
+      {
+        "id": 3,
         "text": "חזית : בניין",
         "is_correct": true
+      },
+      {
+        "id": 4,
+        "text": "ירכתיים : סירה",
+        "is_correct": false
       }
     ],
     "logical_connection": "A הוא החלק הקדמי ביותר של B. (חרטום הוא קדמת הספינה, חזית היא קדמת הבניין. ירכתיים הם דווקא החלק האחורי)."
@@ -913,7 +913,7 @@
     "options": [
       {
         "id": 1,
-        "text": "סיפור : מעשייה",
+        "text": "בדיחה : מהתלה",
         "is_correct": false
       },
       {
@@ -923,12 +923,12 @@
       },
       {
         "id": 3,
-        "text": "שקר : כזב",
+        "text": "סיפור : מעשייה",
         "is_correct": false
       },
       {
         "id": 4,
-        "text": "בדיחה : מהתלה",
+        "text": "שקר : כזב",
         "is_correct": false
       }
     ],
@@ -947,7 +947,7 @@
     "options": [
       {
         "id": 1,
-        "text": "חירש : אוזן",
+        "text": "אילם : פה",
         "is_correct": false
       },
       {
@@ -962,7 +962,7 @@
       },
       {
         "id": 4,
-        "text": "אילם : פה",
+        "text": "חירש : אוזן",
         "is_correct": false
       }
     ],
@@ -986,17 +986,17 @@
       },
       {
         "id": 2,
+        "text": "מנורה : חשמל",
+        "is_correct": false
+      },
+      {
+        "id": 3,
         "text": "תנור : חום",
         "is_correct": true
       },
       {
-        "id": 3,
-        "text": "מראה : בבואה",
-        "is_correct": false
-      },
-      {
         "id": 4,
-        "text": "מנורה : חשמל",
+        "text": "מראה : בבואה",
         "is_correct": false
       }
     ],
@@ -1020,18 +1020,18 @@
       },
       {
         "id": 2,
-        "text": "תמים : אשמה",
-        "is_correct": true
-      },
-      {
-        "id": 3,
         "text": "חכם : ידע",
         "is_correct": false
       },
       {
-        "id": 4,
+        "id": 3,
         "text": "חלש : כוח",
         "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "תמים : אשמה",
+        "is_correct": true
       }
     ],
     "logical_connection": "A הוא מי שאין בו B כלל. (כליל הוא מי שאין בו פגם, תמים - במובן של חף מפשע - הוא מי שאין בו אשמה)."
@@ -1049,12 +1049,12 @@
     "options": [
       {
         "id": 1,
-        "text": "פטפטן : לשתוק",
-        "is_correct": true
+        "text": "פחדן : לברוח",
+        "is_correct": false
       },
       {
         "id": 2,
-        "text": "פחדן : לברוח",
+        "text": "עקשן : לעמוד",
         "is_correct": false
       },
       {
@@ -1064,8 +1064,8 @@
       },
       {
         "id": 4,
-        "text": "עקשן : לעמוד",
-        "is_correct": false
+        "text": "פטפטן : לשתוק",
+        "is_correct": true
       }
     ],
     "logical_connection": "A הוא אדם שמאוד קשה לו לבצע את פעולת B. (לכילי קשה לתת, לפטפטן קשה לשתוק)."
@@ -1083,7 +1083,7 @@
     "options": [
       {
         "id": 1,
-        "text": "לקצוץ : בצל",
+        "text": "לשתול : עץ",
         "is_correct": false
       },
       {
@@ -1093,7 +1093,7 @@
       },
       {
         "id": 3,
-        "text": "לשתול : עץ",
+        "text": "לקצוץ : בצל",
         "is_correct": false
       },
       {
@@ -1117,8 +1117,8 @@
     "options": [
       {
         "id": 1,
-        "text": "לפרסם : ידוע",
-        "is_correct": true
+        "text": "לאבד : מצא",
+        "is_correct": false
       },
       {
         "id": 2,
@@ -1132,8 +1132,8 @@
       },
       {
         "id": 4,
-        "text": "לאבד : מצא",
-        "is_correct": false
+        "text": "לפרסם : ידוע",
+        "is_correct": true
       }
     ],
     "logical_connection": "המטרה של פעולת A היא להפוך משהו ל-B. (המטרה של להצפין היא להפוך משהו לסודי, כפי שהמטרה של לפרסם היא להפוך משהו לידוע)."
@@ -1180,18 +1180,18 @@
       },
       {
         "id": 2,
-        "text": "לחגור : חגורה",
+        "text": "לענוד : שרשרת",
         "is_correct": false
       },
       {
         "id": 3,
-        "text": "לפשוט : חולצה",
-        "is_correct": true
+        "text": "לחגור : חגורה",
+        "is_correct": false
       },
       {
         "id": 4,
-        "text": "לענוד : שרשרת",
-        "is_correct": false
+        "text": "לפשוט : חולצה",
+        "is_correct": true
       }
     ],
     "logical_connection": "A היא הפעולה הספציפית של הסרת פריט הלבוש B מהגוף. (לחלוץ זה להוריד נעל, לפשוט זה להוריד חולצה)."
@@ -1251,7 +1251,7 @@
     "options": [
       {
         "id": 1,
-        "text": "ציוץ : כלב",
+        "text": "אור : שמש",
         "is_correct": false
       },
       {
@@ -1266,7 +1266,7 @@
       },
       {
         "id": 4,
-        "text": "אור : שמש",
+        "text": "ציוץ : כלב",
         "is_correct": false
       }
     ],
@@ -1290,7 +1290,7 @@
       },
       {
         "id": 2,
-        "text": "למכור : חנות",
+        "text": "לפזר : רוח",
         "is_correct": false
       },
       {
@@ -1300,7 +1300,7 @@
       },
       {
         "id": 4,
-        "text": "לפזר : רוח",
+        "text": "למכור : חנות",
         "is_correct": false
       }
     ],
@@ -1323,23 +1323,23 @@
     "options": [
       {
         "id": 1,
-        "text": "פטיש : לשבור",
-        "is_correct": false
-      },
-      {
-        "id": 2,
         "text": "מטאטא : ללכלך",
         "is_correct": false
       },
       {
-        "id": 3,
-        "text": "מזלג : לחתוך",
+        "id": 2,
+        "text": "פטיש : לשבור",
         "is_correct": false
       },
       {
-        "id": 4,
+        "id": 3,
         "text": "מסננת : לסנן",
         "is_correct": true
+      },
+      {
+        "id": 4,
+        "text": "מזלג : לחתוך",
+        "is_correct": false
       }
     ],
     "logical_connection": "A הוא כלי שהפעולה הייעודית שלו היא B. (כברה היא כלי המשמש כדי לנפות, כשם שמסננת היא כלי המשמש כדי לסנן)."
@@ -1357,8 +1357,8 @@
     "options": [
       {
         "id": 1,
-        "text": "משענת : גב",
-        "is_correct": true
+        "text": "כפפה : ידיים",
+        "is_correct": false
       },
       {
         "id": 2,
@@ -1367,12 +1367,12 @@
       },
       {
         "id": 3,
-        "text": "שטיח : רצפה",
-        "is_correct": false
+        "text": "משענת : גב",
+        "is_correct": true
       },
       {
         "id": 4,
-        "text": "כפפה : ידיים",
+        "text": "שטיח : רצפה",
         "is_correct": false
       }
     ],
@@ -1386,7 +1386,7 @@
     "options": [
       {
         "id": 1,
-        "text": "רגל : נעל",
+        "text": "ראש : כובע",
         "is_correct": false
       },
       {
@@ -1396,12 +1396,12 @@
       },
       {
         "id": 3,
-        "text": "ראש : כובע",
+        "text": "עין : משקפיים",
         "is_correct": false
       },
       {
         "id": 4,
-        "text": "עין : משקפיים",
+        "text": "רגל : נעל",
         "is_correct": false
       }
     ],
@@ -1420,13 +1420,13 @@
     "options": [
       {
         "id": 1,
-        "text": "יער : עצים",
-        "is_correct": false
+        "text": "כרם : ענבים",
+        "is_correct": true
       },
       {
         "id": 2,
-        "text": "כרם : ענבים",
-        "is_correct": true
+        "text": "יער : עצים",
+        "is_correct": false
       },
       {
         "id": 3,
@@ -1454,17 +1454,17 @@
     "options": [
       {
         "id": 1,
+        "text": "קור : שלג",
+        "is_correct": false
+      },
+      {
+        "id": 2,
         "text": "דממה : רעש",
         "is_correct": true
       },
       {
-        "id": 2,
-        "text": "חום : אש",
-        "is_correct": false
-      },
-      {
         "id": 3,
-        "text": "קור : שלג",
+        "text": "חום : אש",
         "is_correct": false
       },
       {
@@ -1488,22 +1488,22 @@
     "options": [
       {
         "id": 1,
-        "text": "פיענוח : תעלומה",
-        "is_correct": true
-      },
-      {
-        "id": 2,
         "text": "חסימה : דרך",
         "is_correct": false
       },
       {
+        "id": 2,
+        "text": "פיענוח : תעלומה",
+        "is_correct": true
+      },
+      {
         "id": 3,
-        "text": "כתיבה : ספר",
+        "text": "מחיקה : לוח",
         "is_correct": false
       },
       {
         "id": 4,
-        "text": "מחיקה : לוח",
+        "text": "כתיבה : ספר",
         "is_correct": false
       }
     ],
@@ -1522,13 +1522,13 @@
     "options": [
       {
         "id": 1,
-        "text": "מורה : ללמוד",
-        "is_correct": false
+        "text": "יריב : להתנגד",
+        "is_correct": true
       },
       {
         "id": 2,
-        "text": "יריב : להתנגד",
-        "is_correct": true
+        "text": "מורה : ללמוד",
+        "is_correct": false
       },
       {
         "id": 3,
@@ -1556,13 +1556,13 @@
     "options": [
       {
         "id": 1,
-        "text": "לרפא : מחלה",
+        "text": "לגדל : צמח",
         "is_correct": false
       },
       {
         "id": 2,
-        "text": "להפשיר : קרח",
-        "is_correct": true
+        "text": "לרפא : מחלה",
+        "is_correct": false
       },
       {
         "id": 3,
@@ -1571,8 +1571,8 @@
       },
       {
         "id": 4,
-        "text": "לגדל : צמח",
-        "is_correct": false
+        "text": "להפשיר : קרח",
+        "is_correct": true
       }
     ],
     "logical_connection": "פעולת A משנה את טבעו המקורי של B והופכת אותו למשהו אחר. (לביית זה להפוך משהו שהוא חיית בר לחיית בית, כשם שלהפשיר זה להפוך משהו שהוא קרח לנוזל)."
@@ -1590,7 +1590,7 @@
     "options": [
       {
         "id": 1,
-        "text": "קצר : שדה",
+        "text": "טפטף : גשם",
         "is_correct": false
       },
       {
@@ -1600,12 +1600,12 @@
       },
       {
         "id": 3,
-        "text": "טפטף : גשם",
+        "text": "שפך : כוס",
         "is_correct": false
       },
       {
         "id": 4,
-        "text": "שפך : כוס",
+        "text": "קצר : שדה",
         "is_correct": false
       }
     ],
@@ -1624,8 +1624,8 @@
     "options": [
       {
         "id": 1,
-        "text": "עוצם עין : לראות",
-        "is_correct": false
+        "text": "פוקח עין : להשגיח",
+        "is_correct": true
       },
       {
         "id": 2,
@@ -1634,12 +1634,12 @@
       },
       {
         "id": 3,
-        "text": "פוקח עין : להשגיח",
-        "is_correct": true
+        "text": "נוקש אצבע : לכעוס",
+        "is_correct": false
       },
       {
         "id": 4,
-        "text": "נוקש אצבע : לכעוס",
+        "text": "עוצם עין : לראות",
         "is_correct": false
       }
     ],
@@ -1658,23 +1658,23 @@
     "options": [
       {
         "id": 1,
-        "text": "צלל : מים",
-        "is_correct": true
-      },
-      {
-        "id": 2,
-        "text": "רץ : אדמה",
-        "is_correct": false
-      },
-      {
-        "id": 3,
         "text": "טיפס : הר",
         "is_correct": false
       },
       {
-        "id": 4,
+        "id": 2,
         "text": "נפל : תהום",
         "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "רץ : אדמה",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "צלל : מים",
+        "is_correct": true
       }
     ],
     "logical_connection": "A היא צורת התנועה העצמאית במרחב B. (לדאות זו דרך לנוע דרך האוויר, לצלול זו דרך לנוע דרך המים)."
@@ -1692,7 +1692,7 @@
     "options": [
       {
         "id": 1,
-        "text": "בית קפה : שתייה",
+        "text": "אטליז : קצב",
         "is_correct": false
       },
       {
@@ -1707,7 +1707,7 @@
       },
       {
         "id": 4,
-        "text": "אטליז : קצב",
+        "text": "בית קפה : שתייה",
         "is_correct": false
       }
     ],
@@ -1765,8 +1765,8 @@
       },
       {
         "id": 2,
-        "text": "רגבים : אדמה",
-        "is_correct": true
+        "text": "שיניים : פה",
+        "is_correct": false
       },
       {
         "id": 3,
@@ -1775,8 +1775,8 @@
       },
       {
         "id": 4,
-        "text": "שיניים : פה",
-        "is_correct": false
+        "text": "רגבים : אדמה",
+        "is_correct": true
       }
     ],
     "logical_connection": "A הן קבוצות או מקבצים קטנים של החומר B. (מחלפות הן קבוצות של שיער, רגבים הם קבוצות של אדמה)."
@@ -1794,23 +1794,23 @@
     "options": [
       {
         "id": 1,
-        "text": "אבקן : פרח",
-        "is_correct": true
-      },
-      {
-        "id": 2,
         "text": "גלגל : רכב",
         "is_correct": false
       },
       {
-        "id": 3,
+        "id": 2,
         "text": "להב : סכין",
         "is_correct": false
       },
       {
-        "id": 4,
+        "id": 3,
         "text": "מנעול : דלת",
         "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "אבקן : פרח",
+        "is_correct": true
       }
     ],
     "logical_connection": "A הוא החלק הפנימי במרכזו של B שחיוני לפעולתו. (ענבל במרכז הפעמון, אבקן במרכז הפרח)."
@@ -1828,12 +1828,12 @@
     "options": [
       {
         "id": 1,
-        "text": "בוש : להתבייש",
-        "is_correct": true
+        "text": "כעס : לשמוח",
+        "is_correct": false
       },
       {
         "id": 2,
-        "text": "כעס : לשמוח",
+        "text": "רץ : לעצור",
         "is_correct": false
       },
       {
@@ -1843,8 +1843,8 @@
       },
       {
         "id": 4,
-        "text": "רץ : לעצור",
-        "is_correct": false
+        "text": "בוש : להתבייש",
+        "is_correct": true
       }
     ],
     "logical_connection": "A הוא הפועל בזמן עבר של הפעולה B (מילים נרדפות). (ניחם משמעותו שהוא עשה את פעולת להתחרט, בוש משמעותו שהוא עשה את פעולת להתבייש)."
@@ -1862,13 +1862,13 @@
     "options": [
       {
         "id": 1,
-        "text": "להעמיק : בור",
+        "text": "לקטון : גודל",
         "is_correct": false
       },
       {
         "id": 2,
-        "text": "לתפוח : בצק",
-        "is_correct": true
+        "text": "להעמיק : בור",
+        "is_correct": false
       },
       {
         "id": 3,
@@ -1877,8 +1877,8 @@
       },
       {
         "id": 4,
-        "text": "לקטון : גודל",
-        "is_correct": false
+        "text": "לתפוח : בצק",
+        "is_correct": true
       }
     ],
     "logical_connection": "פעולת A משמעותה גדילה או עלייה של B. (מחיר שמאמיר הוא מחיר שעולה, בצק שתופח הוא בצק שגדל בנפחו)."
@@ -1935,17 +1935,17 @@
       },
       {
         "id": 2,
+        "text": "לשכוח : זיכרון",
+        "is_correct": false
+      },
+      {
+        "id": 3,
         "text": "להתמכר : תלות",
         "is_correct": true
       },
       {
-        "id": 3,
-        "text": "להיכנע : ניצחון",
-        "is_correct": false
-      },
-      {
         "id": 4,
-        "text": "לשכוח : זיכרון",
+        "text": "להיכנע : ניצחון",
         "is_correct": false
       }
     ],
@@ -1964,22 +1964,22 @@
     "options": [
       {
         "id": 1,
-        "text": "מגבעת : ראש",
-        "is_correct": false
-      },
-      {
-        "id": 2,
-        "text": "כפפה : כף יד",
-        "is_correct": true
-      },
-      {
-        "id": 3,
         "text": "חגורה : מכנסיים",
         "is_correct": false
       },
       {
-        "id": 4,
+        "id": 2,
         "text": "צעיף : חורף",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "כפפה : כף יד",
+        "is_correct": true
+      },
+      {
+        "id": 4,
+        "text": "מגבעת : ראש",
         "is_correct": false
       }
     ],
@@ -1993,8 +1993,8 @@
     "options": [
       {
         "id": 1,
-        "text": "חלמון : ביצה",
-        "is_correct": true
+        "text": "קליפה : ביצה",
+        "is_correct": false
       },
       {
         "id": 2,
@@ -2008,8 +2008,8 @@
       },
       {
         "id": 4,
-        "text": "קליפה : ביצה",
-        "is_correct": false
+        "text": "חלמון : ביצה",
+        "is_correct": true
       }
     ],
     "logical_connection": "A הוא החלק המרכזי העגול הנמצא בתוך B. (האישון במרכז העין, החלמון במרכז הביצה. שימו לב: קליפה היא חלק מהביצה אך נמצאת בחוץ, לא במרכז)."
@@ -2061,23 +2061,23 @@
     "options": [
       {
         "id": 1,
-        "text": "מורה : בית ספר",
-        "is_correct": false
-      },
-      {
-        "id": 2,
-        "text": "חוטב : יער",
-        "is_correct": true
-      },
-      {
-        "id": 3,
         "text": "רופא : מרפאה",
         "is_correct": false
       },
       {
-        "id": 4,
+        "id": 2,
+        "text": "מורה : בית ספר",
+        "is_correct": false
+      },
+      {
+        "id": 3,
         "text": "מלצר : מגש",
         "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "חוטב : יער",
+        "is_correct": true
       }
     ],
     "logical_connection": "A הוא בעל מקצוע שעבודתו הפיזית מתבצעת בשטח B. (הסוור עובד פיזית בנמל עם סחורות, החוטב עובד פיזית ביער עם עצים. רופא ומורה עובדים במבנים מסודרים, אך עבודתם אינה 'של השטח')."
@@ -2095,18 +2095,18 @@
     "options": [
       {
         "id": 1,
-        "text": "לעודד : ניצחון",
-        "is_correct": false
-      },
-      {
-        "id": 2,
         "text": "להניע : רכב",
         "is_correct": false
       },
       {
-        "id": 3,
+        "id": 2,
         "text": "לשכנע : דעה",
         "is_correct": true
+      },
+      {
+        "id": 3,
+        "text": "לעודד : ניצחון",
+        "is_correct": false
       },
       {
         "id": 4,
@@ -2134,13 +2134,13 @@
       },
       {
         "id": 2,
-        "text": "פסגה : הר",
-        "is_correct": true
+        "text": "קרקעית : ים",
+        "is_correct": false
       },
       {
         "id": 3,
-        "text": "קרקעית : ים",
-        "is_correct": false
+        "text": "פסגה : הר",
+        "is_correct": true
       },
       {
         "id": 4,
@@ -2158,22 +2158,22 @@
     "options": [
       {
         "id": 1,
-        "text": "חרב : לחתוך",
-        "is_correct": false
-      },
-      {
-        "id": 2,
         "text": "פטיש : להכות",
         "is_correct": true
       },
       {
+        "id": 2,
+        "text": "אקדח : קליע",
+        "is_correct": false
+      },
+      {
         "id": 3,
-        "text": "מגן : לתקוף",
+        "text": "חרב : לחתוך",
         "is_correct": false
       },
       {
         "id": 4,
-        "text": "אקדח : קליע",
+        "text": "מגן : לתקוף",
         "is_correct": false
       }
     ],
@@ -2192,13 +2192,13 @@
     "options": [
       {
         "id": 1,
-        "text": "רחצה : לכלוך",
+        "text": "תספורת : שיער",
         "is_correct": false
       },
       {
         "id": 2,
-        "text": "ניכוש : עשבים",
-        "is_correct": true
+        "text": "רחצה : לכלוך",
+        "is_correct": false
       },
       {
         "id": 3,
@@ -2207,8 +2207,8 @@
       },
       {
         "id": 4,
-        "text": "תספורת : שיער",
-        "is_correct": false
+        "text": "ניכוש : עשבים",
+        "is_correct": true
       }
     ],
     "logical_connection": "A היא הפעולה הספציפית של סילוק הנגע או המטרד B ממקום צמיחתו. (פלייה מסלקת כינים, ניכוש מסלק עשבים שוטים)."
@@ -2226,22 +2226,22 @@
     "options": [
       {
         "id": 1,
-        "text": "לכבות : שריפה",
-        "is_correct": false
-      },
-      {
-        "id": 2,
-        "text": "להרגיע : ויכוח",
-        "is_correct": false
-      },
-      {
-        "id": 3,
         "text": "להעצים : רגש",
         "is_correct": true
       },
       {
-        "id": 4,
+        "id": 2,
+        "text": "לכבות : שריפה",
+        "is_correct": false
+      },
+      {
+        "id": 3,
         "text": "להאיר : חושך",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "להרגיע : ויכוח",
         "is_correct": false
       }
     ],
@@ -2260,22 +2260,22 @@
     "options": [
       {
         "id": 1,
-        "text": "קמצן : כילי",
-        "is_correct": true
-      },
-      {
-        "id": 2,
-        "text": "עצוב : שמח",
-        "is_correct": false
-      },
-      {
-        "id": 3,
         "text": "אמיץ : פזיז",
         "is_correct": false
       },
       {
-        "id": 4,
+        "id": 2,
         "text": "מהיר : איטי",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "קמצן : כילי",
+        "is_correct": true
+      },
+      {
+        "id": 4,
+        "text": "עצוב : שמח",
         "is_correct": false
       }
     ],
@@ -2294,7 +2294,7 @@
     "options": [
       {
         "id": 1,
-        "text": "פשט את ידו : לקבל",
+        "text": "הכה על חטא : להתחרט",
         "is_correct": false
       },
       {
@@ -2304,12 +2304,12 @@
       },
       {
         "id": 3,
-        "text": "האיר פנים : לחייך",
+        "text": "פשט את ידו : לקבל",
         "is_correct": false
       },
       {
         "id": 4,
-        "text": "הכה על חטא : להתחרט",
+        "text": "האיר פנים : לחייך",
         "is_correct": false
       }
     ],
@@ -2328,7 +2328,7 @@
     "options": [
       {
         "id": 1,
-        "text": "לנהוג : מכונית",
+        "text": "לטוס : מטוס",
         "is_correct": false
       },
       {
@@ -2338,7 +2338,7 @@
       },
       {
         "id": 3,
-        "text": "לטוס : מטוס",
+        "text": "לנהוג : מכונית",
         "is_correct": false
       },
       {
@@ -2367,17 +2367,17 @@
       },
       {
         "id": 2,
-        "text": "נגר : עץ",
+        "text": "מלצר : מגש",
         "is_correct": false
       },
       {
         "id": 3,
-        "text": "חקלאי : טרקטור",
+        "text": "נגר : עץ",
         "is_correct": false
       },
       {
         "id": 4,
-        "text": "מלצר : מגש",
+        "text": "חקלאי : טרקטור",
         "is_correct": false
       }
     ],
@@ -2469,17 +2469,17 @@
       },
       {
         "id": 2,
-        "text": "רעם : ברק",
-        "is_correct": false
-      },
-      {
-        "id": 3,
         "text": "צמא : מים",
         "is_correct": false
       },
       {
-        "id": 4,
+        "id": 3,
         "text": "מנוחה : עייפות",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "רעם : ברק",
         "is_correct": false
       }
     ],
@@ -2498,22 +2498,22 @@
     "options": [
       {
         "id": 1,
+        "text": "פרי : עץ",
+        "is_correct": false
+      },
+      {
+        "id": 2,
         "text": "יין : מרתף",
         "is_correct": true
       },
       {
-        "id": 2,
+        "id": 3,
         "text": "לחם : תנור",
         "is_correct": false
       },
       {
-        "id": 3,
-        "text": "מכונית : כביש",
-        "is_correct": false
-      },
-      {
         "id": 4,
-        "text": "פרי : עץ",
+        "text": "מכונית : כביש",
         "is_correct": false
       }
     ],
@@ -2532,23 +2532,23 @@
     "options": [
       {
         "id": 1,
-        "text": "עוף : דרור",
-        "is_correct": true
-      },
-      {
-        "id": 2,
         "text": "יער : עץ",
         "is_correct": false
       },
       {
-        "id": 3,
+        "id": 2,
         "text": "דג : סנפיר",
         "is_correct": false
       },
       {
-        "id": 4,
+        "id": 3,
         "text": "פרח : אגרטל",
         "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "עוף : דרור",
+        "is_correct": true
       }
     ],
     "logical_connection": "A הוא קטגוריה כללית ו-B הוא פרט מסוים מתוכה. (כורסה היא סוג של רהיט, דרור הוא סוג של עוף. סנפיר הוא חלק מהדג, לא סוג שלו)."
@@ -2561,13 +2561,13 @@
     "options": [
       {
         "id": 1,
-        "text": "גשם : מבול",
-        "is_correct": true
+        "text": "ניצוץ : אפר",
+        "is_correct": false
       },
       {
         "id": 2,
-        "text": "חום : קור",
-        "is_correct": false
+        "text": "גשם : מבול",
+        "is_correct": true
       },
       {
         "id": 3,
@@ -2576,7 +2576,7 @@
       },
       {
         "id": 4,
-        "text": "ניצוץ : אפר",
+        "text": "חום : קור",
         "is_correct": false
       }
     ],
@@ -2595,22 +2595,22 @@
     "options": [
       {
         "id": 1,
-        "text": "פחד : אימה",
-        "is_correct": true
-      },
-      {
-        "id": 2,
         "text": "אהבה : שנאה",
         "is_correct": false
       },
       {
-        "id": 3,
-        "text": "כעס : ריב",
+        "id": 2,
+        "text": "שמחה : צחוק",
         "is_correct": false
       },
       {
+        "id": 3,
+        "text": "פחד : אימה",
+        "is_correct": true
+      },
+      {
         "id": 4,
-        "text": "שמחה : צחוק",
+        "text": "כעס : ריב",
         "is_correct": false
       }
     ],
@@ -2639,12 +2639,12 @@
       },
       {
         "id": 3,
-        "text": "צבעוני : מגוון",
+        "text": "בהיר : חיוור",
         "is_correct": false
       },
       {
         "id": 4,
-        "text": "בהיר : חיוור",
+        "text": "צבעוני : מגוון",
         "is_correct": false
       }
     ],
@@ -2663,22 +2663,22 @@
     "options": [
       {
         "id": 1,
-        "text": "מתורגמן : לתרגם",
-        "is_correct": true
-      },
-      {
-        "id": 2,
-        "text": "שופט : אולם",
+        "text": "עיתונאי : עיתון",
         "is_correct": false
       },
       {
-        "id": 3,
+        "id": 2,
         "text": "מנתח : אזמל",
         "is_correct": false
       },
       {
+        "id": 3,
+        "text": "מתורגמן : לתרגם",
+        "is_correct": true
+      },
+      {
         "id": 4,
-        "text": "עיתונאי : עיתון",
+        "text": "שופט : אולם",
         "is_correct": false
       }
     ],
@@ -2692,18 +2692,18 @@
     "options": [
       {
         "id": 1,
-        "text": "חוליה : שרשרת",
-        "is_correct": true
-      },
-      {
-        "id": 2,
         "text": "גג : בית",
         "is_correct": false
       },
       {
-        "id": 3,
+        "id": 2,
         "text": "צבע : קיר",
         "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "חוליה : שרשרת",
+        "is_correct": true
       },
       {
         "id": 4,
@@ -2721,8 +2721,8 @@
     "options": [
       {
         "id": 1,
-        "text": "בשורה : שמחה",
-        "is_correct": true
+        "text": "פחד : אומץ",
+        "is_correct": false
       },
       {
         "id": 2,
@@ -2736,8 +2736,8 @@
       },
       {
         "id": 4,
-        "text": "פחד : אומץ",
-        "is_correct": false
+        "text": "בשורה : שמחה",
+        "is_correct": true
       }
     ],
     "logical_connection": "A הוא הגורם שמעורר את התגובה הרגשית B. (עלבון מעורר כעס, בשורה טובה מעוררת שמחה. צחוק נגרם מבדיחה - כיוון הפוך)."
@@ -2750,8 +2750,8 @@
     "options": [
       {
         "id": 1,
-        "text": "כסף : כספת",
-        "is_correct": true
+        "text": "פרח : ריח",
+        "is_correct": false
       },
       {
         "id": 2,
@@ -2765,8 +2765,8 @@
       },
       {
         "id": 4,
-        "text": "פרח : ריח",
-        "is_correct": false
+        "text": "כסף : כספת",
+        "is_correct": true
       }
     ],
     "logical_connection": "B הוא הכלי שנועד להכיל ולאגור את A. (מאפרה נועדה לאפר, כספת נועדה לכסף. ברז הוא מקור למים, לא כלי אחסון)."
@@ -2779,23 +2779,23 @@
     "options": [
       {
         "id": 1,
-        "text": "גז : חמצן",
-        "is_correct": true
-      },
-      {
-        "id": 2,
-        "text": "עץ : ריהוט",
-        "is_correct": false
-      },
-      {
-        "id": 3,
         "text": "מים : אגם",
         "is_correct": false
       },
       {
-        "id": 4,
+        "id": 2,
         "text": "ברזל : חלוד",
         "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "עץ : ריהוט",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "גז : חמצן",
+        "is_correct": true
       }
     ],
     "logical_connection": "A הוא הקטגוריה הכללית ו-B הוא סוג מסוים ממנה. (נחושת היא סוג של מתכת, חמצן הוא סוג של גז)."
@@ -2813,12 +2813,12 @@
       },
       {
         "id": 2,
-        "text": "בד : חוט",
+        "text": "קמח : מאפייה",
         "is_correct": false
       },
       {
         "id": 3,
-        "text": "קמח : מאפייה",
+        "text": "בד : חוט",
         "is_correct": false
       },
       {
@@ -2837,8 +2837,8 @@
     "options": [
       {
         "id": 1,
-        "text": "אמיץ : פחדן",
-        "is_correct": true
+        "text": "נדיב : ותרן",
+        "is_correct": false
       },
       {
         "id": 2,
@@ -2847,12 +2847,12 @@
       },
       {
         "id": 3,
-        "text": "עשיר : אמיד",
-        "is_correct": false
+        "text": "אמיץ : פחדן",
+        "is_correct": true
       },
       {
         "id": 4,
-        "text": "נדיב : ותרן",
+        "text": "עשיר : אמיד",
         "is_correct": false
       }
     ],
@@ -2905,17 +2905,17 @@
     "options": [
       {
         "id": 1,
+        "text": "מילה : משפט",
+        "is_correct": false
+      },
+      {
+        "id": 2,
         "text": "הצעה : דרישה",
         "is_correct": true
       },
       {
-        "id": 2,
-        "text": "שאלה : תשובה",
-        "is_correct": false
-      },
-      {
         "id": 3,
-        "text": "מילה : משפט",
+        "text": "שאלה : תשובה",
         "is_correct": false
       },
       {
@@ -2934,23 +2934,23 @@
     "options": [
       {
         "id": 1,
-        "text": "מאמץ : הזעה",
-        "is_correct": true
-      },
-      {
-        "id": 2,
         "text": "גשם : מטרייה",
         "is_correct": false
       },
       {
-        "id": 3,
+        "id": 2,
         "text": "רעב : אוכל",
         "is_correct": false
       },
       {
-        "id": 4,
+        "id": 3,
         "text": "כיסא : שולחן",
         "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "מאמץ : הזעה",
+        "is_correct": true
       }
     ],
     "logical_connection": "A הוא התהליך שגורם להיווצרות B. (חיכוך מייצר חום, מאמץ גופני מייצר הזעה)."
@@ -2968,22 +2968,22 @@
     "options": [
       {
         "id": 1,
-        "text": "רפה : חלש",
-        "is_correct": true
-      },
-      {
-        "id": 2,
         "text": "גדול : ענק",
         "is_correct": false
       },
       {
+        "id": 2,
+        "text": "רפה : חלש",
+        "is_correct": true
+      },
+      {
         "id": 3,
-        "text": "כבד : קל",
+        "text": "חכם : ידע",
         "is_correct": false
       },
       {
         "id": 4,
-        "text": "חכם : ידע",
+        "text": "כבד : קל",
         "is_correct": false
       }
     ],
@@ -3002,13 +3002,13 @@
     "options": [
       {
         "id": 1,
-        "text": "פרק : ספר",
-        "is_correct": true
+        "text": "כריכה : ספר",
+        "is_correct": false
       },
       {
         "id": 2,
-        "text": "כריכה : ספר",
-        "is_correct": false
+        "text": "פרק : ספר",
+        "is_correct": true
       },
       {
         "id": 3,
@@ -3031,17 +3031,17 @@
     "options": [
       {
         "id": 1,
+        "text": "מים : קרח",
+        "is_correct": false
+      },
+      {
+        "id": 2,
         "text": "צבע : ארגמן",
         "is_correct": true
       },
       {
-        "id": 2,
-        "text": "שמחה : צחוק",
-        "is_correct": false
-      },
-      {
         "id": 3,
-        "text": "מים : קרח",
+        "text": "שמחה : צחוק",
         "is_correct": false
       },
       {
@@ -3065,7 +3065,7 @@
       },
       {
         "id": 2,
-        "text": "הצלחה : כישלון",
+        "text": "שאלה : בעיה",
         "is_correct": false
       },
       {
@@ -3075,7 +3075,7 @@
       },
       {
         "id": 4,
-        "text": "שאלה : בעיה",
+        "text": "הצלחה : כישלון",
         "is_correct": false
       }
     ],
@@ -3089,18 +3089,18 @@
     "options": [
       {
         "id": 1,
-        "text": "להאיץ : להאט",
-        "is_correct": true
-      },
-      {
-        "id": 2,
         "text": "לגדול : להתפתח",
         "is_correct": false
       },
       {
-        "id": 3,
+        "id": 2,
         "text": "לבנות : לתקן",
         "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "להאיץ : להאט",
+        "is_correct": true
       },
       {
         "id": 4,
@@ -3118,8 +3118,8 @@
     "options": [
       {
         "id": 1,
-        "text": "טעם : לטעום",
-        "is_correct": true
+        "text": "צבע : לצבוע",
+        "is_correct": false
       },
       {
         "id": 2,
@@ -3128,12 +3128,12 @@
       },
       {
         "id": 3,
-        "text": "קול : לשמוע",
-        "is_correct": false
+        "text": "טעם : לטעום",
+        "is_correct": true
       },
       {
         "id": 4,
-        "text": "צבע : לצבוע",
+        "text": "קול : לשמוע",
         "is_correct": false
       }
     ],
@@ -3152,23 +3152,23 @@
     "options": [
       {
         "id": 1,
-        "text": "לנסר : קרש",
-        "is_correct": true
-      },
-      {
-        "id": 2,
-        "text": "לחתוך : לחם",
+        "text": "ללוש : בצק",
         "is_correct": false
       },
       {
-        "id": 3,
+        "id": 2,
         "text": "לבלוע : תרופה",
         "is_correct": false
       },
       {
-        "id": 4,
-        "text": "ללוש : בצק",
+        "id": 3,
+        "text": "לחתוך : לחם",
         "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "לנסר : קרש",
+        "is_correct": true
       }
     ],
     "logical_connection": "A היא פעולה המתבצעת בהדרגה ובנגיסות או חיתוכים קטנים כדי לעבד את B. (מכרסמים אגוז, כפי שמנסרים קרש בהדרגה)."
@@ -3186,23 +3186,23 @@
     "options": [
       {
         "id": 1,
-        "text": "קפדן : פרטים",
-        "is_correct": true
-      },
-      {
-        "id": 2,
-        "text": "נדיב : כסף",
+        "text": "סקרן : תשובות",
         "is_correct": false
       },
       {
-        "id": 3,
+        "id": 2,
         "text": "חשדן : אנשים",
         "is_correct": false
       },
       {
-        "id": 4,
-        "text": "סקרן : תשובות",
+        "id": 3,
+        "text": "נדיב : כסף",
         "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "קפדן : פרטים",
+        "is_correct": true
       }
     ],
     "logical_connection": "A הוא אדם המרבה להשקיע או להקפיד בתחום B. (שקדן משקיע בלימודים, כפי שקפדן מקפיד על פרטים)."
@@ -3220,12 +3220,12 @@
     "options": [
       {
         "id": 1,
-        "text": "להשיב : הלוואה",
-        "is_correct": true
+        "text": "לקבל : מתנה",
+        "is_correct": false
       },
       {
         "id": 2,
-        "text": "לקבל : מתנה",
+        "text": "להעניק : פרס",
         "is_correct": false
       },
       {
@@ -3235,8 +3235,8 @@
       },
       {
         "id": 4,
-        "text": "להעניק : פרס",
-        "is_correct": false
+        "text": "להשיב : הלוואה",
+        "is_correct": true
       }
     ],
     "logical_connection": "A היא פעולה של החזרת דבר שניתן לאדם קודם לכן, B. (גומלים טובה על טובה שנעשתה, כפי שמשיבים הלוואה)."
@@ -3259,7 +3259,7 @@
       },
       {
         "id": 2,
-        "text": "מילה : משפט",
+        "text": "קול : אדם",
         "is_correct": false
       },
       {
@@ -3269,7 +3269,7 @@
       },
       {
         "id": 4,
-        "text": "קול : אדם",
+        "text": "מילה : משפט",
         "is_correct": false
       }
     ],
@@ -3288,22 +3288,22 @@
     "options": [
       {
         "id": 1,
-        "text": "לאשש : השערה",
-        "is_correct": true
-      },
-      {
-        "id": 2,
-        "text": "להכחיש : אמת",
-        "is_correct": false
-      },
-      {
-        "id": 3,
         "text": "לנסח : שאלה",
         "is_correct": false
       },
       {
-        "id": 4,
+        "id": 2,
+        "text": "לאשש : השערה",
+        "is_correct": true
+      },
+      {
+        "id": 3,
         "text": "לתרץ : מעשה",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "להכחיש : אמת",
         "is_correct": false
       }
     ],
@@ -3317,13 +3317,13 @@
     "options": [
       {
         "id": 1,
-        "text": "מקלט : הפצצה",
-        "is_correct": true
+        "text": "מטרייה : אדם",
+        "is_correct": false
       },
       {
         "id": 2,
-        "text": "מטרייה : אדם",
-        "is_correct": false
+        "text": "מקלט : הפצצה",
+        "is_correct": true
       },
       {
         "id": 3,
@@ -3351,22 +3351,22 @@
     "options": [
       {
         "id": 1,
-        "text": "ללטש : משטח",
-        "is_correct": true
-      },
-      {
-        "id": 2,
-        "text": "לנקות : חלון",
-        "is_correct": false
-      },
-      {
-        "id": 3,
         "text": "לשבור : זכוכית",
         "is_correct": false
       },
       {
-        "id": 4,
+        "id": 2,
+        "text": "ללטש : משטח",
+        "is_correct": true
+      },
+      {
+        "id": 3,
         "text": "לכבס : בגד",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "לנקות : חלון",
         "is_correct": false
       }
     ],
@@ -3385,8 +3385,8 @@
     "options": [
       {
         "id": 1,
-        "text": "להניא : פעולה",
-        "is_correct": true
+        "text": "להסתיר : סוד",
+        "is_correct": false
       },
       {
         "id": 2,
@@ -3400,8 +3400,8 @@
       },
       {
         "id": 4,
-        "text": "להסתיר : סוד",
-        "is_correct": false
+        "text": "להניא : פעולה",
+        "is_correct": true
       }
     ],
     "logical_connection": "A היא פעולה שמטרתה לגרום לאדם להגיע ל-B או להשיג אותה. (משדלים כדי להשיג הסכמה, כפי שמניאים כדי לגרום לאדם להימנע מפעולה)."
@@ -3419,18 +3419,18 @@
     "options": [
       {
         "id": 1,
-        "text": "מחסום : מעבר",
-        "is_correct": true
-      },
-      {
-        "id": 2,
         "text": "גשר : נהר",
         "is_correct": false
       },
       {
-        "id": 3,
+        "id": 2,
         "text": "מפה : דרך",
         "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "מחסום : מעבר",
+        "is_correct": true
       },
       {
         "id": 4,
@@ -3453,8 +3453,8 @@
     "options": [
       {
         "id": 1,
-        "text": "להפקיע : קרקע",
-        "is_correct": true
+        "text": "לשמר : רכוש",
+        "is_correct": false
       },
       {
         "id": 2,
@@ -3463,12 +3463,12 @@
       },
       {
         "id": 3,
-        "text": "להשכיר : דירה",
-        "is_correct": false
+        "text": "להפקיע : קרקע",
+        "is_correct": true
       },
       {
         "id": 4,
-        "text": "לשמר : רכוש",
+        "text": "להשכיר : דירה",
         "is_correct": false
       }
     ],
@@ -3487,22 +3487,22 @@
     "options": [
       {
         "id": 1,
-        "text": "לגבש : צוות",
-        "is_correct": true
-      },
-      {
-        "id": 2,
         "text": "לפרק : מכונה",
         "is_correct": false
       },
       {
+        "id": 2,
+        "text": "לגבש : צוות",
+        "is_correct": true
+      },
+      {
         "id": 3,
-        "text": "להפיץ : מידע",
+        "text": "לשחרר : אסיר",
         "is_correct": false
       },
       {
         "id": 4,
-        "text": "לשחרר : אסיר",
+        "text": "להפיץ : מידע",
         "is_correct": false
       }
     ],
@@ -3521,8 +3521,8 @@
     "options": [
       {
         "id": 1,
-        "text": "השקיה : מים",
-        "is_correct": true
+        "text": "בליעה : מזון",
+        "is_correct": false
       },
       {
         "id": 2,
@@ -3531,13 +3531,13 @@
       },
       {
         "id": 3,
-        "text": "בליעה : מזון",
+        "text": "נשימה : אוויר",
         "is_correct": false
       },
       {
         "id": 4,
-        "text": "נשימה : אוויר",
-        "is_correct": false
+        "text": "השקיה : מים",
+        "is_correct": true
       }
     ],
     "logical_connection": "A היא פעולה של החדרת B למערכת או למקום הזקוק לו. (עירוי מחדיר דם לגוף, כפי שהשקיה מחדירה מים לאדמה)."
@@ -3560,12 +3560,12 @@
       },
       {
         "id": 3,
-        "text": "נדיב : כסף",
+        "text": "סקרן : מידע",
         "is_correct": false
       },
       {
         "id": 4,
-        "text": "סקרן : מידע",
+        "text": "נדיב : כסף",
         "is_correct": false
       }
     ],
@@ -3584,12 +3584,12 @@
       },
       {
         "id": 2,
-        "text": "להאיץ : מהירות",
+        "text": "לכוון : מכונית",
         "is_correct": false
       },
       {
         "id": 3,
-        "text": "לכוון : מכונית",
+        "text": "להאיץ : מהירות",
         "is_correct": false
       },
       {
@@ -3613,17 +3613,17 @@
       },
       {
         "id": 2,
-        "text": "דף : ספר",
-        "is_correct": false
-      },
-      {
-        "id": 3,
         "text": "מכסה : קופסה",
         "is_correct": false
       },
       {
-        "id": 4,
+        "id": 3,
         "text": "עטיפה : מתנה",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "דף : ספר",
         "is_correct": false
       }
     ],
@@ -3642,22 +3642,22 @@
     "options": [
       {
         "id": 1,
-        "text": "לסלוח : פגיעה",
-        "is_correct": true
-      },
-      {
-        "id": 2,
-        "text": "להתלונן : שירות",
-        "is_correct": false
-      },
-      {
-        "id": 3,
         "text": "להתגונן : סכנה",
         "is_correct": false
       },
       {
-        "id": 4,
+        "id": 2,
         "text": "להתנצל : טעות",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "לסלוח : פגיעה",
+        "is_correct": true
+      },
+      {
+        "id": 4,
+        "text": "להתלונן : שירות",
         "is_correct": false
       }
     ],
@@ -3671,22 +3671,22 @@
     "options": [
       {
         "id": 1,
+        "text": "להרגיע : פחד",
+        "is_correct": false
+      },
+      {
+        "id": 2,
         "text": "להשביע : רעב",
         "is_correct": true
       },
       {
-        "id": 2,
+        "id": 3,
         "text": "להרדים : עייפות",
         "is_correct": false
       },
       {
-        "id": 3,
-        "text": "לחמם : קור",
-        "is_correct": false
-      },
-      {
         "id": 4,
-        "text": "להרגיע : פחד",
+        "text": "לחמם : קור",
         "is_correct": false
       }
     ],
@@ -3705,8 +3705,8 @@
     "options": [
       {
         "id": 1,
-        "text": "עמק : הרים",
-        "is_correct": true
+        "text": "חוף : ים",
+        "is_correct": false
       },
       {
         "id": 2,
@@ -3715,13 +3715,13 @@
       },
       {
         "id": 3,
-        "text": "חוף : ים",
+        "text": "מערה : סלע",
         "is_correct": false
       },
       {
         "id": 4,
-        "text": "מערה : סלע",
-        "is_correct": false
+        "text": "עמק : הרים",
+        "is_correct": true
       }
     ],
     "logical_connection": "A הוא אזור הנמצא בתוך או בין B וחודר לתוכו מן הצד. (מפרץ הוא חלק מן הים החודר ליבשה, כפי שעמק מצוי בין הרים וחודר לתוכם)."
@@ -3739,8 +3739,8 @@
     "options": [
       {
         "id": 1,
-        "text": "מחוג : שעון",
-        "is_correct": true
+        "text": "סמן : מפה",
+        "is_correct": false
       },
       {
         "id": 2,
@@ -3749,8 +3749,8 @@
       },
       {
         "id": 3,
-        "text": "סמן : מפה",
-        "is_correct": false
+        "text": "מחוג : שעון",
+        "is_correct": true
       },
       {
         "id": 4,
@@ -3773,23 +3773,23 @@
     "options": [
       {
         "id": 1,
-        "text": "לשחזר : עבר",
-        "is_correct": true
-      },
-      {
-        "id": 2,
-        "text": "לזכור : אירוע",
-        "is_correct": false
-      },
-      {
-        "id": 3,
         "text": "לחקור : שאלה",
         "is_correct": false
       },
       {
-        "id": 4,
+        "id": 2,
         "text": "לשנות : מצב",
         "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "לזכור : אירוע",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "לשחזר : עבר",
+        "is_correct": true
       }
     ],
     "logical_connection": "A היא פעולה שמטרתה לקבוע או לתאר דבר ביחס ל-B שאינו נגיש ישירות בהווה. (מנבאים את העתיד, כפי שמשחזרים את העבר)."
@@ -3802,23 +3802,23 @@
     "options": [
       {
         "id": 1,
-        "text": "ראיה : הוכחה",
-        "is_correct": true
-      },
-      {
-        "id": 2,
         "text": "שאלה : תשובה",
         "is_correct": false
       },
       {
-        "id": 3,
+        "id": 2,
         "text": "בעיה : פתרון",
         "is_correct": false
       },
       {
-        "id": 4,
+        "id": 3,
         "text": "בקשה : סירוב",
         "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "ראיה : הוכחה",
+        "is_correct": true
       }
     ],
     "logical_connection": "A משמשת כדי לספק B לדבר מה. (תירוץ משמש כהצדקה למעשה או למחדל, כפי שראיה משמשת כהוכחה לטענה)."
@@ -3831,8 +3831,8 @@
     "options": [
       {
         "id": 1,
-        "text": "להפחית : סיכון",
-        "is_correct": true
+        "text": "להכפיל : מספר",
+        "is_correct": false
       },
       {
         "id": 2,
@@ -3846,8 +3846,8 @@
       },
       {
         "id": 4,
-        "text": "להכפיל : מספר",
-        "is_correct": false
+        "text": "להפחית : סיכון",
+        "is_correct": true
       }
     ],
     "logical_connection": "A היא פעולה שמטרתה להקטין את B. (מצמצמים הוצאה כדי להקטינה, כפי שמפחיתים סיכון כדי להקטינו)."
@@ -3870,17 +3870,17 @@
       },
       {
         "id": 2,
-        "text": "למכור : סחורה",
+        "text": "לחתום : חוזה",
         "is_correct": false
       },
       {
         "id": 3,
-        "text": "לקנות : מחיר",
+        "text": "למכור : סחורה",
         "is_correct": false
       },
       {
         "id": 4,
-        "text": "לחתום : חוזה",
+        "text": "לקנות : מחיר",
         "is_correct": false
       }
     ],
@@ -3894,22 +3894,22 @@
     "options": [
       {
         "id": 1,
-        "text": "לקוח : ספק",
-        "is_correct": true
-      },
-      {
-        "id": 2,
-        "text": "תלמיד : מורה",
-        "is_correct": false
-      },
-      {
-        "id": 3,
         "text": "חולה : רופא",
         "is_correct": false
       },
       {
-        "id": 4,
+        "id": 2,
         "text": "נאשם : שופט",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "לקוח : ספק",
+        "is_correct": true
+      },
+      {
+        "id": 4,
+        "text": "תלמיד : מורה",
         "is_correct": false
       }
     ],
@@ -3928,13 +3928,13 @@
     "options": [
       {
         "id": 1,
-        "text": "לפסל : אבן",
-        "is_correct": true
+        "text": "לתפור : מחט",
+        "is_correct": false
       },
       {
         "id": 2,
-        "text": "לכתוב : נייר",
-        "is_correct": false
+        "text": "לפסל : אבן",
+        "is_correct": true
       },
       {
         "id": 3,
@@ -3943,7 +3943,7 @@
       },
       {
         "id": 4,
-        "text": "לתפור : מחט",
+        "text": "לכתוב : נייר",
         "is_correct": false
       }
     ],
@@ -3957,13 +3957,13 @@
     "options": [
       {
         "id": 1,
-        "text": "להבהיר : מעורפל",
-        "is_correct": true
+        "text": "להסתיר : גלוי",
+        "is_correct": false
       },
       {
         "id": 2,
-        "text": "להגדיל : קטן",
-        "is_correct": false
+        "text": "להבהיר : מעורפל",
+        "is_correct": true
       },
       {
         "id": 3,
@@ -3972,7 +3972,7 @@
       },
       {
         "id": 4,
-        "text": "להסתיר : גלוי",
+        "text": "להגדיל : קטן",
         "is_correct": false
       }
     ],
@@ -3986,8 +3986,8 @@
     "options": [
       {
         "id": 1,
-        "text": "להימנע : סיכון",
-        "is_correct": true
+        "text": "להסכים : ויכוח",
+        "is_correct": false
       },
       {
         "id": 2,
@@ -3996,8 +3996,8 @@
       },
       {
         "id": 3,
-        "text": "להסכים : ויכוח",
-        "is_correct": false
+        "text": "להימנע : סיכון",
+        "is_correct": true
       },
       {
         "id": 4,
@@ -4025,17 +4025,17 @@
       },
       {
         "id": 2,
-        "text": "לכבד : חוק",
-        "is_correct": false
-      },
-      {
-        "id": 3,
         "text": "לציית : פקודה",
         "is_correct": false
       },
       {
-        "id": 4,
+        "id": 3,
         "text": "להתנצל : סמכות",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "לכבד : חוק",
         "is_correct": false
       }
     ],
@@ -4054,8 +4054,8 @@
     "options": [
       {
         "id": 1,
-        "text": "עורך : עיתון",
-        "is_correct": true
+        "text": "מבקר : תערוכה",
+        "is_correct": false
       },
       {
         "id": 2,
@@ -4064,12 +4064,12 @@
       },
       {
         "id": 3,
-        "text": "צייר : גלריה",
-        "is_correct": false
+        "text": "עורך : עיתון",
+        "is_correct": true
       },
       {
         "id": 4,
-        "text": "מבקר : תערוכה",
+        "text": "צייר : גלריה",
         "is_correct": false
       }
     ],
@@ -4088,8 +4088,8 @@
     "options": [
       {
         "id": 1,
-        "text": "להחליד : מתכת",
-        "is_correct": true
+        "text": "להתלכלך : רצפה",
+        "is_correct": false
       },
       {
         "id": 2,
@@ -4103,8 +4103,8 @@
       },
       {
         "id": 4,
-        "text": "להתלכלך : רצפה",
-        "is_correct": false
+        "text": "להחליד : מתכת",
+        "is_correct": true
       }
     ],
     "logical_connection": "A היא פעולה או תהליך של פגיעה הדרגתית במצבו התקין של B. (צמח יכול לכמוש, כפי שמתכת יכולה להחליד)."
@@ -4117,17 +4117,17 @@
     "options": [
       {
         "id": 1,
+        "text": "להפסיק : מנוחה",
+        "is_correct": false
+      },
+      {
+        "id": 2,
         "text": "להרגיע : סערה",
         "is_correct": true
       },
       {
-        "id": 2,
-        "text": "להגביר : קול",
-        "is_correct": false
-      },
-      {
         "id": 3,
-        "text": "להפסיק : מנוחה",
+        "text": "להגביר : קול",
         "is_correct": false
       },
       {
@@ -4146,8 +4146,8 @@
     "options": [
       {
         "id": 1,
-        "text": "דוושה : רגל",
-        "is_correct": true
+        "text": "מושב : כיסא",
+        "is_correct": false
       },
       {
         "id": 2,
@@ -4161,8 +4161,8 @@
       },
       {
         "id": 4,
-        "text": "מושב : כיסא",
-        "is_correct": false
+        "text": "דוושה : רגל",
+        "is_correct": true
       }
     ],
     "logical_connection": "A הוא אביזר שעליו נשען או באמצעותו מופעל B. (משענת תומכת בגב, כפי שדוושה מופעלת באמצעות הרגל)."
@@ -4175,23 +4175,23 @@
     "options": [
       {
         "id": 1,
-        "text": "להביע : עמדה",
-        "is_correct": true
-      },
-      {
-        "id": 2,
-        "text": "להפריך : טענה",
-        "is_correct": false
-      },
-      {
-        "id": 3,
         "text": "להסתיר : מחשבה",
         "is_correct": false
       },
       {
-        "id": 4,
+        "id": 2,
         "text": "להוכיח : עובדה",
         "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "להפריך : טענה",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "להביע : עמדה",
+        "is_correct": true
       }
     ],
     "logical_connection": "A היא פעולה של הצגת B או שיתופה עם אחרים. (חולקים דעה, כפי שמביעים עמדה)."

@@ -26,6 +26,19 @@ merged** into the bank (merge = concatenate + dedup by `id`).
 - Each question must have **exactly one** correct option.
 - `options` must contain **4** entries.
 - Keep `options[].text` in the `"A : B"` format so it renders consistently.
+- Don't worry about where you place the correct option in your source file —
+  `options[].id` order doesn't need to be randomized by hand. The merge script
+  (`npm run merge-questions`) shuffles every question's options and reassigns
+  `options[].id` 1–4, so the correct answer's position is randomized in the
+  live bank regardless of authoring order.
+
+## Merging into the live bank
+Run `npm run merge-questions` (`scripts/merge-questions.js`) to merge files from
+`json_files/` into `src/data/questions.json`. It concatenates + dedups by `id` as
+described above, then shuffles options **only for the newly added questions** so
+their correct answer isn't skewed toward one position. Questions already in the
+bank are left exactly as-is — the script never reshuffles them again, so it's safe
+to run mid-testing without changing anything a tester has already seen.
 
 ## Minimal example
 ```json
