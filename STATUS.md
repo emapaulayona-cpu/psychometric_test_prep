@@ -10,7 +10,7 @@ Entrance Test (פסיכומטרי). Two sections live: **Analogies (אנלוגי
 
 - **Deployed:** yes — pushed to GitHub `main`, auto-deployed on Vercel.
 - **Repo:** https://github.com/emapaulayona-cpu/psychometric_test_prep
-- **Bank sizes:** 184 analogy questions, 25 English sentence-completion questions.
+- **Bank sizes:** 184 analogy questions, 50 English sentence-completion questions.
 - **Verified:** production build passes; both banks validated (schema-checked,
   each item has exactly one correct option, no vocab hint that leaks the answer).
 
@@ -40,6 +40,9 @@ LTR inline (sentences, options, hard words) inside the RTL shell.
 
 ## Recent changes
 
+- Added 25 more English sentence-completion questions (bank 25 → 50, ids
+  26-50), same authoring approach as the first batch — original vocabulary,
+  no duplicate target words, verified single correct answer per item.
 - Added the **English (אנגלית)** section: sentence-completion questions (the
   real psychometric English-section format — English sentence with a blank, 4
   English word options). Authored 25 original questions calibrated against a
@@ -80,9 +83,9 @@ LTR inline (sentences, options, hard words) inside the RTL shell.
 ## Next steps
 
 1. **Keep enriching both question banks** — more analogies, and more English
-   sentence-completion questions (currently only 25; 2-3 more batches of ~20-25
-   would round it out). Note: official exam items and copyrighted prep-book
-   content — use only as a style/difficulty reference, author original questions.
+   sentence-completion questions (currently 50). Note: official exam items and
+   copyrighted prep-book content — use only as a style/difficulty reference,
+   author original questions.
 2. Optional: review any items that still feel too easy in practice and harden them.
 3. A third section (e.g. Reading Comprehension) would slot into the existing
    `SECTIONS` registry (`src/data/sections.js`) without touching

@@ -373,5 +373,380 @@
       { "id": 4, "text": "document", "is_correct": false }
     ],
     "explanation": "compromise (כפועל) = לפגוע בשלמות משהו, זה בדיוק מה שהארכיאולוגים נזהרו לא לעשות. preserve, restore ו-document כולן פעולות רצויות שהם היו רוצים לבצע, לא למנוע."
+  },
+  {
+    "id": 26,
+    "level": 5,
+    "sentence": "The surgeon's ______ attention to every detail during the operation reassured the entire medical team.",
+    "hard_words": [
+      { "word": "meticulous", "definition": "קפדני, מדוקדק בכל פרט" }
+    ],
+    "options": [
+      { "id": 1, "text": "careless", "is_correct": false },
+      { "id": 2, "text": "meticulous", "is_correct": true },
+      { "id": 3, "text": "hasty", "is_correct": false },
+      { "id": 4, "text": "indifferent", "is_correct": false }
+    ],
+    "explanation": "meticulous = קפדני ומדוקדק בכל פרט, מתאים לתשומת לב שהרגיעה את הצוות הרפואי. careless = רשלני, hasty = נחפז, indifferent = אדיש — כולן הפוכות מדקדקנות."
+  },
+  {
+    "id": 27,
+    "level": 4,
+    "sentence": "As a judge, she was known for being completely ______, never favoring one side over the other.",
+    "hard_words": [
+      { "word": "impartial", "definition": "חסר פניות, לא נוטה לצד כלשהו" }
+    ],
+    "options": [
+      { "id": 1, "text": "impartial", "is_correct": true },
+      { "id": 2, "text": "biased", "is_correct": false },
+      { "id": 3, "text": "sympathetic", "is_correct": false },
+      { "id": 4, "text": "partial", "is_correct": false }
+    ],
+    "explanation": "impartial = חסר פניות, מתאים לשופטת שלא מעדיפה אף צד. biased ו-partial = מוטה, sympathetic = אוהד — כולן מרמזות על העדפה כלשהי."
+  },
+  {
+    "id": 28,
+    "level": 6,
+    "sentence": "When investigators found no supporting documents, they concluded that the witness had ______ the entire story.",
+    "hard_words": [
+      { "word": "fabricated", "definition": "בדה, המציא סיפור או עובדות ללא בסיס אמיתי" }
+    ],
+    "options": [
+      { "id": 1, "text": "verified", "is_correct": false },
+      { "id": 2, "text": "documented", "is_correct": false },
+      { "id": 3, "text": "fabricated", "is_correct": true },
+      { "id": 4, "text": "recounted", "is_correct": false }
+    ],
+    "explanation": "fabricated = בדה סיפור שאין לו בסיס, מתאים למסקנה שאין מסמכים תומכים. verified = אימת, documented = תיעד, recounted = סיפר מחדש — אף אחת לא מרמזת שהסיפור שקרי."
+  },
+  {
+    "id": 29,
+    "level": 3,
+    "sentence": "Knowing the deadline was still weeks away, he continued to ______, putting off the assignment day after day.",
+    "hard_words": [
+      { "word": "procrastinate", "definition": "לדחות משימות, להתמהמה במקום לפעול" }
+    ],
+    "options": [
+      { "id": 1, "text": "collaborate", "is_correct": false },
+      { "id": 2, "text": "procrastinate", "is_correct": true },
+      { "id": 3, "text": "negotiate", "is_correct": false },
+      { "id": 4, "text": "participate", "is_correct": false }
+    ],
+    "explanation": "procrastinate = לדחות משימות, תואם ל-\"putting off the assignment\". collaborate = לשתף פעולה, negotiate = לנהל משא ומתן, participate = להשתתף — לא קשורות לדחיינות."
+  },
+  {
+    "id": 30,
+    "level": 5,
+    "sentence": "Her ______ speech moved the audience to tears and earned a standing ovation.",
+    "hard_words": [
+      { "word": "eloquent", "definition": "רהוט, בעל כושר ביטוי מרשים" }
+    ],
+    "options": [
+      { "id": 1, "text": "incoherent", "is_correct": false },
+      { "id": 2, "text": "monotone", "is_correct": false },
+      { "id": 3, "text": "eloquent", "is_correct": true },
+      { "id": 4, "text": "garbled", "is_correct": false }
+    ],
+    "explanation": "eloquent = רהוט ומרשים, מתאים לנאום שריגש קהל עד דמעות. incoherent = לא קוהרנטי, monotone = חדגוני, garbled = מבולבל — כולן מתארות נאום גרוע."
+  },
+  {
+    "id": 31,
+    "level": 3,
+    "sentence": "Even after seeing the demonstration, many scientists remained ______ about the new theory's validity.",
+    "hard_words": [
+      { "word": "skeptical", "definition": "ספקן, לא משתכנע בקלות" }
+    ],
+    "options": [
+      { "id": 1, "text": "convinced", "is_correct": false },
+      { "id": 2, "text": "skeptical", "is_correct": true },
+      { "id": 3, "text": "enthusiastic", "is_correct": false },
+      { "id": 4, "text": "confident", "is_correct": false }
+    ],
+    "explanation": "\"Even after\" מרמז על ניגוד: למרות ההדגמה, המדענים עדיין לא השתכנעו. convinced = משוכנע, enthusiastic = נלהב, confident = בטוח — כולן הפוכות מספקנות."
+  },
+  {
+    "id": 32,
+    "level": 3,
+    "sentence": "Despite his initial success, the athlete was ______ to take credit, insisting his team deserved the praise.",
+    "hard_words": [
+      { "word": "reluctant", "definition": "מסרב, נרתע מלעשות משהו" }
+    ],
+    "options": [
+      { "id": 1, "text": "eager", "is_correct": false },
+      { "id": 2, "text": "reluctant", "is_correct": true },
+      { "id": 3, "text": "willing", "is_correct": false },
+      { "id": 4, "text": "quick", "is_correct": false }
+    ],
+    "explanation": "reluctant = נרתע/מסרב, מתאים לספורטאי שמתעקש שהקבוצה ראויה לשבח. eager = להוט, willing = מוכן, quick = מהיר — כולן הפוכות מהיסוס."
+  },
+  {
+    "id": 33,
+    "level": 3,
+    "sentence": "Despite the harsh climate, these plants ______ in the desert, growing taller every year.",
+    "hard_words": [
+      { "word": "thrive", "definition": "לשגשג, לגדול ולהתפתח בהצלחה" }
+    ],
+    "options": [
+      { "id": 1, "text": "wither", "is_correct": false },
+      { "id": 2, "text": "perish", "is_correct": false },
+      { "id": 3, "text": "thrive", "is_correct": true },
+      { "id": 4, "text": "stagnate", "is_correct": false }
+    ],
+    "explanation": "thrive = לשגשג, מתאים לצמחים שגדלים למרות אקלים קשה. wither = לנבול, perish = לגווע, stagnate = לדשדש — כולן הפוכות מצמיחה מוצלחת."
+  },
+  {
+    "id": 34,
+    "level": 4,
+    "sentence": "Without proper maintenance, the old building's structure began to ______ rapidly.",
+    "hard_words": [
+      { "word": "deteriorate", "definition": "להתדרדר, להתקלקל בהדרגה" }
+    ],
+    "options": [
+      { "id": 1, "text": "improve", "is_correct": false },
+      { "id": 2, "text": "deteriorate", "is_correct": true },
+      { "id": 3, "text": "stabilize", "is_correct": false },
+      { "id": 4, "text": "strengthen", "is_correct": false }
+    ],
+    "explanation": "deteriorate = להתדרדר, מתאים למבנה ללא תחזוקה. improve = להשתפר, stabilize = להתייצב, strengthen = להתחזק — כולן הפוכות מהתדרדרות."
+  },
+  {
+    "id": 35,
+    "level": 4,
+    "sentence": "Given the company's mounting debts, bankruptcy seemed ______.",
+    "hard_words": [
+      { "word": "inevitable", "definition": "בלתי נמנע, חייב לקרות" }
+    ],
+    "options": [
+      { "id": 1, "text": "avoidable", "is_correct": false },
+      { "id": 2, "text": "unlikely", "is_correct": false },
+      { "id": 3, "text": "inevitable", "is_correct": true },
+      { "id": 4, "text": "preventable", "is_correct": false }
+    ],
+    "explanation": "inevitable = בלתי נמנע, מתאים לחובות ההולכים וגדלים. avoidable ו-preventable = ניתן למניעה, unlikely = לא סביר — כולן מרמזות שניתן להימנע מהמצב."
+  },
+  {
+    "id": 36,
+    "level": 5,
+    "sentence": "Their attempts to repair the ancient engine proved ______; it was beyond saving.",
+    "hard_words": [
+      { "word": "futile", "definition": "חסר תועלת, ללא סיכוי להצליח" }
+    ],
+    "options": [
+      { "id": 1, "text": "fruitful", "is_correct": false },
+      { "id": 2, "text": "effective", "is_correct": false },
+      { "id": 3, "text": "futile", "is_correct": true },
+      { "id": 4, "text": "productive", "is_correct": false }
+    ],
+    "explanation": "futile = חסר תועלת, תואם ל-\"beyond saving\". fruitful, effective ו-productive = פורה/יעיל/פרודוקטיבי — כולן הפוכות מכישלון."
+  },
+  {
+    "id": 37,
+    "level": 4,
+    "sentence": "The lawyer presented such a ______ argument that the jury reached a verdict within an hour.",
+    "hard_words": [
+      { "word": "compelling", "definition": "משכנע, כובש תשומת לב" }
+    ],
+    "options": [
+      { "id": 1, "text": "feeble", "is_correct": false },
+      { "id": 2, "text": "compelling", "is_correct": true },
+      { "id": 3, "text": "unconvincing", "is_correct": false },
+      { "id": 4, "text": "vague", "is_correct": false }
+    ],
+    "explanation": "compelling = משכנע מאוד, מתאים להכרעה מהירה של חבר המושבעים. feeble = חלש, unconvincing = לא משכנע, vague = מעורפל — כולן הפוכות משכנוע."
+  },
+  {
+    "id": 38,
+    "level": 7,
+    "sentence": "The author became increasingly ______ after her first novel's success, avoiding interviews and public events.",
+    "hard_words": [
+      { "word": "reclusive", "definition": "מתבודד, נמנע ממגע חברתי" }
+    ],
+    "options": [
+      { "id": 1, "text": "sociable", "is_correct": false },
+      { "id": 2, "text": "outgoing", "is_correct": false },
+      { "id": 3, "text": "reclusive", "is_correct": true },
+      { "id": 4, "text": "gregarious", "is_correct": false }
+    ],
+    "explanation": "reclusive = מתבודד, מתאים להימנעות מראיונות ואירועים ציבוריים. sociable, outgoing ו-gregarious = חברותי — כולן הפוכות מהתבודדות."
+  },
+  {
+    "id": 39,
+    "level": 7,
+    "sentence": "She felt ______ about the promotion — excited about the challenge but anxious about the added responsibility.",
+    "hard_words": [
+      { "word": "ambivalent", "definition": "דו-ערכי, בעל רגשות מעורבים וסותרים" }
+    ],
+    "options": [
+      { "id": 1, "text": "indifferent", "is_correct": false },
+      { "id": 2, "text": "ambivalent", "is_correct": true },
+      { "id": 3, "text": "certain", "is_correct": false },
+      { "id": 4, "text": "decisive", "is_correct": false }
+    ],
+    "explanation": "ambivalent = בעל רגשות מעורבים וסותרים, תואם בדיוק לתערובת ההתרגשות והחרדה. indifferent = אדיש (חוסר רגש, לא תערובת), certain ו-decisive = בטוח/נחרץ — לא מתארות רגשות סותרים."
+  },
+  {
+    "id": 40,
+    "level": 5,
+    "sentence": "After the merger, several management positions became ______, leading to layoffs.",
+    "hard_words": [
+      { "word": "redundant", "definition": "מיותר, לא נחוץ יותר" }
+    ],
+    "options": [
+      { "id": 1, "text": "essential", "is_correct": false },
+      { "id": 2, "text": "redundant", "is_correct": true },
+      { "id": 3, "text": "indispensable", "is_correct": false },
+      { "id": 4, "text": "critical", "is_correct": false }
+    ],
+    "explanation": "redundant = מיותר, מתאים לתפקידים שהובילו לפיטורים. essential, indispensable ו-critical = חיוני/הכרחי — כולן הפוכות ממיותר."
+  },
+  {
+    "id": 41,
+    "level": 5,
+    "sentence": "His explanation for being late sounded ______, so the teacher let it go without further questions.",
+    "hard_words": [
+      { "word": "plausible", "definition": "סביר, נשמע אמין" }
+    ],
+    "options": [
+      { "id": 1, "text": "absurd", "is_correct": false },
+      { "id": 2, "text": "implausible", "is_correct": false },
+      { "id": 3, "text": "plausible", "is_correct": true },
+      { "id": 4, "text": "dubious", "is_correct": false }
+    ],
+    "explanation": "plausible = סביר ואמין, מתאים למורה שהניחה לעניין. absurd = אבסורדי, implausible ו-dubious = לא סביר/מפוקפק — כולן היו גורמות למורה להמשיך לחקור."
+  },
+  {
+    "id": 42,
+    "level": 6,
+    "sentence": "The employee received an award for her ______ conduct throughout the crisis.",
+    "hard_words": [
+      { "word": "exemplary", "definition": "למופת, ראוי לחיקוי" }
+    ],
+    "options": [
+      { "id": 1, "text": "questionable", "is_correct": false },
+      { "id": 2, "text": "mediocre", "is_correct": false },
+      { "id": 3, "text": "exemplary", "is_correct": true },
+      { "id": 4, "text": "reckless", "is_correct": false }
+    ],
+    "explanation": "exemplary = למופת, מתאים לקבלת פרס. questionable = מפוקפק, mediocre = בינוני, reckless = פזיז — אף אחת לא מתאימה להענקת פרס."
+  },
+  {
+    "id": 43,
+    "level": 6,
+    "sentence": "He ______ deleted the entire file while trying to clean up his desktop.",
+    "hard_words": [
+      { "word": "inadvertently", "definition": "בשוגג, ללא כוונה" }
+    ],
+    "options": [
+      { "id": 1, "text": "deliberately", "is_correct": false },
+      { "id": 2, "text": "inadvertently", "is_correct": true },
+      { "id": 3, "text": "intentionally", "is_correct": false },
+      { "id": 4, "text": "purposely", "is_correct": false }
+    ],
+    "explanation": "inadvertently = בשוגג, מתאים למחיקה תוך כדי ניקיון (לא בכוונה). deliberately, intentionally ו-purposely = בכוונה — כולן הפוכות משגגה."
+  },
+  {
+    "id": 44,
+    "level": 6,
+    "sentence": "Living on a ______ salary, the young teacher could barely afford rent.",
+    "hard_words": [
+      { "word": "meager", "definition": "דל, מצומצם ובלתי מספיק" }
+    ],
+    "options": [
+      { "id": 1, "text": "generous", "is_correct": false },
+      { "id": 2, "text": "meager", "is_correct": true },
+      { "id": 3, "text": "substantial", "is_correct": false },
+      { "id": 4, "text": "ample", "is_correct": false }
+    ],
+    "explanation": "meager = דל ובלתי מספיק, מתאים לקושי לשלם שכר דירה. generous, substantial ו-ample = נדיב/משמעותי/מספיק — כולן הפוכות מדל."
+  },
+  {
+    "id": 45,
+    "level": 6,
+    "sentence": "After the ______ marathon training, the runners collapsed from exhaustion at the finish line.",
+    "hard_words": [
+      { "word": "grueling", "definition": "מפרך, מתיש מאוד" }
+    ],
+    "options": [
+      { "id": 1, "text": "effortless", "is_correct": false },
+      { "id": 2, "text": "grueling", "is_correct": true },
+      { "id": 3, "text": "leisurely", "is_correct": false },
+      { "id": 4, "text": "relaxing", "is_correct": false }
+    ],
+    "explanation": "grueling = מפרך ומתיש, תואם לקריסה מתשישות. effortless = קל, leisurely = רגוע, relaxing = מרגיע — כולן הפוכות ממאמץ קשה."
+  },
+  {
+    "id": 46,
+    "level": 5,
+    "sentence": "Despite losing everything in the fire, the family proved remarkably ______, rebuilding their lives within a year.",
+    "hard_words": [
+      { "word": "resilient", "definition": "חסין, בעל יכולת התאוששות מהירה" }
+    ],
+    "options": [
+      { "id": 1, "text": "fragile", "is_correct": false },
+      { "id": 2, "text": "vulnerable", "is_correct": false },
+      { "id": 3, "text": "resilient", "is_correct": true },
+      { "id": 4, "text": "defeated", "is_correct": false }
+    ],
+    "explanation": "resilient = בעל יכולת התאוששות, מתאים לשיקום מהיר של החיים. fragile = שביר, vulnerable = פגיע, defeated = מובס — כולן הפוכות מהתאוששות."
+  },
+  {
+    "id": 47,
+    "level": 5,
+    "sentence": "The factory replaced its ______ machinery with modern, automated equipment.",
+    "hard_words": [
+      { "word": "obsolete", "definition": "מיושן, לא בשימוש עוד" }
+    ],
+    "options": [
+      { "id": 1, "text": "cutting-edge", "is_correct": false },
+      { "id": 2, "text": "advanced", "is_correct": false },
+      { "id": 3, "text": "obsolete", "is_correct": true },
+      { "id": 4, "text": "innovative", "is_correct": false }
+    ],
+    "explanation": "obsolete = מיושן, מתאים להחלפה בציוד מודרני. cutting-edge, advanced ו-innovative = חדשני/מתקדם — כולן הפוכות ממיושן."
+  },
+  {
+    "id": 48,
+    "level": 6,
+    "sentence": "In a surprisingly ______ interview, the CEO admitted the company had made serious mistakes.",
+    "hard_words": [
+      { "word": "candid", "definition": "כן, גלוי לב וללא הסתרה" }
+    ],
+    "options": [
+      { "id": 1, "text": "evasive", "is_correct": false },
+      { "id": 2, "text": "guarded", "is_correct": false },
+      { "id": 3, "text": "candid", "is_correct": true },
+      { "id": 4, "text": "secretive", "is_correct": false }
+    ],
+    "explanation": "candid = כן וגלוי לב, מתאים להודאה בטעויות. evasive = מתחמק, guarded = שמור, secretive = חשאי — כולן הפוכות מכנות."
+  },
+  {
+    "id": 49,
+    "level": 6,
+    "sentence": "She turned down a stable job offer to pursue a more ______ opportunity in the tech startup world.",
+    "hard_words": [
+      { "word": "lucrative", "definition": "רווחי, מכניס הרבה כסף" }
+    ],
+    "options": [
+      { "id": 1, "text": "unprofitable", "is_correct": false },
+      { "id": 2, "text": "worthless", "is_correct": false },
+      { "id": 3, "text": "lucrative", "is_correct": true },
+      { "id": 4, "text": "meager", "is_correct": false }
+    ],
+    "explanation": "lucrative = רווחי מאוד, מתאים לוויתור על יציבות למען הזדמנות טובה יותר. unprofitable = לא רווחי, worthless = חסר ערך, meager = דל — כולן הפוכות מרווחי."
+  },
+  {
+    "id": 50,
+    "level": 5,
+    "sentence": "The team's translator became ______ during negotiations, since no one else spoke both languages fluently.",
+    "hard_words": [
+      { "word": "indispensable", "definition": "הכרחי, שאי אפשר בלעדיו" }
+    ],
+    "options": [
+      { "id": 1, "text": "unnecessary", "is_correct": false },
+      { "id": 2, "text": "expendable", "is_correct": false },
+      { "id": 3, "text": "replaceable", "is_correct": false },
+      { "id": 4, "text": "indispensable", "is_correct": true }
+    ],
+    "explanation": "indispensable = הכרחי לחלוטין, מתאים למצב שבו אף אחד אחר לא דובר את שתי השפות. unnecessary, expendable ו-replaceable = מיותר/ניתן לוויתור/להחלפה — כולן הפוכות מהכרחי."
   }
 ]
