@@ -1,4 +1,4 @@
-import { Flame, Timer as TimerIcon, Sparkles, Play } from 'lucide-react'
+import { Flame, Timer as TimerIcon, Play, ArrowRight } from 'lucide-react'
 import ProgressRing from './ProgressRing.jsx'
 
 function StatCard({ icon, iconClass, value, label }) {
@@ -25,11 +25,15 @@ function fmtAvg(sec) {
 }
 
 export default function Home({
+  title,
+  icon: Icon,
+  blurb,
   solvedCount,
   totalQuestions,
   streak,
   avgTimeSec,
   onStart,
+  onBack,
 }) {
   const pctText =
     totalQuestions > 0
@@ -39,12 +43,19 @@ export default function Home({
   return (
     <div className="flex flex-1 flex-col px-6 pb-8 pt-10 animate-fade-up">
       {/* Header */}
-      <header className="flex items-center justify-center gap-2.5">
+      <header className="relative flex items-center justify-center gap-2.5">
+        <button
+          onClick={onBack}
+          className="absolute end-0 flex h-9 w-9 items-center justify-center rounded-xl bg-white text-brand-700 shadow-card active:scale-[0.96]"
+          aria-label="חזרה לבחירת פרק"
+        >
+          <ArrowRight className="h-5 w-5" strokeWidth={2.5} />
+        </button>
         <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-brand-500 shadow-[0_6px_16px_-4px_rgba(35,126,72,0.5)]">
-          <Sparkles className="h-5 w-5 text-white" strokeWidth={2.5} />
+          <Icon className="h-5 w-5 text-white" strokeWidth={2.5} />
         </div>
         <h1 className="font-display text-2xl font-extrabold text-brand-900">
-          פציחומטרי
+          {title}
         </h1>
       </header>
 
@@ -64,8 +75,7 @@ export default function Home({
       </div>
 
       <p className="mt-6 text-center text-sm leading-relaxed text-brand-800/70">
-        הידעת? שאלות האנלוגיה מהוות כ־<span className="font-bold text-brand-700">30%</span> מציון
-        הפרק המילולי בפסיכומטרי.
+        {blurb}
       </p>
 
       {/* Stats */}

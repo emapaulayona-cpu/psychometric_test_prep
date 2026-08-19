@@ -44,12 +44,17 @@ export default {
           '0%, 100%': { opacity: '1' },
           '50%': { opacity: '0.55' },
         },
+        float: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-7px)' },
+        },
       },
       animation: {
         'fade-up': 'fade-up 0.45s cubic-bezier(0.22, 1, 0.36, 1) both',
         'scale-in': 'scale-in 0.35s cubic-bezier(0.22, 1, 0.36, 1) both',
         pop: 'pop 0.25s ease-out',
         'pulse-soft': 'pulse-soft 1.4s ease-in-out infinite',
+        float: 'float 3.2s ease-in-out infinite',
       },
     },
   },

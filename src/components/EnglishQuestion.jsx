@@ -4,9 +4,9 @@ import { useQuestionAttempt } from '../hooks/useQuestionAttempt.js'
 
 const LETTERS = ['א', 'ב', 'ג', 'ד']
 
-// One analogy question. Study-mode feedback: taps are marked correct/incorrect, she may
-// keep trying after a wrong answer, but the SCORE reflects only the first attempt.
-export default function Question({ question, index, total, onAnswer }) {
+// One sentence-completion question. Same study-mode interaction as the analogy
+// Question component (see useQuestionAttempt) — only the prompt/explanation labels differ.
+export default function EnglishQuestion({ question, index, total, onAnswer }) {
   const { picks, first, answered, solved, select, next, showExplain, setShowExplain } =
     useQuestionAttempt(question, onAnswer)
 
@@ -31,19 +31,15 @@ export default function Question({ question, index, total, onAnswer }) {
         />
       </div>
 
-      {/* Base analogy */}
+      {/* Sentence prompt */}
       <div className="mt-9 animate-scale-in">
         <p className="text-center text-sm font-medium text-brand-700/70">
-          מצאו את הזוג בעל הקשר הדומה:
+          השלימו את המשפט:
         </p>
-        <div className="mt-4 flex items-center justify-center gap-3">
-          <div className="rounded-2xl bg-brand-900 px-5 py-4 font-display text-xl font-bold text-white shadow-card">
-            {question.word1}
-          </div>
-          <span className="font-display text-2xl font-black text-brand-400">:</span>
-          <div className="rounded-2xl bg-brand-900 px-5 py-4 font-display text-xl font-bold text-white shadow-card">
-            {question.word2}
-          </div>
+        <div className="mt-4 rounded-2xl bg-brand-900 px-5 py-5 shadow-card" dir="ltr">
+          <p className="text-start text-lg font-semibold leading-relaxed text-white">
+            {question.sentence}
+          </p>
         </div>
       </div>
 
@@ -94,7 +90,8 @@ export default function Question({ question, index, total, onAnswer }) {
                 )}
               </span>
               <span
-                className={`font-display text-lg font-semibold ${
+                dir="ltr"
+                className={`font-display text-lg font-semibold text-start ${
                   state === 'wrong' ? 'text-red-600' : 'text-brand-900'
                 }`}
               >
@@ -112,7 +109,7 @@ export default function Question({ question, index, total, onAnswer }) {
             <div key={w.word} className="rounded-xl bg-white px-4 py-3 shadow-card">
               <div className="mb-1 inline-flex items-center gap-1.5 rounded-lg bg-brand-50 px-2.5 py-1 font-display text-sm font-bold text-brand-700">
                 <BookOpen className="h-3.5 w-3.5" strokeWidth={2.5} />
-                {w.word}
+                <span dir="ltr">{w.word}</span>
               </div>
               <p className="text-[14px] leading-relaxed text-brand-900/80">
                 {w.definition}
@@ -131,7 +128,7 @@ export default function Question({ question, index, total, onAnswer }) {
           >
             <span className="flex items-center gap-2 font-display text-sm font-bold">
               <Lightbulb className="h-4 w-4 text-amber-500" strokeWidth={2.5} />
-              {showExplain ? 'הסתר הסבר' : 'הצג משפט הקשר'}
+              {showExplain ? 'הסתר הסבר' : 'הצג הסבר'}
             </span>
             <ChevronDown
               className={`h-4 w-4 transition-transform ${showExplain ? 'rotate-180' : ''}`}
@@ -140,7 +137,7 @@ export default function Question({ question, index, total, onAnswer }) {
           </button>
           {showExplain && (
             <p className="mt-2 rounded-xl bg-brand-50/70 px-4 py-3 text-[14px] leading-relaxed text-brand-900/80 animate-fade-up">
-              {question.logical_connection}
+              {question.explanation}
             </p>
           )}
         </div>

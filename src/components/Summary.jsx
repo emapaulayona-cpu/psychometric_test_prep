@@ -13,19 +13,22 @@ function encouragement(ratio) {
   return 'כל תרגול מקרב אותך. קדימה!'
 }
 
-function ReviewRow({ q, result }) {
+function ReviewRow({ q, result, section }) {
   const chosen = q.options.find((o) => o.id === result.chosen)
   const correct = q.options.find((o) => o.is_correct)
   const ok = result.correct
 
   return (
     <div className="rounded-2xl bg-white p-4 shadow-card">
-      <div className="flex items-center justify-between">
-        <span className="font-display text-base font-bold text-brand-900">
-          {q.word1} : {q.word2}
+      <div className="flex items-start justify-between gap-3">
+        <span
+          dir={section.promptDir ?? 'rtl'}
+          className="font-display text-base font-bold text-brand-900 text-start leading-snug"
+        >
+          {section.renderPrompt(q)}
         </span>
         <span
-          className={`flex h-7 w-7 items-center justify-center rounded-full ${
+          className={`flex h-7 w-7 shrink-0 items-center justify-center rounded-full ${
             ok ? 'bg-brand-100 text-brand-600' : 'bg-red-100 text-red-500'
           }`}
         >
@@ -44,27 +47,27 @@ function ReviewRow({ q, result }) {
           }`}
         >
           <span className="text-xs font-semibold opacity-70">התשובה שלך:</span>
-          <span className="font-semibold">{chosen?.text}</span>
+          <span dir={section.promptDir ?? 'rtl'} className="font-semibold">{chosen?.text}</span>
         </div>
         {!ok && (
           <div className="inline-flex items-center gap-1.5 rounded-lg bg-brand-50 px-2.5 py-1.5 text-brand-700">
             <span className="text-xs font-semibold opacity-70">הנכונה:</span>
-            <span className="font-semibold">{correct?.text}</span>
+            <span dir={section.promptDir ?? 'rtl'} className="font-semibold">{correct?.text}</span>
           </div>
         )}
       </div>
 
       {!ok && (
         <p className="mt-2.5 rounded-xl bg-brand-50/60 px-3 py-2.5 text-[13px] leading-relaxed text-brand-900/75">
-          <span className="font-bold text-brand-700">משפט הקשר: </span>
-          {q.logical_connection}
+          <span className="font-bold text-brand-700">{section.explanationLabel} </span>
+          {section.getExplanation(q)}
         </p>
       )}
     </div>
   )
 }
 
-export default function Summary({ batch, results, onHome, onAgain }) {
+export default function Summary({ section, batch, results, onHome, onAgain }) {
   const correctCount = results.filter((r) => r.correct).length
   const total = batch.length
   const ratio = total > 0 ? correctCount / total : 0
@@ -127,7 +130,7 @@ export default function Summary({ batch, results, onHome, onAgain }) {
       </h3>
       <div className="flex flex-col gap-3">
         {batch.map((q, i) => (
-          <ReviewRow key={q.id} q={q} result={results[i]} />
+          <ReviewRow key={q.id} q={q} result={results[i]} section={section} />
         ))}
       </div>
 

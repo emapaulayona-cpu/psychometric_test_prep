@@ -1,0 +1,377 @@
+[
+  {
+    "id": 1,
+    "level": 5,
+    "sentence": "The committee could not reach a(n) ______ decision because its members held very different opinions.",
+    "hard_words": [
+      { "word": "unanimous", "definition": "פה אחד, בהסכמה מלאה של כל המשתתפים" }
+    ],
+    "options": [
+      { "id": 1, "text": "fragmented", "is_correct": false },
+      { "id": 2, "text": "unanimous", "is_correct": true },
+      { "id": 3, "text": "arbitrary", "is_correct": false },
+      { "id": 4, "text": "transient", "is_correct": false }
+    ],
+    "explanation": "unanimous פירושה החלטה שכולם מסכימים לה. מכיוון שחברי הוועדה חלוקים בדעתם, בדיוק החלטה כזו לא הושגה. fragmented = מפוצל, arbitrary = שרירותי, transient = חולף — אף אחת מהן לא קשורה להסכמה כללית."
+  },
+  {
+    "id": 2,
+    "level": 2,
+    "sentence": "Despite the scientist's repeated attempts to ______ his colleagues, they refused to accept his theory without further evidence.",
+    "hard_words": [
+      { "word": "persuade", "definition": "לשכנע מישהו לקבל דעה או לעשות משהו" }
+    ],
+    "options": [
+      { "id": 1, "text": "abandon", "is_correct": false },
+      { "id": 2, "text": "admire", "is_correct": false },
+      { "id": 3, "text": "persuade", "is_correct": true },
+      { "id": 4, "text": "suspect", "is_correct": false }
+    ],
+    "explanation": "persuade = לשכנע, מתאים למאמץ לגרום לעמיתים לקבל תיאוריה. abandon = לנטוש, admire = להעריך, suspect = לחשוד — אף אחת לא מתארת ניסיון לשכנע."
+  },
+  {
+    "id": 3,
+    "level": 5,
+    "sentence": "The two sides remained ______ throughout the negotiations, unwilling to compromise on even the smallest details.",
+    "hard_words": [
+      { "word": "adamant", "definition": "נחוש בדעתו, מסרב בתוקף לשנות את עמדתו" }
+    ],
+    "options": [
+      { "id": 1, "text": "cooperative", "is_correct": false },
+      { "id": 2, "text": "adamant", "is_correct": true },
+      { "id": 3, "text": "indifferent", "is_correct": false },
+      { "id": 4, "text": "hesitant", "is_correct": false }
+    ],
+    "explanation": "adamant = נחוש ובלתי מתפשר, מתאים לצדדים שלא מוכנים להתפשר כלל. cooperative = משתף פעולה (ההפך), indifferent = אדיש, hesitant = מהוסס — אף אחת לא מתארת עמידה נחרצת על העמדה."
+  },
+  {
+    "id": 4,
+    "level": 6,
+    "sentence": "Although the novel received ______ reviews from critics, it became a bestseller among readers.",
+    "hard_words": [
+      { "word": "lukewarm", "definition": "פושר, לא נלהב (בהקשר של תגובה או ביקורת)" }
+    ],
+    "options": [
+      { "id": 1, "text": "glowing", "is_correct": false },
+      { "id": 2, "text": "rave", "is_correct": false },
+      { "id": 3, "text": "lukewarm", "is_correct": true },
+      { "id": 4, "text": "favorable", "is_correct": false }
+    ],
+    "explanation": "המילה \"Although\" מרמזת על ניגוד: הביקורות היו שליליות או פושרות, אך למרות זאת הספר הצליח בקרב קוראים. glowing, rave ו-favorable כולן ביקורות חיוביות מאוד, מה שהיה סותר את הצורך במילת הניגוד."
+  },
+  {
+    "id": 5,
+    "level": 6,
+    "sentence": "The old bridge was declared unsafe beyond repair and is scheduled for ______ next month.",
+    "hard_words": [
+      { "word": "demolition", "definition": "הריסה (של מבנה)" }
+    ],
+    "options": [
+      { "id": 1, "text": "renovation", "is_correct": false },
+      { "id": 2, "text": "inspection", "is_correct": false },
+      { "id": 3, "text": "expansion", "is_correct": false },
+      { "id": 4, "text": "demolition", "is_correct": true }
+    ],
+    "explanation": "מכיוון שהגשר הוכרז \"unsafe beyond repair\" (לא ניתן לתיקון), האפשרות היחידה ההגיונית היא הריסה. renovation (שיפוץ) סותרת את \"beyond repair\", inspection (בדיקה) ו-expansion (הרחבה) לא רלוונטיות למבנה מסוכן."
+  },
+  {
+    "id": 6,
+    "level": 7,
+    "sentence": "Volunteers worked for hours to ______ the injured hikers from the collapsed cave.",
+    "hard_words": [
+      { "word": "extricate", "definition": "לחלץ ממצב קשה או ממקום סגור" }
+    ],
+    "options": [
+      { "id": 1, "text": "evaluate", "is_correct": false },
+      { "id": 2, "text": "extricate", "is_correct": true },
+      { "id": 3, "text": "illuminate", "is_correct": false },
+      { "id": 4, "text": "anticipate", "is_correct": false }
+    ],
+    "explanation": "extricate = לחלץ ממצב קשה, בדיוק הפעולה של הוצאת פצועים ממערה שקרסה. evaluate = להעריך, illuminate = להאיר, anticipate = לצפות מראש — אף אחת לא קשורה לחילוץ פיזי."
+  },
+  {
+    "id": 7,
+    "level": 3,
+    "sentence": "The company's profits have shown a ______ increase over the past five years, rising steadily each quarter.",
+    "hard_words": [
+      { "word": "consistent", "definition": "עקבי, קבוע לאורך זמן" }
+    ],
+    "options": [
+      { "id": 1, "text": "erratic", "is_correct": false },
+      { "id": 2, "text": "temporary", "is_correct": false },
+      { "id": 3, "text": "consistent", "is_correct": true },
+      { "id": 4, "text": "negligible", "is_correct": false }
+    ],
+    "explanation": "consistent = עקבי, מתאים לרווחים שעולים בהתמדה מדי רבעון. erratic = לא סדיר, temporary = זמני, negligible = זניח — כולן סותרות את התיאור של עלייה קבועה."
+  },
+  {
+    "id": 8,
+    "level": 8,
+    "sentence": "The senator was accused of using ______ tactics to discredit her opponent during the debate.",
+    "hard_words": [
+      { "word": "unscrupulous", "definition": "חסר עכבות מוסריות, לא הוגן" }
+    ],
+    "options": [
+      { "id": 1, "text": "diplomatic", "is_correct": false },
+      { "id": 2, "text": "transparent", "is_correct": false },
+      { "id": 3, "text": "courteous", "is_correct": false },
+      { "id": 4, "text": "unscrupulous", "is_correct": true }
+    ],
+    "explanation": "unscrupulous = פועל ללא עכבות מוסריות, מתאים להאשמה בשיטות לא הוגנות להשמצת יריב. diplomatic = דיפלומטי, transparent = שקוף, courteous = מנומס — כולן תכונות חיוביות שלא מתאימות להאשמה."
+  },
+  {
+    "id": 9,
+    "level": 4,
+    "sentence": "Even though he had never played professionally, his skill on the court was ______ to that of many top athletes.",
+    "hard_words": [
+      { "word": "comparable", "definition": "דומה ברמתו, ניתן להשוואה" }
+    ],
+    "options": [
+      { "id": 1, "text": "inferior", "is_correct": false },
+      { "id": 2, "text": "comparable", "is_correct": true },
+      { "id": 3, "text": "irrelevant", "is_correct": false },
+      { "id": 4, "text": "indifferent", "is_correct": false }
+    ],
+    "explanation": "\"Even though\" מרמז על הפתעה חיובית: למרות שלא שיחק במקצועית, רמתו הייתה דומה לשחקנים מקצועיים. inferior = נחות, מנוגד לתחושת ההפתעה; irrelevant ו-indifferent לא קשורות להשוואת רמות."
+  },
+  {
+    "id": 10,
+    "level": 6,
+    "sentence": "The museum's new policy allows visitors to touch selected exhibits, a significant departure from its previously ______ approach.",
+    "hard_words": [
+      { "word": "stringent", "definition": "מחמיר, נוקשה" }
+    ],
+    "options": [
+      { "id": 1, "text": "flexible", "is_correct": false },
+      { "id": 2, "text": "lenient", "is_correct": false },
+      { "id": 3, "text": "stringent", "is_correct": true },
+      { "id": 4, "text": "casual", "is_correct": false }
+    ],
+    "explanation": "אם המדיניות החדשה מקילה (מאפשרת לגעת בתערוכות), הגישה הקודמת הייתה מחמירה — stringent. flexible, lenient ו-casual מתארות דווקא גישה מקילה, שהיא תיאור הגישה החדשה ולא הישנה."
+  },
+  {
+    "id": 11,
+    "level": 7,
+    "sentence": "Because the evidence against him was purely ______, the jury found it difficult to reach a guilty verdict.",
+    "hard_words": [
+      { "word": "circumstantial", "definition": "נסיבתי, עקיף (לא ראייה ישירה)" }
+    ],
+    "options": [
+      { "id": 1, "text": "conclusive", "is_correct": false },
+      { "id": 2, "text": "circumstantial", "is_correct": true },
+      { "id": 3, "text": "irrefutable", "is_correct": false },
+      { "id": 4, "text": "substantial", "is_correct": false }
+    ],
+    "explanation": "כאשר הראיות הן נסיבתיות בלבד (לא ישירות), קשה למושבעים להרשיע. conclusive, irrefutable ו-substantial כולן מתארות ראיות משכנעות וחד-משמעיות, שהיו דווקא מקלות על הרשעה — בסתירה למשפט."
+  },
+  {
+    "id": 12,
+    "level": 6,
+    "sentence": "The professor's lecture was so ______ that several students fell asleep before it ended.",
+    "hard_words": [
+      { "word": "monotonous", "definition": "חדגוני, משעמם בשל חוסר גיוון" }
+    ],
+    "options": [
+      { "id": 1, "text": "riveting", "is_correct": false },
+      { "id": 2, "text": "captivating", "is_correct": false },
+      { "id": 3, "text": "animated", "is_correct": false },
+      { "id": 4, "text": "monotonous", "is_correct": true }
+    ],
+    "explanation": "monotonous = חדגוני ומשעמם, מסביר מדוע סטודנטים נרדמו. riveting, captivating ו-animated מתארות הרצאה מרתקת ותוססת — ההפך ממה שהיה גורם להירדמות."
+  },
+  {
+    "id": 13,
+    "level": 5,
+    "sentence": "The government implemented strict regulations to ______ the spread of the disease among livestock.",
+    "hard_words": [
+      { "word": "curb", "definition": "לבלום, לרסן" }
+    ],
+    "options": [
+      { "id": 1, "text": "curb", "is_correct": true },
+      { "id": 2, "text": "promote", "is_correct": false },
+      { "id": 3, "text": "ignore", "is_correct": false },
+      { "id": 4, "text": "publicize", "is_correct": false }
+    ],
+    "explanation": "curb = לבלום/לרסן, בדיוק תפקידן של תקנות מחמירות מול מחלה מתפשטת. promote = לקדם, ignore = להתעלם, publicize = לפרסם — אף אחת לא מתאימה למטרת התקנות."
+  },
+  {
+    "id": 14,
+    "level": 7,
+    "sentence": "Her explanation was so ______ that even the experts in the room struggled to follow her reasoning.",
+    "hard_words": [
+      { "word": "convoluted", "definition": "מפותל, מסובך ומורכב להבנה" }
+    ],
+    "options": [
+      { "id": 1, "text": "lucid", "is_correct": false },
+      { "id": 2, "text": "concise", "is_correct": false },
+      { "id": 3, "text": "convoluted", "is_correct": true },
+      { "id": 4, "text": "straightforward", "is_correct": false }
+    ],
+    "explanation": "convoluted = מפותל ומסובך, מסביר מדוע אפילו מומחים התקשו לעקוב. lucid = בהיר, concise = תמציתי, straightforward = ישיר ופשוט — כולן ההפך ממה שהיה מקשה על הבנה."
+  },
+  {
+    "id": 15,
+    "level": 3,
+    "sentence": "The company issued a formal apology after its ______ advertisement offended many customers.",
+    "hard_words": [
+      { "word": "insensitive", "definition": "חסר רגישות כלפי רגשות אחרים" }
+    ],
+    "options": [
+      { "id": 1, "text": "tactful", "is_correct": false },
+      { "id": 2, "text": "considerate", "is_correct": false },
+      { "id": 3, "text": "discreet", "is_correct": false },
+      { "id": 4, "text": "insensitive", "is_correct": true }
+    ],
+    "explanation": "insensitive = חסר רגישות, מסביר מדוע הפרסומת פגעה בלקוחות. tactful, considerate ו-discreet כולן תכונות של רגישות והתחשבות — ההפך ממה שהיה גורם לפגיעה."
+  },
+  {
+    "id": 16,
+    "level": 4,
+    "sentence": "The detective noticed a ______ clue that everyone else at the crime scene had overlooked.",
+    "hard_words": [
+      { "word": "subtle", "definition": "עדין, לא בולט לעין" }
+    ],
+    "options": [
+      { "id": 1, "text": "subtle", "is_correct": true },
+      { "id": 2, "text": "obvious", "is_correct": false },
+      { "id": 3, "text": "blatant", "is_correct": false },
+      { "id": 4, "text": "conspicuous", "is_correct": false }
+    ],
+    "explanation": "subtle = עדין ולא בולט, בדיוק מה שגורם לרוב האנשים להחמיץ אותו. obvious, blatant ו-conspicuous כולן מתארות משהו בולט לעין, שהיה קשה להתעלם ממנו — בסתירה ל-\"overlooked\"."
+  },
+  {
+    "id": 17,
+    "level": 4,
+    "sentence": "The new employee's ______ attitude toward criticism made it easy for her manager to offer constructive feedback.",
+    "hard_words": [
+      { "word": "receptive", "definition": "פתוח וקשוב לקבל רעיונות או הערות" }
+    ],
+    "options": [
+      { "id": 1, "text": "defensive", "is_correct": false },
+      { "id": 2, "text": "receptive", "is_correct": true },
+      { "id": 3, "text": "dismissive", "is_correct": false },
+      { "id": 4, "text": "hostile", "is_correct": false }
+    ],
+    "explanation": "receptive = פתוח לקבל ביקורת, מה שמקל על מתן משוב. defensive = מתגונן, dismissive = מתנער, hostile = עוין — כולן תכונות שהיו מקשות על מתן ביקורת בונה."
+  },
+  {
+    "id": 18,
+    "level": 3,
+    "sentence": "Years of drought have left the region's soil ______ , making it nearly impossible to grow crops.",
+    "hard_words": [
+      { "word": "barren", "definition": "שומם, לא פורה" }
+    ],
+    "options": [
+      { "id": 1, "text": "fertile", "is_correct": false },
+      { "id": 2, "text": "abundant", "is_correct": false },
+      { "id": 3, "text": "lush", "is_correct": false },
+      { "id": 4, "text": "barren", "is_correct": true }
+    ],
+    "explanation": "barren = שומם ולא פורה, מסביר מדוע קשה לגדל יבולים. fertile, abundant ו-lush כולן מתארות אדמה פורייה ועשירה — ההפך ממצב שנגרם מבצורת."
+  },
+  {
+    "id": 19,
+    "level": 5,
+    "sentence": "The politician's speech was full of ______ promises that he had no real intention of keeping.",
+    "hard_words": [
+      { "word": "hollow", "definition": "ריק מתוכן, לא כן" }
+    ],
+    "options": [
+      { "id": 1, "text": "binding", "is_correct": false },
+      { "id": 2, "text": "solemn", "is_correct": false },
+      { "id": 3, "text": "hollow", "is_correct": true },
+      { "id": 4, "text": "earnest", "is_correct": false }
+    ],
+    "explanation": "hollow = ריק מתוכן, מתאים להבטחות שאין כוונה אמיתית לקיים. binding = מחייב, solemn = חגיגי-רציני, earnest = כן — כולן מרמזות על כוונה אמיתית לקיים, בסתירה למשפט."
+  },
+  {
+    "id": 20,
+    "level": 7,
+    "sentence": "The scientist's findings were later ______ by an independent team using different methods, confirming that her results were accurate.",
+    "hard_words": [
+      { "word": "corroborated", "definition": "אושרו, נתמכו בראיות נוספות" }
+    ],
+    "options": [
+      { "id": 1, "text": "contradicted", "is_correct": false },
+      { "id": 2, "text": "dismissed", "is_correct": false },
+      { "id": 3, "text": "questioned", "is_correct": false },
+      { "id": 4, "text": "corroborated", "is_correct": true }
+    ],
+    "explanation": "corroborated = אושרו על ידי מקור נוסף, תואם ל-\"confirming that her results were accurate\". contradicted, dismissed ו-questioned כולן מרמזות שהתוצאות נסתרו או קרסו — בסתירה לאישור המפורש."
+  },
+  {
+    "id": 21,
+    "level": 4,
+    "sentence": "Rather than admit his mistake, he tried to ______ the blame onto his coworkers.",
+    "hard_words": [
+      { "word": "deflect", "definition": "להטות הצידה, להימנע מלקחת אחריות" }
+    ],
+    "options": [
+      { "id": 1, "text": "deflect", "is_correct": true },
+      { "id": 2, "text": "accept", "is_correct": false },
+      { "id": 3, "text": "acknowledge", "is_correct": false },
+      { "id": 4, "text": "confess", "is_correct": false }
+    ],
+    "explanation": "deflect = להטות אשמה כלפי אחרים, מתאים ל-\"Rather than admit his mistake\". accept, acknowledge ו-confess כולן פירושן לקחת אחריות — ההפך ממה שהוא עשה."
+  },
+  {
+    "id": 22,
+    "level": 2,
+    "sentence": "The charity relies almost entirely on ______ donations, since it receives no government funding.",
+    "hard_words": [
+      { "word": "private", "definition": "פרטי, לא ממשלתי" }
+    ],
+    "options": [
+      { "id": 1, "text": "mandatory", "is_correct": false },
+      { "id": 2, "text": "governmental", "is_correct": false },
+      { "id": 3, "text": "private", "is_correct": true },
+      { "id": 4, "text": "involuntary", "is_correct": false }
+    ],
+    "explanation": "מכיוון שהעמותה \"receives no government funding\", התרומות חייבות להיות פרטיות. governmental סותרת זאת ישירות; mandatory ו-involuntary לא מתאימות למושג של תרומה."
+  },
+  {
+    "id": 23,
+    "level": 7,
+    "sentence": "The novelist's latest work received ______ praise from critics, who called it her finest achievement yet.",
+    "hard_words": [
+      { "word": "unqualified", "definition": "ללא הסתייגות, מוחלט" }
+    ],
+    "options": [
+      { "id": 1, "text": "qualified", "is_correct": false },
+      { "id": 2, "text": "tentative", "is_correct": false },
+      { "id": 3, "text": "reluctant", "is_correct": false },
+      { "id": 4, "text": "unqualified", "is_correct": true }
+    ],
+    "explanation": "unqualified praise = שבח ללא כל הסתייגות, תואם לתיאור \"her finest achievement yet\". qualified = מסויג, tentative = מהוסס, reluctant = בהיסוס — כולן מרמזות על שבח חלקי בלבד."
+  },
+  {
+    "id": 24,
+    "level": 3,
+    "sentence": "The company's new policy was met with ______ resistance from employees who feared losing their benefits.",
+    "hard_words": [
+      { "word": "widespread", "definition": "נרחב, מקיף אזור או קבוצה גדולה" }
+    ],
+    "options": [
+      { "id": 1, "text": "negligible", "is_correct": false },
+      { "id": 2, "text": "isolated", "is_correct": false },
+      { "id": 3, "text": "widespread", "is_correct": true },
+      { "id": 4, "text": "minimal", "is_correct": false }
+    ],
+    "explanation": "widespread = נרחב, מתאים להתנגדות רחבה מצד עובדים שחוששים לרווחתם. negligible, isolated ו-minimal כולן מתארות התנגדות מצומצמת וחלשה — בסתירה לחשש הרחב שמתואר."
+  },
+  {
+    "id": 25,
+    "level": 4,
+    "sentence": "The archaeologists were careful not to ______ the ancient artifacts during the excavation.",
+    "hard_words": [
+      { "word": "compromise", "definition": "לפגוע ב-, לסכן את שלמותו של משהו" }
+    ],
+    "options": [
+      { "id": 1, "text": "preserve", "is_correct": false },
+      { "id": 2, "text": "compromise", "is_correct": true },
+      { "id": 3, "text": "restore", "is_correct": false },
+      { "id": 4, "text": "document", "is_correct": false }
+    ],
+    "explanation": "compromise (כפועל) = לפגוע בשלמות משהו, זה בדיוק מה שהארכיאולוגים נזהרו לא לעשות. preserve, restore ו-document כולן פעולות רצויות שהם היו רוצים לבצע, לא למנוע."
+  }
+]

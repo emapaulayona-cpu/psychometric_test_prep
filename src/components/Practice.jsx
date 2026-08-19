@@ -1,9 +1,8 @@
 import { useRef, useState } from 'react'
-import Question from './Question.jsx'
 
-// Drives one batch: shows each question in turn, collects results, and hands
-// them to onComplete when the batch is done.
-export default function Practice({ batch, onComplete }) {
+// Drives one batch: shows each question in turn via the section's QuestionComponent,
+// collects results, and hands them to onComplete when the batch is done.
+export default function Practice({ batch, QuestionComponent, onComplete }) {
   const [index, setIndex] = useState(0)
   const resultsRef = useRef([])
 
@@ -20,7 +19,7 @@ export default function Practice({ batch, onComplete }) {
   }
 
   return (
-    <Question
+    <QuestionComponent
       question={question}
       index={index}
       total={batch.length}
