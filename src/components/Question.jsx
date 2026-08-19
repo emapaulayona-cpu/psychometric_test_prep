@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
-import { Check, X, Lightbulb, ChevronDown, ArrowLeft } from 'lucide-react'
+import { Check, X, Lightbulb, ChevronDown, ArrowLeft, BookOpen } from 'lucide-react'
 import Timer from './Timer.jsx'
 
 const LETTERS = ['א', 'ב', 'ג', 'ד']
@@ -145,6 +145,23 @@ export default function Question({ question, index, total, onAnswer }) {
           )
         })}
       </div>
+
+      {/* Hard words — revealed only after answering, so they can't hint the answer */}
+      {answered && question.hard_words.length > 0 && (
+        <div className="mt-4 flex flex-col gap-2 animate-fade-up">
+          {question.hard_words.map((w) => (
+            <div key={w.word} className="rounded-xl bg-white px-4 py-3 shadow-card">
+              <div className="mb-1 inline-flex items-center gap-1.5 rounded-lg bg-brand-50 px-2.5 py-1 font-display text-sm font-bold text-brand-700">
+                <BookOpen className="h-3.5 w-3.5" strokeWidth={2.5} />
+                {w.word}
+              </div>
+              <p className="text-[14px] leading-relaxed text-brand-900/80">
+                {w.definition}
+              </p>
+            </div>
+          ))}
+        </div>
+      )}
 
       {/* Explanation toggle — only after a wrong first answer */}
       {answered && !first.correct && (

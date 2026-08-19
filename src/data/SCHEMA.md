@@ -11,7 +11,7 @@ merged** into the bank (merge = concatenate + dedup by `id`).
 | `id`                 | number    | yes      | Unique integer. Used for dedup and for `solved_question_ids`. |
 | `word1`              | string    | yes      | First term of the base analogy (Hebrew). |
 | `word2`              | string    | yes      | Second term of the base analogy (Hebrew). |
-| `hard_words`         | array     | yes      | May be empty `[]`. If non-empty, a vocabulary preview is shown before the question. |
+| `hard_words`         | array     | yes      | May be empty `[]`. If non-empty, shown on the feedback screen after she answers (not before — avoids hinting the answer). |
 | `hard_words[].word`  | string    | yes*     | Required for each entry. The difficult word. |
 | `hard_words[].definition` | string | yes*   | Required for each entry. Short Hebrew definition. |
 | `options`            | array     | yes      | Exactly 4 items. |

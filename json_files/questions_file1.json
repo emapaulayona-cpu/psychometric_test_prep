@@ -4,13 +4,32 @@
     "word1": "עילג",
     "word2": "לדבר",
     "hard_words": [
-      { "word": "עילג", "definition": "מי שמתבטא בקושי, כבד פה, מגמגם" }
+      {
+        "word": "עילג",
+        "definition": "מי שמתבטא בקושי, כבד פה, מגמגם"
+      }
     ],
     "options": [
-      { "id": 1, "text": "חרש : לשמוע", "is_correct": false },
-      { "id": 2, "text": "צולע : ללכת", "is_correct": true },
-      { "id": 3, "text": "שקרן : לשקר", "is_correct": false },
-      { "id": 4, "text": "טיפש : להבין", "is_correct": false }
+      {
+        "id": 1,
+        "text": "חרש : לשמוע",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "צולע : ללכת",
+        "is_correct": true
+      },
+      {
+        "id": 3,
+        "text": "שקרן : לשקר",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "טיפש : להבין",
+        "is_correct": false
+      }
     ],
     "logical_connection": "A הוא אדם שמתקשה לבצע את פעולת B. (עילג מתקשה לדבר, כפי שצולע מתקשה ללכת. חרש אינו מתקשה לשמוע, אלא לא מסוגל כלל)."
   },
@@ -19,13 +38,32 @@
     "word1": "להקציע",
     "word2": "חלק",
     "hard_words": [
-      { "word": "להקציע", "definition": "להחליק, לשייף (לרוב עץ באמצעות מקצועה)" }
+      {
+        "word": "להקציע",
+        "definition": "להחליק, לשייף (לרוב עץ באמצעות מקצועה)"
+      }
     ],
     "options": [
-      { "id": 1, "text": "לטהר : נקי", "is_correct": true },
-      { "id": 2, "text": "להרטיב : לח", "is_correct": false },
-      { "id": 3, "text": "לעקם : שבור", "is_correct": false },
-      { "id": 4, "text": "לקמט : ישר", "is_correct": false }
+      {
+        "id": 1,
+        "text": "לטהר : נקי",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "להרטיב : לח",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "לעקם : שבור",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "לקמט : ישר",
+        "is_correct": false
+      }
     ],
     "logical_connection": "המטרה של פעולת A היא להפוך משהו ל-B. (פעולת ההקצעה נועדה להפוך משהו לחלק, כפי שפעולת הטיהור נועדה להפוך משהו לנקי)."
   },
@@ -34,15 +72,40 @@
     "word1": "מסיק",
     "word2": "זיתים",
     "hard_words": [
-      { "word": "מסיק", "definition": "קטיף זיתים" },
-      { "word": "בציר", "definition": "קטיף ענבים" },
-      { "word": "גדיד", "definition": "קטיף תמרים" }
+      {
+        "word": "מסיק",
+        "definition": "קטיף זיתים"
+      },
+      {
+        "word": "בציר",
+        "definition": "קטיף ענבים"
+      },
+      {
+        "word": "גדיד",
+        "definition": "קטיף תמרים"
+      }
     ],
     "options": [
-      { "id": 1, "text": "נטיעה : עצים", "is_correct": false },
-      { "id": 2, "text": "חליבה : פרות", "is_correct": false },
-      { "id": 3, "text": "בציר : ענבים", "is_correct": true },
-      { "id": 4, "text": "זריעה : חיטה", "is_correct": false }
+      {
+        "id": 1,
+        "text": "נטיעה : עצים",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "חליבה : פרות",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "בציר : ענבים",
+        "is_correct": true
+      },
+      {
+        "id": 4,
+        "text": "זריעה : חיטה",
+        "is_correct": false
+      }
     ],
     "logical_connection": "A היא הפעולה הספציפית של איסוף וקציר של B. (מסיק הוא קטיף זיתים, כפי שבציר הוא קטיף ענבים)."
   },
@@ -52,10 +115,26 @@
     "word2": "ספינה",
     "hard_words": [],
     "options": [
-      { "id": 1, "text": "רמזור : מכונית", "is_correct": false },
-      { "id": 2, "text": "מצפן : צפון", "is_correct": false },
-      { "id": 3, "text": "משואה : הלך", "is_correct": true },
-      { "id": 4, "text": "תמרור : כביש", "is_correct": false }
+      {
+        "id": 1,
+        "text": "רמזור : מכונית",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "מצפן : צפון",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "משואה : הלך",
+        "is_correct": true
+      },
+      {
+        "id": 4,
+        "text": "תמרור : כביש",
+        "is_correct": false
+      }
     ],
     "logical_connection": "A הוא אמצעי ניווט והכוונה שנועד להדריך את B. (המגדלור מראה את הדרך לספינה, כפי שמשואה מראה את הדרך להלך)."
   },
@@ -65,10 +144,26 @@
     "word2": "בקבוק",
     "hard_words": [],
     "options": [
-      { "id": 1, "text": "פותחן : קופסת שימורים", "is_correct": true },
-      { "id": 2, "text": "מפתח : מנעול", "is_correct": false },
-      { "id": 3, "text": "מברג : בורג", "is_correct": false },
-      { "id": 4, "text": "פטיש : מסמר", "is_correct": false }
+      {
+        "id": 1,
+        "text": "פותחן : קופסת שימורים",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "מפתח : מנעול",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "מברג : בורג",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "פטיש : מסמר",
+        "is_correct": false
+      }
     ],
     "logical_connection": "A הוא כלי ייעודי שתפקידו לפתוח את B על ידי הסרת החסימה שלו."
   },
@@ -78,10 +173,26 @@
     "word2": "החלטה",
     "hard_words": [],
     "options": [
-      { "id": 1, "text": "מתמהמה : פעולה", "is_correct": true },
-      { "id": 2, "text": "מתחמק : אחריות", "is_correct": false },
-      { "id": 3, "text": "מתפשר : עקרון", "is_correct": false },
-      { "id": 4, "text": "מתלונן : בעיה", "is_correct": false }
+      {
+        "id": 1,
+        "text": "מתמהמה : פעולה",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "מתחמק : אחריות",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "מתפשר : עקרון",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "מתלונן : בעיה",
+        "is_correct": false
+      }
     ],
     "logical_connection": "A הוא מי שמתעכב ומעכב את קבלת ה-B. (מי שמהסס מתעכב בלקבל החלטה, כפי שמי שמתמהמה מתעכב בלנקוט פעולה)."
   },
@@ -90,13 +201,32 @@
     "word1": "מכחיש",
     "word2": "אמת",
     "hard_words": [
-      { "word": "מכחיש", "definition": "טוען שמשהו אינו נכון, כופר באמיתות הדבר" }
+      {
+        "word": "מכחיש",
+        "definition": "טוען בתוקף שדבר מסוים אינו נכון או לא קרה כלל"
+      }
     ],
     "options": [
-      { "id": 1, "text": "מסרב : בקשה", "is_correct": false },
-      { "id": 2, "text": "מסתיר : סוד", "is_correct": false },
-      { "id": 3, "text": "כופר : אשמה", "is_correct": true },
-      { "id": 4, "text": "משקר : סיפור", "is_correct": false }
+      {
+        "id": 1,
+        "text": "מסרב : בקשה",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "מסתיר : סוד",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "כופר : אשמה",
+        "is_correct": true
+      },
+      {
+        "id": 4,
+        "text": "משקר : סיפור",
+        "is_correct": false
+      }
     ],
     "logical_connection": "A הוא מי שטוען ש-B אינו נכון או אינו קיים. (מי שמכחיש טוען שזו לא האמת, כפי שמי שכופר באשמה טוען שאין אשמה)."
   },
@@ -105,14 +235,36 @@
     "word1": "לאשש",
     "word2": "הוכחה",
     "hard_words": [
-      { "word": "לאשש", "definition": "לחזק, לאשר, לתת תוקף למשהו" },
-      { "word": "להפריך", "definition": "להוכיח שמשהו אינו נכון, לסתור" }
+      {
+        "word": "לאשש",
+        "definition": "לחזק, לאשר, לתת תוקף למשהו"
+      },
+      {
+        "word": "להפריך",
+        "definition": "להוכיח שמשהו אינו נכון, לסתור"
+      }
     ],
     "options": [
-      { "id": 1, "text": "להפריך : סתירה", "is_correct": true },
-      { "id": 2, "text": "לשער : השערה", "is_correct": false },
-      { "id": 3, "text": "לתרץ : תירוץ", "is_correct": false },
-      { "id": 4, "text": "לשקר : כזב", "is_correct": false }
+      {
+        "id": 1,
+        "text": "להפריך : סתירה",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "לשער : השערה",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "לתרץ : תירוץ",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "לשקר : כזב",
+        "is_correct": false
+      }
     ],
     "logical_connection": "פעולת A נעשית באמצעות הצגת B. (כדי לאשש טענה יש להציג הוכחה, כפי שכדי להפריך טענה יש להציג סתירה)."
   },
@@ -122,10 +274,26 @@
     "word2": "נהר",
     "hard_words": [],
     "options": [
-      { "id": 1, "text": "חוף : ים", "is_correct": true },
-      { "id": 2, "text": "שוליים : כביש", "is_correct": false },
-      { "id": 3, "text": "קצה : חוט", "is_correct": false },
-      { "id": 4, "text": "גבול : מדינה", "is_correct": false }
+      {
+        "id": 1,
+        "text": "חוף : ים",
+        "is_correct": true
+      },
+      {
+        "id": 2,
+        "text": "שוליים : כביש",
+        "is_correct": false
+      },
+      {
+        "id": 3,
+        "text": "קצה : חוט",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "גבול : מדינה",
+        "is_correct": false
+      }
     ],
     "logical_connection": "A הוא שפת היבשה התוחמת את מקווה המים B."
   },
@@ -134,14 +302,36 @@
     "word1": "לרפות את ידיו",
     "word2": "להתייאש",
     "hard_words": [
-      { "word": "לרפות את ידיו", "definition": "לייאש מישהו, לגרום לו לאבד תקווה" },
-      { "word": "להפיח רוח חיים", "definition": "לעורר, להחיות, להחזיר מרץ" }
+      {
+        "word": "לרפות את ידיו",
+        "definition": "לייאש מישהו, לגרום לו לאבד תקווה"
+      },
+      {
+        "word": "להפיח רוח חיים",
+        "definition": "לעורר, להחיות, להחזיר מרץ"
+      }
     ],
     "options": [
-      { "id": 1, "text": "להניא : להשתכנע", "is_correct": false },
-      { "id": 2, "text": "להדיר שינה מעיניו : לדאוג", "is_correct": true },
-      { "id": 3, "text": "להפיח רוח חיים : למות", "is_correct": false },
-      { "id": 4, "text": "לעמוד מנגד : לעזור", "is_correct": false }
+      {
+        "id": 1,
+        "text": "להניא : להשתכנע",
+        "is_correct": false
+      },
+      {
+        "id": 2,
+        "text": "להדיר שינה מעיניו : לדאוג",
+        "is_correct": true
+      },
+      {
+        "id": 3,
+        "text": "להפיח רוח חיים : למות",
+        "is_correct": false
+      },
+      {
+        "id": 4,
+        "text": "לעמוד מנגד : לעזור",
+        "is_correct": false
+      }
     ],
     "logical_connection": "הפעולה ש-A עושה לאדם אחר, גורמת לאותו אדם B (לרפות את ידיו של מישהו זה לגרום לו להתייאש, כפי שלהדיר שינה מעיניו של מישהו זה לגרום לו לדאוג)."
   }
