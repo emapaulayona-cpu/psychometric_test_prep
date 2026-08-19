@@ -1,6 +1,6 @@
 # Status — פציחומטרי (formerly אנלוגיות כיס / Pocket Analogies)
 
-_Last updated: 2026-08-15_
+_Last updated: 2026-08-19_
 
 Mobile-first, RTL Hebrew web app to help prepare for the Israeli Psychometric
 Entrance Test (פסיכומטרי). MVP scope = the **Analogies (אנלוגיות)** section.
@@ -9,7 +9,7 @@ Entrance Test (פסיכומטרי). MVP scope = the **Analogies (אנלוגיו�
 
 - **Deployed:** yes — pushed to GitHub `main`, auto-deployed on Vercel.
 - **Repo:** https://github.com/emapaulayona-cpu/psychometric_test_prep
-- **Bank size:** 148 analogy questions.
+- **Bank size:** 184 analogy questions.
 - **Verified:** production build passes; question bank validated (each item has 4
   options, exactly one correct, and no vocab hint that leaks the answer).
 
@@ -32,6 +32,13 @@ localStorage). No backend. RTL configured globally.
 
 ## Recent changes
 
+- Added 36 analogy questions from `questions_file7.json` / `questions_file8.json`
+  (bank 148 → 184, new ids 149-184). Before merging: renumbered the source files'
+  ids (they collided with the existing 1-148 range), dropped 4 questions —
+  one duplicated an existing base word-pair (`כליל : פגם`, already id 31), and
+  three had a distractor that was arguably a second valid answer — and fixed a
+  vocab-hint leak where a hard-word definition contained the correct answer's
+  first word.
 - Renamed the app from אנלוגיות כיס to **פציחומטרי** (a portmanteau of פיצוח +
   פסיכומטרי). Updated in the browser tab title and the home screen header.
 - Added 20 new analogy questions (ids 129-148, bank 128 → 148). Fixed two content
